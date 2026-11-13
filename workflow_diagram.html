@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentary Engine Workflow</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: 'Segoe UI', Tahoma, sans-serif; 
+      background: #0f172a; 
+      min-height: 100vh;
+      padding: 20px;
+    }
+    h1 { 
+      text-align: center; 
+      color: #f8fafc; 
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+    
+    /* Flowchart container */
+    .flowchart {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    /* Boxes */
+    .box {
+      padding: 15px 25px;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+      font-weight: 500;
+      min-width: 280px;
+      position: relative;
+    }
+    
+    .box.start { background: #22c55e; box-shadow: 0 4px 15px rgba(34,197,94,0.4); }
+    .box.process { background: #3b82f6; box-shadow: 0 4px 15px rgba(59,130,246,0.4); }
+    .box.voice { background: #8b5cf6; box-shadow: 0 4px 15px rgba(139,92,246,0.4); }
+    .box.decision { background: #f59e0b; box-shadow: 0 4px 15px rgba(245,158,11,0.4); color: #1e1e1e; }
+    .box.code { background: #06b6d4; box-shadow: 0 4px 15px rgba(6,182,212,0.4); }
+    .box.pexels { background: #ec4899; box-shadow: 0 4px 15px rgba(236,72,153,0.4); }
+    .box.preview { background: #f97316; box-shadow: 0 4px 15px rgba(249,115,22,0.4); }
+    .box.approval { background: #64748b; box-shadow: 0 4px 15px rgba(100,116,139,0.4); }
+    .box.render { background: #14b8a6; box-shadow: 0 4px 15px rgba(20,184,166,0.4); }
+    .box.product { background: #a855f7; box-shadow: 0 4px 15px rgba(168,85,247,0.4); }
+    .box.promo { background: #ef4444; box-shadow: 0 4px 15px rgba(239,68,68,0.4); }
+    .box.upload { background: #22c55e; box-shadow: 0 4px 15px rgba(34,197,94,0.4); }
+    
+    .box .subtext {
+      font-size: 11px;
+      opacity: 0.9;
+      margin-top: 4px;
+    }
+    
+    /* Arrows */
+    .arrow {
+      width: 3px;
+      height: 25px;
+      background: #3b82f6;
+      position: relative;
+    }
+    .arrow::after {
+      content: '';
+      position: absolute;
+      bottom: -6px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 8px solid #3b82f6;
+    }
+    
+    .arrow-yes {
+      background: #22c55e;
+      height: 40px;
+    }
+    .arrow-yes::after { border-top-color: #22c55e; }
+    
+    .arrow-no {
+      background: #ef4444;
+      height: 40px;
+    }
+    .arrow-no::after { border-top-color: #ef4444; }
+    
+    .arrow-branch {
+      display: flex;
+      align-items: center;
+      gap: 100px;
+      margin: 10px 0;
+    }
+    
+    .branch-label {
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .branch-yes { color: #22c55e; }
+    .branch-no { color: #ef4444; }
+    
+    .branch-row {
+      display: flex;
+      gap: 150px;
+      align-items: center;
+    }
+    
+    .merge-arrow {
+      width: 3px;
+      height: 30px;
+      background: #3b82f6;
+    }
+    
+    /* Legend */
+    .legend {
+      margin-top: 40px;
+      padding: 20px;
+      background: #1e293b;
+      border-radius: 10px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .legend h3 { color: #f8fafc; margin-bottom: 15px; }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 8px 0;
+      color: #94a3b8;
+      font-size: 13px;
+    }
+    .legend-color {
+      width: 15px;
+      height: 15px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎬 Documentary Engine Workflow</h1>
+  
+  <div class="flowchart">
+    <!-- Start -->
+    <div class="box start">User Triggers Run</div>
+    <div class="arrow"></div>
+    
+    <!-- QA Page -->
+    <div class="box process">QA Page: Select Topic, Length, Format</div>
+    <div class="subtext">Vertical (9:16) or Horizontal (16:9)</div>
+    <div class="arrow"></div>
+    
+    <!-- Script -->
+    <div class="box process">Generate Script (Template)</div>
+    <div class="subtext">Auto-detect: tech/science/history</div>
+    <div class="arrow"></div>
+    
+    <!-- Voice -->
+    <div class="box voice">Generate Voice (Kitten TTS)</div>
+    <div class="subtext">Free, local, no API</div>
+    <div class="arrow"></div>
+    
+    <!-- Visuals Decision -->
+    <div class="box decision">Can Generate Visuals via Code?</div>
+    <div class="subtext">Three.js / Blender / Code</div>
+    <div class="arrow"></div>
+    
+    <!-- Branch -->
+    <div class="branch-row">
+      <div style="text-align: center;">
+        <div class="branch-label branch-yes">Yes</div>
+        <div class="arrow-yes" style="margin: 5px auto;"></div>
+        <div class="box code">Code Generated</div>
+        <div class="subtext">Three.js visuals</div>
+      </div>
+      <div style="text-align: center;">
+        <div class="branch-label branch-no">No</div>
+        <div class="arrow-no" style="margin: 5px auto;"></div>
+        <div class="box pexels">Fetch from Pexels</div>
+        <div class="subtext">Free stock footage</div>
+      </div>
+    </div>
+    
+    <div class="merge-arrow" style="margin: 10px auto;"></div>
+    
+    <!-- Preview -->
+    <div class="box preview">Show Preview to User</div>
+    <div class="subtext">Animation + Audio preview</div>
+    <div class="arrow"></div>
+    
+    <!-- Approval -->
+    <div class="box approval">User Approves?</div>
+    <div class="arrow"></div>
+    
+    <!-- Branch 2 -->
+    <div class="branch-row">
+      <div style="text-align: center;">
+        <div class="branch-label branch-yes">Yes</div>
+        <div class="arrow-yes" style="margin: 5px auto;"></div>
+        
+        <!-- Digital Product -->
+        <div class="box product">Generate Digital Product</div>
+        <div class="subtext">Ebook PDF from script</div>
+        <div class="arrow"></div>
+        
+        <!-- Render -->
+        <div class="box render">Render Final Video</div>
+        <div class="subtext">CRF 28, 5000k bitrate</div>
+        <div class="arrow"></div>
+        
+        <!-- Promotion -->
+        <div class="box promo">Add Promotion Segment</div>
+        <div class="subtext">30s CTA with affiliate link</div>
+        <div class="arrow"></div>
+        
+        <!-- Upload -->
+        <div class="box upload">Upload to YouTube</div>
+        <div class="subtext">Title, Description + Links</div>
+      </div>
+      <div style="text-align: center;">
+        <div class="branch-label branch-no">No</div>
+        <div class="arrow-no" style="margin: 5px auto;"></div>
+        <div class="box" style="background: #475569;">Go Back to Edit</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Legend -->
+  <div class="legend">
+    <h3>📋 Description Contents</h3>
+    <div class="legend-item">• Affiliate product links</div>
+    <div class="legend-item">• Digital product (ebook) link</div>
+    <div class="legend-item">• Gumroad/course link</div>
+    <div class="legend-item">• Shortened URL (if configured)</div>
+    <div class="legend-item">• Social media handles</div>
+  </div>
+  
+  <div class="legend" style="margin-top: 15px;">
+    <h3>🔗 What's in Video Promotion</h3>
+    <div class="legend-item">• One 30-second segment at end</div>
+    <div class="legend-item">• "Want to learn more? Check the description"</div>
+    <div class="legend-item">• Shows product thumbnail</div>
+  </div>
+
+</body>
+</html>

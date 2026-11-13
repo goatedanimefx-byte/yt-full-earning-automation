@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Documentary Engine - Complete Flow</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { 
+      width: 100%;
+      height: 100%;
+      font-family: Arial Black, sans-serif;
+      background: linear-gradient(135deg, #0f172a 0%, #1a1a2e 100%);
+      overflow: hidden;
+    }
+    
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    
+    h1 {
+      text-align: center;
+      font-size: 28px;
+      background: linear-gradient(90deg, #22c55e, #3b82f6, #f59e0b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 5px;
+    }
+    
+    .subtitle {
+      text-align: center;
+      color: #94a3b8;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    
+    .flow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      flex: 1;
+    }
+    
+    .phase {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .phase-num {
+      background: #3b82f6;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 15px;
+      font-size: 11px;
+      font-weight: bold;
+    }
+    
+    .phase-1 .phase-num { background: #22c55e; }
+    .phase-2 .phase-num { background: #8b5cf6; }
+    .phase-3 .phase-num { background: #3b82f6; }
+    .phase-4 .phase-num { background: #f59e0b; color: #000; }
+    .phase-5 .phase-num { background: #ef4444; }
+    .phase-6 .phase-num { background: #06b6d4; }
+    
+    .step {
+      background: #1e293b;
+      padding: 8px 12px;
+      border-radius: 8px;
+      text-align: center;
+      min-width: 90px;
+      border: 2px solid #334155;
+    }
+    
+    .step-icon { font-size: 20px; }
+    .step-name { font-size: 10px; color: #fff; font-weight: bold; }
+    .step-desc { font-size: 8px; color: #94a3b8; }
+    
+    .arrow {
+      font-size: 20px;
+      color: #475569;
+    }
+    
+    .memory-section {
+      background: #1e1e2e;
+      border-radius: 10px;
+      padding: 8px;
+      margin-top: 5px;
+    }
+    
+    .memory-title {
+      color: #6366f1;
+      font-size: 12px;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    
+    .memory-items {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    
+    .memory-item {
+      background: #0f172a;
+      padding: 5px 10px;
+      border-radius: 6px;
+      text-align: center;
+    }
+    
+    .memory-item .icon { font-size: 16px; }
+    .memory-item .label { font-size: 8px; color: #94a3b8; display: block; }
+    
+    .loop-section {
+      background: linear-gradient(90deg, #6366f1, #8b5cf6);
+      border-radius: 10px;
+      padding: 8px 20px;
+      margin-top: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .loop-title { color: white; font-size: 11px; }
+    
+    .loop-step {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: white;
+      font-size: 10px;
+    }
+    
+    .loop-num {
+      background: white;
+      color: #6366f6;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 9px;
+    }
+    
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 5px;
+      flex-wrap: wrap;
+    }
+    
+    .feature {
+      background: #0f172a;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 9px;
+      color: #94a3b8;
+    }
+    
+    .feature.done { color: #22c55e; }
+    .feature.pending { color: #f59e0b; }
+    
+    .stack {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 DOCUMENTARY ENGINE - FULL FLOW</h1>
+    <p class="subtitle">Input → Analyze → Generate → Render → Upload → Learn → Repeat</p>
+    
+    <div class="flow">
+      <div class="phase phase-1">
+        <div class="phase-num">📥 INPUT</div>
+        <div class="step"><div class="step-icon">💬</div><div class="step-name">Topic</div></div>
+        <div class="step"><div class="step-icon">⏱️</div><div class="step-name">Length</div></div>
+        <div class="step"><div class="step-icon">📱</div><div class="step-name">Format</div></div>
+        <div class="step"><div class="step-icon">📦</div><div class="step-name">Product</div></div>
+      </div>
+      
+      <div class="arrow">➡️</div>
+      
+      <div class="phase phase-2">
+        <div class="phase-num">🧠 ANALYZE</div>
+        <div class="step"><div class="step-icon">📊</div><div class="step-name">Memory</div></div>
+        <div class="step"><div class="step-icon">🎯</div><div class="step-name">Competitor</div></div>
+        <div class="step"><div class="step-icon">💡</div><div class="step-name">Improve</div></div>
+      </div>
+      
+      <div class="arrow">➡️</div>
+      
+      <div class="phase phase-3">
+        <div class="phase-num">⚙️ GENERATE</div>
+        <div class="stack">
+          <div class="step"><div class="step-icon">📝</div><div class="step-name">Script</div></div>
+          <div class="step"><div class="step-icon">🎤</div><div class="step-name">Voice</div></div>
+          <div class="step"><div class="step-icon">🎨</div><div class="step-name">Visuals</div></div>
+        </div>
+        <div class="stack">
+          <div class="step"><div class="step-icon">🖼️</div><div class="step-name">Thumbnail</div></div>
+          <div class="step"><div class="step-icon">📄</div><div class="step-name">Subtitle</div></div>
+          <div class="step"><div class="step-icon">⏰</div><div class="step-name">Chapters</div></div>
+        </div>
+      </div>
+      
+      <div class="arrow">➡️</div>
+      
+      <div class="phase phase-4">
+        <div class="phase-num">🎬 RENDER</div>
+        <div class="step"><div class="step-icon">🔗</div><div class="step-name">Stitch</div></div>
+        <div class="step"><div class="step-icon">✂️</div><div class="step-name">Clips</div></div>
+        <div class="step"><div class="step-icon">👁️</div><div class="step-name">Preview</div></div>
+      </div>
+      
+      <div class="arrow">➡️</div>
+      
+      <div class="phase phase-5">
+        <div class="phase-num">📤 UPLOAD</div>
+        <div class="step"><div class="step-icon">🛒</div><div class="step-name">Gumroad</div></div>
+        <div class="step"><div class="step-icon">🔗</div><div class="step-name">Affiliate</div></div>
+        <div class="step"><div class="step-icon">✂️</div><div class="step-name">Shorten</div></div>
+        <div class="step"><div class="step-icon">▶️</div><div class="step-name">YouTube</div></div>
+      </div>
+      
+      <div class="arrow">➡️</div>
+      
+      <div class="phase phase-6">
+        <div class="phase-num">🔄 LEARN</div>
+        <div class="step"><div class="step-icon">📈</div><div class="step-name">Analytics</div></div>
+        <div class="step"><div class="step-icon">💰</div><div class="step-name">Sales</div></div>
+        <div class="step"><div class="step-icon">💾</div><div class="step-name">Backup</div></div>
+        <div class="step"><div class="step-icon">📊</div><div class="step-name">Dashboard</div></div>
+      </div>
+    </div>
+    
+    <div class="memory-section">
+      <div class="memory-title">🧠 MEMORY FOLDERS</div>
+      <div class="memory-items">
+        <div class="memory-item"><span class="icon">📊</span><span class="label">Analytics</span></div>
+        <div class="memory-item"><span class="icon">💰</span><span class="label">Sales</span></div>
+        <div class="memory-item"><span class="icon">🎯</span><span class="label">Topics</span></div>
+        <div class="memory-item"><span class="icon">⚠️</span><span class="label">Mistakes</span></div>
+        <div class="memory-item"><span class="icon">🖼️</span><span class="label">Thumbnails</span></div>
+        <div class="memory-item"><span class="icon">📝</span><span class="label">Scripts</span></div>
+        <div class="memory-item"><span class="icon">💾</span><span class="label">Backups</span></div>
+        <div class="memory-item"><span class="icon">👥</span><span class="label">Competitors</span></div>
+      </div>
+    </div>
+    
+    <div class="loop-section">
+      <div class="loop-title">🔄 LEARNING LOOP:</div>
+      <div class="loop-step"><div class="loop-num">1</div><span>Run</span></div>
+      <div class="loop-step"><div class="loop-num">2</div><span>Track</span></div>
+      <div class="loop-step"><div class="loop-num">3</div><span>Analyze</span></div>
+      <div class="loop-step"><div class="loop-num">4</div><span>Update</span></div>
+      <div class="loop-step"><div class="loop-num">5</div><span>Improve</span></div>
+    </div>
+    
+    <div class="features">
+      <span class="feature done">✅ Script</span>
+      <span class="feature done">✅ Voice</span>
+      <span class="feature done">✅ Visuals</span>
+      <span class="feature done">✅ Thumbnails</span>
+      <span class="feature done">✅ A/B Test</span>
+      <span class="feature done">✅ Subtitles</span>
+      <span class="feature done">✅ Chapters</span>
+      <span class="feature done">✅ Clips</span>
+      <span class="feature done">✅ Memory</span>
+      <span class="feature done">✅ Backup</span>
+      <span class="feature done">✅ Competitor</span>
+      <span class="feature done">✅ Dashboard</span>
+      <span class="feature pending">⏳ Gumroad</span>
+      <span class="feature pending">⏳ Affiliate</span>
+      <span class="feature pending">⏳ URL Short</span>
+      <span class="feature pending">⏳ YouTube</span>
+    </div>
+  </div>
+</body>
+</html>

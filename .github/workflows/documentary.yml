@@ -1,0 +1,103 @@
+name: Documentary Engine
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: 'Documentary topic'
+        required: true
+        type: string
+
+env:
+  PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+
+jobs:
+  # Phase 1: Analyze with Memory & Competitors
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Memory Learnings
+        run: python -c "from memory_core import get_memory; print(get_memory().get_improvements_for_next_video())"
+      - name: Check Competitor Trends
+        run: python competitor_watch.py
+
+  # Phase 2: Generate All Content
+  generate:
+    needs: analyze
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install soundfile pillow
+          pip install https://github.com/KittenML/KittenTTS/releases/download/0.8.1/kittentts-0.8.1-py3-none-any.whl
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+      
+      - name: Generate Script
+        run: python script_gen.py "${{ github.event.inputs.topic }}"
+      
+      - name: Generate Voice (Kitten TTS)
+        run: python voice_gen.py outputs/script_*.json
+      
+      - name: Generate Visuals (code → Pexels fallback)
+        run: python visual_fetch.py outputs/script_*.json
+      
+      - name: Generate Thumbnails
+        run: python thumbnail_gen.py "${{ github.event.inputs.topic }}"
+      
+      - name: Generate Subtitles
+        run: python transcript.py outputs/script_*.json
+      
+      - name: Generate Chapters
+        run: python chapter_marks.py outputs/script_*.json
+      
+      - name: Stitch Video
+        run: python ffmpeg_stitch.py "${{ github.event.inputs.topic }}"
+      
+      - name: Upload Draft
+        uses: actions/upload-artifact@v4
+        with:
+          name: draft-${{ github.event.inputs.topic }}
+          path: outputs/**/*.{mp4,jpg,srt}
+          retention-days: 7
+
+  # Phase 3: Create Social Clips
+  clips:
+    needs: generate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: draft-${{ github.event.inputs.topic }}
+      - name: Create Social Clips
+        run: python social_clips.py
+      - name: Upload Clips
+        uses: actions/upload-artifact@v4
+        with:
+          name: clips
+          path: outputs/clips/*.mp4
+
+  # Phase 4: Backup & Analytics
+  finalize:
+    needs: clips
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Auto Backup
+        run: python backup_system.py
+      - name: Generate Dashboard
+        run: python analytics_dashboard.py
+      - name: Upload Dashboard
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashboard
+          path: outputs/dashboard/dashboard.html

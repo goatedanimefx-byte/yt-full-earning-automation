@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentary Engine - Self Learning Workflow</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: 'Segoe UI', Tahoma, sans-serif; 
+      background: #0f172a; 
+      min-height: 100vh;
+      padding: 20px;
+    }
+    h1 { 
+      text-align: center; 
+      color: #f8fafc; 
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #22c55e;
+      margin-bottom: 30px;
+      font-size: 14px;
+    }
+    
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    
+    .column {
+      background: #1e293b;
+      border-radius: 15px;
+      padding: 20px;
+    }
+    
+    .column h2 {
+      color: #f8fafc;
+      font-size: 16px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #334155;
+    }
+    
+    /* Boxes */
+    .box {
+      padding: 12px 18px;
+      border-radius: 8px;
+      text-align: center;
+      color: white;
+      font-size: 13px;
+      margin: 8px 0;
+      position: relative;
+    }
+    
+    .box.start { background: #22c55e; }
+    .box.process { background: #3b82f6; }
+    .box.decision { background: #f59e0b; color: #1e1e1e; }
+    .box.code { background: #06b6d4; }
+    .box.pexels { background: #ec4899; }
+    .box.preview { background: #f97316; }
+    .box.render { background: #14b8a6; }
+    .box.product { background: #a855f7; }
+    .box.promo { background: #ef4444; }
+    .box.upload { background: #22c55e; }
+    .box.memory { background: #475569; border: 2px solid #6366f1; }
+    .box.learn { background: #6366f1; }
+    .box.improve { background: #10b981; }
+    
+    .arrow {
+      width: 2px;
+      height: 15px;
+      background: #475569;
+      margin: 0 auto;
+    }
+    
+    .arrow-branch {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin: 10px 0;
+    }
+    
+    .branch-col {
+      flex: 1;
+      text-align: center;
+    }
+    
+    .branch-label {
+      font-size: 11px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .yes { color: #22c55e; }
+    .no { color: #ef4444; }
+    
+    /* Memory Section */
+    .memory-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    
+    .memory-item {
+      background: #0f172a;
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      color: #94a3b8;
+    }
+    
+    .memory-item strong {
+      color: #f8fafc;
+      display: block;
+      margin-bottom: 4px;
+    }
+    
+    /* Stats */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin: 15px 0;
+    }
+    
+    .stat {
+      background: #0f172a;
+      padding: 12px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    
+    .stat-value {
+      font-size: 20px;
+      font-weight: bold;
+      color: #22c55e;
+    }
+    
+    .stat-label {
+      font-size: 10px;
+      color: #94a3b8;
+    }
+    
+    /* Feedback Loop */
+    .feedback-loop {
+      background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    
+    .feedback-loop h3 {
+      color: white;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    
+    .loop-step {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 8px 0;
+      color: #e2e8f0;
+      font-size: 12px;
+    }
+    
+    .loop-num {
+      background: white;
+      color: #6366f1;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 10px;
+    }
+    
+    /* Learnings */
+    .learnings {
+      background: #0f172a;
+      padding: 12px;
+      border-radius: 8px;
+      margin-top: 10px;
+      font-size: 11px;
+      color: #94a3b8;
+    }
+    
+    .learnings strong {
+      color: #f59e0b;
+    }
+    
+    .full-width {
+      grid-column: 1 / -1;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎬 Documentary Engine - Self Learning System</h1>
+  <p class="subtitle">No hard rules • Learn from data • Improve continuously</p>
+  
+  <div class="container">
+    <!-- LEFT: Production -->
+    <div class="column">
+      <h2>📹 Production Pipeline</h2>
+      
+      <div class="box start">User: "Make video about [TOPIC]"</div>
+      <div class="arrow"></div>
+      
+      <div class="box process">QA: Topic + Length + Format + Product</div>
+      <div class="arrow"></div>
+      
+      <div class="box process">Generate Script (from memory)</div>
+      <div class="arrow"></div>
+      
+      <div class="box process">Generate Voice (Kitten TTS)</div>
+      <div class="arrow"></div>
+      
+      <div class="box decision">Can code generate visuals?</div>
+      
+      <div class="arrow-branch">
+        <div class="branch-col">
+          <div class="branch-label yes">Yes</div>
+          <div class="box code">Code Generated</div>
+        </div>
+        <div class="branch-col">
+          <div class="branch-label no">No</div>
+          <div class="box pexels">Pexels</div>
+        </div>
+      </div>
+      
+      <div class="box preview">Show Preview → User Approves</div>
+      <div class="arrow"></div>
+      
+      <div class="box product">Generate Ebook (from script)</div>
+      <div class="arrow"></div>
+      
+      <div class="box render">Render Video</div>
+      <div class="arrow"></div>
+      
+      <div class="box promo">Add 30s Promotion Segment</div>
+      <div class="arrow"></div>
+      
+      <div class="box upload">Upload YouTube + Gumroad</div>
+    </div>
+    
+    <!-- RIGHT: Learning -->
+    <div class="column">
+      <h2>🧠 Memory & Learning System</h2>
+      
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-value" id="total-videos">0</div>
+          <div class="stat-label">Total Videos</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="avg-views">0</div>
+          <div class="stat-label">Avg Views</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="total-sales">0</div>
+          <div class="stat-label">Ebook Sales</div>
+        </div>
+      </div>
+      
+      <div class="memory-grid">
+        <div class="memory-item">
+          <strong>📊 Performance Data</strong>
+          Views, watch time, engagement, likes, comments
+        </div>
+        <div class="memory-item">
+          <strong>💰 Sales Data</strong>
+          Which products sold, conversion rate, revenue
+        </div>
+        <div class="memory-item">
+          <strong>🎯 Topic Performance</strong>
+          Which topics get views, which bomb
+        </div>
+        <div class="memory-item">
+          <strong>🔧 Mistakes Log</strong>
+          What failed, why, how fixed
+        </div>
+      </div>
+      
+      <div class="feedback-loop">
+        <h3>🔄 Continuous Learning Loop</h3>
+        <div class="loop-step">
+          <span class="loop-num">1</span>
+          Run video → Track performance for 7 days
+        </div>
+        <div class="loop-step">
+          <span class="loop-num">2</span>
+          Analyze: What worked? What didn't?
+        </div>
+        <div class="loop-step">
+          <span class="loop-num">3</span>
+          Update memory with learnings
+        </div>
+        <div class="loop-step">
+          <span class="loop-num">4</span>
+          Next video: Apply improvements
+        </div>
+        <div class="loop-step">
+          <span class="loop-num">5</span>
+          Repeat - get better every time
+        </div>
+      </div>
+    </div>
+    
+    <!-- FULL: Auto-Improvements -->
+    <div class="column full-width">
+      <h2>🚀 Auto-Improvements (Based on Past Data)</h2>
+      
+      <div class="memory-grid">
+        <div class="learnings">
+          <strong>If low views:</strong><br>
+          • Change thumbnail style<br>
+          • Try different topic keywords<br>
+          • Shorter intro, hook faster<br>
+          • Better title formulas
+        </div>
+        <div class="learnings">
+          <strong>If low sales:</strong><br>
+          • Change product price<br>
+          • Different affiliate product<br>
+          • Better CTA placement<br>
+          • More persuasive promotion
+        </div>
+        <div class="learnings">
+          <strong>If high engagement:</strong><br>
+          • Make longer videos<br>
+          • More controversial topics<br>
+          • Series format works<br>
+          • Keep that style
+        </div>
+        <div class="learnings">
+          <strong>If mistakes happen:</strong><br>
+          • Log what went wrong<br>
+          • Don't panic - fix and move<br>
+          • Update system to avoid<br>
+          • No hard rules - adapt
+        </div>
+      </div>
+    </div>
+    
+    <!-- FULL: Memory Folder Structure -->
+    <div class="column full-width">
+      <h2>📁 Memory Folder Structure (local)</h2>
+      <div style="color: #94a3b8; font-size: 12px; line-height: 1.8;">
+        <strong style="color: #f8fafc;">doc-engine/memory/</strong><br>
+        ├── <strong>analytics/</strong> - All video performance data (JSON)<br>
+        ├── <strong>sales/</strong> - Revenue tracking, product performance<br>
+        ├── <strong>topics/</strong> - What topics worked, what didn't<br>
+        ├── <strong>mistakes/</strong> - Error logs and fixes<br>
+        ├── <strong>thumbnails/</strong> - Best performing designs<br>
+        ├── <strong>scripts/</strong> - All generated scripts (for reuse)<br>
+        └── <strong>learnings.json</strong> - AI总结 of all improvements<br>
+        <br>
+        <em style="color: #6366f1;">* System reads from memory before each new video to learn from past</em>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // This would be populated by the actual system
+    // For demo - showing how it works
+    console.log('Memory System Ready');
+  </script>
+</body>
+</html>
