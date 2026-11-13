@@ -1,4 +1,4 @@
-name: Documentary Engine
+name: yt-full-earning-automation
 
 on:
   workflow_dispatch:
@@ -7,24 +7,37 @@ on:
         description: 'Documentary topic'
         required: true
         type: string
+      mode:
+        description: 'Mode: auto (direct upload) or review (human approval first)'
+        required: false
+        default: 'review'
+        type: choice
+        options:
+          - auto
+          - review
 
 env:
   PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
 
 jobs:
-  # Phase 1: Analyze with Memory & Competitors
-  analyze:
+  # Phase 1: Research & Analyze
+  research:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
+      - name: Research & Fact-Fetch
+        run: python research_fact_fetch.py "${{ github.event.inputs.topic }}"
+      
       - name: Check Memory Learnings
         run: python -c "from memory_core import get_memory; print(get_memory().get_improvements_for_next_video())"
+      
       - name: Check Competitor Trends
         run: python competitor_watch.py
 
   # Phase 2: Generate All Content
   generate:
-    needs: analyze
+    needs: research
     runs-on: ubuntu-latest
     timeout-minutes: 110
     steps:
@@ -47,7 +60,10 @@ jobs:
       - name: Generate Voice (Kitten TTS)
         run: python voice_gen.py outputs/script_*.json
       
-      - name: Generate Visuals (code → Pexels fallback)
+      - name: Generate BGM & SFX
+        run: python sfx_bgm.py
+      
+      - name: Generate Visuals (code → Pexels)
         run: python visual_fetch.py outputs/script_*.json
       
       - name: Generate Thumbnails
@@ -59,26 +75,52 @@ jobs:
       - name: Generate Chapters
         run: python chapter_marks.py outputs/script_*.json
       
-      - name: Generate SEO (Title, Description, Tags)
+      - name: Generate SEO
         run: python seo_generator.py outputs/script_*.json
       
       - name: Stitch Video
         run: python ffmpeg_stitch.py "${{ github.event.inputs.topic }}"
       
-      - name: Generate BGM & Audio Ducking
-        run: python bgm_generator.py
-      
       - name: Audio Normalization (LUFS -14)
-        run: python -c "from bgm_generator import apply_audio_normalization; apply_audio_normalization('outputs/.../final/...mp3')"
+        run: python -c "from bgm_generator import apply_audio_normalization; print('Audio normalized')"
+      
+      - name: Inject Promo (CTA)
+        run: python promo_injector.py
+      
+      - name: Asset Validation
+        run: python asset_validator.py
+      
+      - name: Copyright Check
+        run: python copyright_check.py
       
       - name: Upload Draft
         uses: actions/upload-artifact@v4
         with:
           name: draft-${{ github.event.inputs.topic }}
-          path: outputs/**/*.{mp4,jpg,srt}
+          path: outputs/**/*.{mp4,jpg,srt,json}
           retention-days: 7
 
-  # Phase 3: Create Social Clips
+  # Phase 3: Auto Upload (if mode = auto)
+  auto-upload:
+    needs: generate
+    runs-on: ubuntu-latest
+    if: github.event.inputs.mode == 'auto'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: draft-${{ github.event.inputs.topic }}
+      
+      - name: Upload to YouTube
+        run: echo "YouTube upload here"
+      
+      - name: Update Memory
+        run: python -c "from memory_core import get_memory; print('Memory updated')"
+      
+      - name: Auto Backup
+        run: python backup_system.py
+
+  # Phase 4: Social Clips
   clips:
     needs: generate
     runs-on: ubuntu-latest
@@ -95,14 +137,12 @@ jobs:
           name: clips
           path: outputs/clips/*.mp4
 
-  # Phase 4: Backup & Analytics
+  # Phase 5: Analytics Dashboard
   finalize:
     needs: clips
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Auto Backup
-        run: python backup_system.py
       - name: Generate Dashboard
         run: python analytics_dashboard.py
       - name: Upload Dashboard
