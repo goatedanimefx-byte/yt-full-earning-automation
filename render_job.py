@@ -39,6 +39,7 @@ def render_chunk(plan, index, crf=23):
 
     print("chunk %02d: %d shot(s), %.3fs, %s" % (
         index, len(chunk["shots"]), float(chunk["duration_sec"]), size))
+    print("  %s" % visual_fetch.ffmpeg_info())
 
     parts = []
     for shot in chunk["shots"]:

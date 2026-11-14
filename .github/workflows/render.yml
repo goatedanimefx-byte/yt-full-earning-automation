@@ -83,6 +83,16 @@ jobs:
           python-version: '3.11'
       - name: Install ffmpeg
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: ffmpeg doctor
+        run: |
+          ffmpeg -hide_banner -version | head -1
+          for f in gradients mandelbrot life cellauto testsrc2 noise hue vignette gblur zoompan; do
+            if ffmpeg -hide_banner -filters 2>/dev/null | grep -q " $f "; then
+              echo "ok   $f"
+            else
+              echo "MISS $f"
+            fi
+          done
       - name: Install python deps
         run: pip install -q requests pillow
       - name: Render chunk ${{ matrix.index }}

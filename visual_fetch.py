@@ -50,11 +50,11 @@ STYLE_FOR_TYPE = {
 }
 
 GEN_ORDER = {
-    "plasma":    ["plasma", "fractal", "tunnel", "particles"],
-    "fractal":   ["fractal", "plasma", "tunnel", "particles"],
-    "particles": ["particles", "tunnel", "plasma", "fractal"],
-    "archive":   ["archive", "plasma", "fractal", "particles"],
-    "tunnel":    ["tunnel", "particles", "plasma", "fractal"],
+    "plasma":    ["plasma", "fractal", "tunnel", "particles", "motion"],
+    "fractal":   ["fractal", "plasma", "tunnel", "particles", "motion"],
+    "particles": ["particles", "tunnel", "plasma", "fractal", "motion"],
+    "archive":   ["archive", "plasma", "fractal", "particles", "motion"],
+    "tunnel":    ["tunnel", "particles", "plasma", "fractal", "motion"],
 }
 
 # ---------------------------------------------------------------- capability
@@ -77,13 +77,22 @@ def filter_list():
 
 
 def can_animate() -> bool:
-    """True only when ffmpeg exists AND the animated source filters are there."""
+    """True when ffmpeg exists.
+
+    Filter-name probing was a false negative on newer runner images, and it hid
+    the real ffmpeg errors. Every generator now reports its own failure instead,
+    and GEN_ORDER ends with a fallback that only needs ancient filters.
+    """
     ok, _ = media.run(["ffmpeg", "-version"])
+    return ok
+
+
+def ffmpeg_info() -> str:
+    """One-line ffmpeg build string for the run log."""
+    ok, out = media.run(["ffmpeg", "-version"])
     if not ok:
-        return False
-    need = {"gradients", "noise", "hue", "vignette"}
-    have = filter_list()
-    return need.issubset(have)
+        return "ffmpeg: NOT AVAILABLE"
+    return (out.splitlines() or ["ffmpeg: unknown"])[0].strip()
 
 
 # ---------------------------------------------------------------- verification
@@ -164,12 +173,24 @@ def gen_archive(style, out, dur, size, seed, category):
     return _encode(src, vf, out, dur, size)
 
 
+def gen_motion(style, out, dur, size, seed, category):
+    """Last resort: only uses filters that have shipped for a decade."""
+    w, h = [int(x) for x in size.split("x")]
+    big = "%dx%d" % (int(w * 1.2) // 2 * 2, int(h * 1.2) // 2 * 2)
+    src = "testsrc2=s=%s:r=30" % big
+    vf = ("crop=%d:%d:x='(in_w-out_w)/2+60*sin(t/7)':y='(in_h-out_h)/2+40*cos(t/9)',"
+          "scale=%s,gblur=sigma=6,eq=contrast=1.2:saturation=0.85:brightness=-0.06,"
+          "vignette=PI/4" % (w, h, size))
+    return _encode(src, vf, out, dur, size)
+
+
 GENERATORS = {
     "plasma": gen_plasma,
     "fractal": gen_fractal,
     "particles": gen_particles,
     "tunnel": gen_tunnel,
     "archive": gen_archive,
+    "motion": gen_motion,
 }
 
 
@@ -260,7 +281,7 @@ def animate_shot(style, out, dur, size, seed, category, query="", allow_pexels=T
                 return {"source": "generated", "generator": name,
                         "motion": motion, "contrast": contrast, "attempts": attempts}
     else:
-        attempts.append(("none", "ffmpeg or animated filters unavailable"))
+        attempts.append(("ffmpeg", "ffmpeg is not available on this runner"))
 
     if allow_pexels:
         got = pexels_visual(query or style, out, dur, size, seed, category)
