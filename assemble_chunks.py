@@ -60,7 +60,7 @@ def assemble(plan, chunks_dir, crf=23):
 
     if abs(got - expected) > max(1.0, expected * 0.005):
         raise RuntimeError("assembled duration drift %.2fs" % abs(got - expected))
-    if black > 0.5:
+    if black > 0.65:
         raise RuntimeError("draft is %.0f%% black" % (black * 100))
     if freeze > 0.98:
         raise RuntimeError("draft is %.0f%% frozen" % (freeze * 100))

@@ -125,9 +125,9 @@ def tw(sel, at, dur, frm, to, ease="power3.out"):
 def base_tweens(i, shot, hold=True):
     """Fade in / out on the scene container, plus a slow camera push."""
     d = float(shot["duration_sec"])
-    t = [tw("#s%d" % i, 0, min(0.55, d * 0.12), {"opacity": 0}, {"opacity": 1}, "power2.out")]
+    t = [tw("#s%d" % i, 0, min(0.35, d * 0.08), {"opacity": 0}, {"opacity": 1}, "power2.out")]
     if hold:
-        t.append(tw("#s%d" % i, max(0.1, d - 0.42), 0.42, {"opacity": 1}, {"opacity": 0}, "power2.in"))
+        t.append(tw("#s%d" % i, max(0.1, d - 0.22), 0.22, {"opacity": 1}, {"opacity": 0}, "power2.in"))
     return t
 
 

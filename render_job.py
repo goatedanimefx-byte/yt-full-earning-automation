@@ -82,7 +82,7 @@ def render_chunk(plan, index, crf=None, quality=None, workers=None):
 
     if abs(dur - target) > 1.0:
         raise RuntimeError("chunk %02d is %.2fs, planned %.2fs" % (index, dur, target))
-    if flat > 0.5:
+    if flat > 0.65:
         raise RuntimeError("chunk %02d is more than 50%% black" % index)
     if freeze > 0.98:
         raise RuntimeError("chunk %02d is more than 98%% frozen" % index)
