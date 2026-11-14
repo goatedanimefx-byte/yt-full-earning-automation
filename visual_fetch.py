@@ -1,236 +1,412 @@
 #!/usr/bin/env python3
 """
-Visual Generator - Try code first, fallback to Pexels
-1. Try Three.js code generation
-2. If can't generate → use Pexels
+visual_fetch.py - real motion first, Pexels only as fallback, flat colour = hard failure.
+
+Order for every shot:
+  1. procedural animation rendered with ffmpeg (gradients / mandelbrot / life / cellauto)
+  2. Pexels stock footage (only if a key exists and generation genuinely failed)
+  3. FAIL THE RUN. A solid colour frame is never written as a "visual".
+
+Every generated file is verified with a real motion check: frames are sampled,
+decoded to raw grey, and compared. If the picture does not change, the shot is
+rejected and the next generator is tried.
 """
 
 import json
-import subprocess
 import os
-import requests
+import random
+import subprocess
+import sys
 from pathlib import Path
 
-OUTPUT_DIR = Path(__file__).parent / "outputs" / "visuals"
-PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "")  # Optional - use if provided
+import media
+import paths
 
-# Visual styles for different segment types
-VISUAL_STYLES = {
-    "intro": "vhs",
-    "context": "riso", 
-    "main": "rubber_hose",
-    "conclusion": "vhs",
-    "cta": "riso"
+try:
+    import requests
+except ImportError:  # requests is optional; only Pexels needs it
+    requests = None
+
+PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "")
+
+# ---------------------------------------------------------------- look
+
+PALETTES = {
+    "history": ["0x120c06", "0x6b4b2a", "0x2b1d10", "0x8a6a3f"],
+    "tech":    ["0x0a1220", "0x1d4ed8", "0x0f766e", "0x312e81"],
+    "science": ["0x061018", "0x0e7490", "0x4c1d95", "0x134e4a"],
+    "general": ["0x0b1220", "0x334155", "0x0f766e", "0x1e293b"],
 }
 
-# Three.js scene templates - save as HTML for rendering
-THREEJS_TEMPLATES = {
-    "vhs": """<!DOCTYPE html>
-<html>
-<head><style>body{margin:0;overflow:hidden;background:#1a1a2e}</style></head>
-<body>
-<script type="module">
-import*as THREE from'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-const scene=new THREE.Scene();
-scene.background=new THREE.Color(0x1a1a2e);
-const camera=new THREE.PerspectiveCamera(75,16/9,0.1,1000);
-camera.position.z=3;
-const renderer=new THREE.WebGLRenderer();
-renderer.setSize(1920,1080);
-document.body.appendChild(renderer.domElement);
-const geo=new THREE.TorusKnotGeometry(1,0.3,100,16);
-const mat=new THREE.MeshNormalMaterial({wireframe:true});
-const mesh=new THREE.Mesh(geo,mat);
-scene.add(mesh);
-function animate(){mesh.rotation.x+=0.01;mesh.rotation.y+=0.02;renderer.render(scene,camera);requestAnimationFrame(animate)}
-animate();
-</script>
-</body>
-</html>""",
-    
-    "riso": """<!DOCTYPE html>
-<html>
-<head><style>body{margin:0;overflow:hidden;background:#f5f0e6}</style></head>
-<body>
-<script type="module">
-import*as THREE from'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-const scene=new THREE.Scene();
-scene.background=new THREE.Color(0xf5f0e6);
-const camera=new THREE.PerspectiveCamera(75,16/9,0.1,1000);
-camera.position.z=4;
-const renderer=new THREE.WebGLRenderer();
-renderer.setSize(1920,1080);
-document.body.appendChild(renderer.domElement);
-const geo=new THREE.IcosahedronGeometry(1.5,0);
-const mat=new THREE.MeshBasicMaterial({color:0xff6b6b,wireframe:true});
-const mesh=new THREE.Mesh(geo,mat);
-scene.add(mesh);
-function animate(){mesh.rotation.y+=0.005;renderer.render(scene,camera);requestAnimationFrame(animate)}
-animate();
-</script>
-</body>
-</html>""",
-    
-    "rubber_hose": """<!DOCTYPE html>
-<html>
-<head><style>body{margin:0;overflow:hidden;background:#0d0d0d}</style></head>
-<body>
-<script type="module">
-import*as THREE from'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-const scene=new THREE.Scene();
-scene.background=new THREE.Color(0x0d0d0d);
-const camera=new THREE.PerspectiveCamera(75,16/9,0.1,1000);
-camera.position.z=3;
-const renderer=new THREE.WebGLRenderer();
-renderer.setSize(1920,1080);
-document.body.appendChild(renderer.domElement);
-const geo=new THREE.SphereGeometry(1,32,32);
-const mat=new THREE.MeshStandardMaterial({color:0x00ff88,emissive:0x00ff88,emissiveIntensity:0.5});
-const mesh=new THREE.Mesh(geo,mat);
-scene.add(new THREE.PointLight(0x00ff88,1,10));
-function animate(){mesh.scale.setScalar(1+Math.sin(Date.now()*0.002)*0.1);renderer.render(scene,camera);requestAnimationFrame(animate)}
-animate();
-</script>
-</body>
-</html>"""
+HUE_SHIFT = {"history": 18, "tech": 200, "science": 168, "general": 120}
+
+# segment type -> preferred look
+STYLE_FOR_TYPE = {
+    "intro": "fractal",
+    "context": "archive",
+    "main": "plasma",
+    "conclusion": "archive",
+    "cta": "particles",
 }
 
-def can_generate_code(style: str) -> bool:
-    """Check if we can render Three.js code on this system."""
-    # Check if ffmpeg is available for rendering
-    result = subprocess.run(["ffmpeg", "-version"], capture_output=True)
-    return result.returncode == 0
+GEN_ORDER = {
+    "plasma":    ["plasma", "fractal", "tunnel", "particles"],
+    "fractal":   ["fractal", "plasma", "tunnel", "particles"],
+    "particles": ["particles", "tunnel", "plasma", "fractal"],
+    "archive":   ["archive", "plasma", "fractal", "particles"],
+    "tunnel":    ["tunnel", "particles", "plasma", "fractal"],
+}
 
-def search_pexels(query: str, per_page: int = 3) -> list:
-    """Search Pexels for videos if API key available."""
-    if not PEXELS_API_KEY:
+# ---------------------------------------------------------------- capability
+
+_FILTERS = None
+
+
+def filter_list():
+    global _FILTERS
+    if _FILTERS is None:
+        ok, out = media.run(["ffmpeg", "-hide_banner", "-filters"])
+        names = set()
+        if ok:
+            for line in out.splitlines():
+                parts = line.split()
+                if len(parts) >= 2 and len(parts[0]) == 3:
+                    names.add(parts[1])
+        _FILTERS = names
+    return _FILTERS
+
+
+def can_animate() -> bool:
+    """True only when ffmpeg exists AND the animated source filters are there."""
+    ok, _ = media.run(["ffmpeg", "-version"])
+    if not ok:
+        return False
+    need = {"gradients", "noise", "hue", "vignette"}
+    have = filter_list()
+    return need.issubset(have)
+
+
+# ---------------------------------------------------------------- verification
+
+def sample_frames(path, width=64, height=36, fps=2):
+    """Decode the clip to tiny raw grey frames for a motion check."""
+    return media.sample_gray(path, fps=fps, width=width, height=height)
+
+
+def motion_score(path):
+    """(ok, motion, contrast) measured on real decoded frames."""
+    return media.motion_score(path)
+
+
+def is_flat(path) -> bool:
+    ok, motion, contrast = motion_score(path)
+    return not ok
+
+
+# ---------------------------------------------------------------- generators
+
+def _encode(src, vf, out, dur, size, crf=23):
+    w, h = size.split("x")
+    cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", src]
+    if vf:
+        cmd += ["-vf", vf]
+    cmd += ["-t", str(dur), "-r", "30", "-s", size]
+    cmd += media.video_encoder_args(crf, "veryfast")
+    cmd += [str(out)]
+    ok, log = media.run(cmd)
+    return ok, log
+
+
+def gen_plasma(style, out, dur, size, seed, category):
+    w, h = [int(x) for x in size.split("x")]
+    big = "%dx%d" % (int(w * 1.25) // 2 * 2, int(h * 1.25) // 2 * 2)
+    c = PALETTES.get(category, PALETTES["general"])
+    src = ("gradients=s=%s:r=30:c0=%s:c1=%s:c2=%s:c3=%s:n=4:type=spiral:"
+           "speed=0.008:seed=%d" % (big, c[0], c[1], c[2], c[3], seed))
+    vf = ("crop=%d:%d:x='(in_w-out_w)/2+70*sin(t/6)':y='(in_h-out_h)/2+45*cos(t/8)',"
+          "scale=%s,hue=h='12*sin(t/9)+%d':s=1.08,vignette=PI/5,"
+          "noise=alls=7:allf=t+u,eq=contrast=1.08:saturation=1.12" % (w, h, size, HUE_SHIFT.get(category, 120)))
+    return _encode(src, vf, out, dur, size)
+
+
+def gen_fractal(style, out, dur, size, seed, category):
+    frames = max(30, int(dur * 30))
+    src = ("mandelbrot=s=%s:r=30:maxiter=600:start_scale=2.6:end_scale=0.06:"
+           "end_pts=%d:start_x=-0.743644:start_y=-0.131826" % (size, frames))
+    vf = ("hue=h='18*t+%d':s=1.25,eq=contrast=1.15:brightness=-0.02,"
+          "vignette=PI/4,noise=alls=5:allf=t+u" % HUE_SHIFT.get(category, 120))
+    return _encode(src, vf, out, dur, size)
+
+
+def gen_particles(style, out, dur, size, seed, category):
+    src = ("life=s=480x270:r=30:mold=10:ratio=0.12:death_color=#080b12:"
+           "life_color=#7dd3fc:stitch=0")
+    vf = ("scale=%s:flags=neighbor,gblur=sigma=1.2,hue=h='30*sin(t/7)+%d',"
+          "noise=alls=4:allf=t+u,vignette=PI/5,eq=contrast=1.1" % (size, HUE_SHIFT.get(category, 120)))
+    return _encode(src, vf, out, dur, size)
+
+
+def gen_tunnel(style, out, dur, size, seed, category):
+    src = "cellauto=s=480x270:r=30:rule=110:scroll=1:pattern=random:random_fill_ratio=0.4"
+    vf = ("scale=%s:flags=bicubic,gblur=sigma=2.4,hue=h='40*sin(t/5)+%d':s=1.3,"
+          "noise=alls=6:allf=t+u,vignette=PI/4.5" % (size, HUE_SHIFT.get(category, 120)))
+    return _encode(src, vf, out, dur, size)
+
+
+def gen_archive(style, out, dur, size, seed, category):
+    w, h = [int(x) for x in size.split("x")]
+    big = "%dx%d" % (int(w * 1.25) // 2 * 2, int(h * 1.25) // 2 * 2)
+    src = ("gradients=s=%s:r=30:c0=0x120c06:c1=0x6b4b2a:c2=0x2b1d10:n=3:"
+           "type=radial:speed=0.006:seed=%d" % (big, seed))
+    vf = ("crop=%d:%d:x='(in_w-out_w)/2+50*sin(t/9)':y='(in_h-out_h)/2+30*cos(t/11)',"
+          "scale=%s,eq=saturation=0.55:contrast=1.14,"
+          "vignette=PI/3.5,noise=alls=14:allf=t+u" % (w, h, size))
+    return _encode(src, vf, out, dur, size)
+
+
+GENERATORS = {
+    "plasma": gen_plasma,
+    "fractal": gen_fractal,
+    "particles": gen_particles,
+    "tunnel": gen_tunnel,
+    "archive": gen_archive,
+}
+
+
+# ---------------------------------------------------------------- pexels
+
+def pexels_search(query, per_page=5):
+    if not PEXELS_API_KEY or requests is None:
         return []
-    
-    url = "https://api.pexels.com/videos/search"
-    headers = {"Authorization": PEXELS_API_KEY}
-    
     try:
-        response = requests.get(url, headers=headers, params={"query": query, "per_page": per_page}, timeout=10)
-        if response.status_code == 200:
-            return response.json().get("videos", [])
-    except:
-        pass
+        r = requests.get(
+            "https://api.pexels.com/videos/search",
+            headers={"Authorization": PEXELS_API_KEY},
+            params={"query": query, "per_page": per_page, "orientation": "landscape"},
+            timeout=20,
+        )
+        if r.status_code == 200:
+            return r.json().get("videos", [])
+        print("pexels: HTTP %s" % r.status_code)
+    except Exception as exc:
+        print("pexels search failed: %s" % exc)
     return []
 
-def download_pexels_video(video: dict, output_dir: Path) -> Path:
-    """Download best quality video from Pexels."""
-    video_id = video["id"]
-    best = max(video["video_files"], key=lambda x: x.get("height", 0))
-    url = best["link"]
-    
-    output_path = output_dir / f"{video_id}.mp4"
-    
-    if output_path.exists():
-        return output_path
-    
-    print(f"Downloading from Pexels: {video['url']}")
-    resp = requests.get(url, stream=True, timeout=60)
-    
-    with open(output_path, "wb") as f:
-        for chunk in resp.iter_content(chunk_size=8192):
-            if chunk:
-                f.write(chunk)
-    
-    print(f"Saved: {output_path}")
-    return output_path
 
-def generate_threejs_visual(style: str, output_path: Path, duration_sec: int = 5):
-    """Generate visual using Three.js code OR fallback to Pexels."""
-    
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    
-    # Try Three.js code generation first
-    if can_generate_code(style):
-        html_path = output_path.with_suffix(".html")
-        html_content = THREEJS_TEMPLATES.get(style, THREEJS_TEMPLATES["vhs"])
-        html_path.write_text(html_content)
-        
-        # Try rendering with ffmpeg + screen capture
-        # For now use color bars as placeholder
-        color_map = {"vhs": "blue", "riso": "coral", "rubber_hose": "green"}
-        color = color_map.get(style, "blue")
-        
-        result = subprocess.run([
-            "ffmpeg", "-y", "-f", "lavfi", "-i", f"color=c={color}:s=1920x1080:d={duration_sec}",
-            "-c:v", "libx264", "-t", str(duration_sec), "-pix_fmt", "yuv420p",
-            str(output_path)
-        ], capture_output=True)
-        
-        if result.returncode == 0:
-            print(f"Code-generated visual: {output_path}")
-            return output_path
-    
-    # If code generation failed → try Pexels
-    print(f"Code generation not available, trying Pexels...")
-    videos = search_pexels(style)
-    
-    if videos:
-        video_path = download_pexels_video(videos[0], output_path.parent)
-        # Move to expected path
-        if video_path != output_path:
-            import shutil
-            shutil.copy(video_path, output_path)
-        print(f"Pexels fallback: {output_path}")
-        return output_path
-    
-    # Last resort: color bars
-    print(f"Generating color bars fallback...")
-    subprocess.run([
-        "ffmpeg", "-y", "-f", "lavfi", "-i", "color=c=black:s=1920x1080:d=30",
-        "-c:v", "libx264", "-t", "30", "-pix_fmt", "yuv420p",
-        str(output_path)
-    ], capture_output=True)
-    
-    return output_path
+def pexels_download(video, out_dir):
+    best = max(video.get("video_files", []), key=lambda x: x.get("height", 0) or 0)
+    url = best.get("link")
+    if not url:
+        return None
+    dest = Path(out_dir) / ("pexels_%s.mp4" % video.get("id"))
+    if dest.exists() and dest.stat().st_size > 1024:
+        return dest
+    try:
+        with requests.get(url, stream=True, timeout=90) as r:
+            r.raise_for_status()
+            with open(dest, "wb") as f:
+                for chunk in r.iter_content(chunk_size=1 << 16):
+                    if chunk:
+                        f.write(chunk)
+        return dest
+    except Exception as exc:
+        print("pexels download failed: %s" % exc)
+        return None
 
-def fetch_visuals_for_script(script: dict) -> dict:
-    """Generate all visuals for a documentary script - pure code, no external APIs."""
-    
-    script_name = script.get("topic", "doc").lower().replace(" ", "_")
-    output_dir = OUTPUT_DIR / script_name
-    output_dir.mkdir(parents=True, exist_ok=True)
-    
-    visual_manifest = []
-    
-    for i, segment in enumerate(script.get("segments", [])):
-        segment_type = segment.get("type", "main")
-        category = script.get("category", "tech")
-        
-        # Get style based on segment type
-        style = VISUAL_STYLES.get(segment_type, "vhs")
-        
-        visual_path = output_dir / segment_type / f"visual_{i}.mp4"
-        generate_threejs_visual(style, visual_path, segment.get("duration_sec", 30))
-        
-        visual_manifest.append({
-            "segment_index": i,
-            "type": segment_type,
-            "style": style,
-            "source": "code_generated",
-            "path": str(visual_path),
-            "category": category
-        })
-    
-    # Save manifest
-    manifest_path = output_dir / "visual_manifest.json"
-    with open(manifest_path, "w") as f:
-        json.dump(visual_manifest, f, indent=2)
-    
-    print(f"Visual manifest: {manifest_path}")
-    return visual_manifest
+
+def pexels_visual(query, out, dur, size, seed, category):
+    """Stock footage + Ken Burns. Verified like everything else."""
+    for video in pexels_search(query):
+        src = pexels_download(video, Path(out).parent)
+        if not src:
+            continue
+        vf = ("scale=%s:force_original_aspect_ratio=increase,crop=%s,"
+              "zoompan=z='min(zoom+0.0008,1.25)':d=1:x='iw/2-(iw/zoom/2)':"
+              "y='ih/2-(ih/zoom/2)':s=%s:fps=30,setsar=1" % (size, size, size))
+        ok, log = media.run([
+            "ffmpeg", "-y", "-stream_loop", "-1", "-i", str(src), "-vf", vf,
+            "-t", str(dur), "-r", "30",
+        ] + media.video_encoder_args(23, "veryfast") + [str(out)])
+        if ok and not is_flat(out):
+            return {"source": "pexels", "credit": video.get("url", ""), "query": query}
+        print("pexels clip rejected (flat or unreadable)")
+    return None
+
+
+# ---------------------------------------------------------------- per shot
+
+def animate_shot(style, out, dur, size, seed, category, query="", allow_pexels=True):
+    """Render one shot. Raises if nothing real can be produced."""
+    out = Path(out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    dur = max(2.0, float(dur))
+    style = style if style in GEN_ORDER else "plasma"
+    attempts = []
+
+    if can_animate():
+        for name in GEN_ORDER[style]:
+            fn = GENERATORS[name]
+            try:
+                ok, log = fn(style, out, dur, size, seed, category)
+            except Exception as exc:
+                attempts.append((name, "crash: %s" % exc))
+                continue
+            if not ok:
+                attempts.append((name, "ffmpeg failed: %s" % (log or "")[-160:]))
+                continue
+            good, motion, contrast = motion_score(out)
+            attempts.append((name, "motion=%.2f contrast=%.2f %s" % (motion, contrast, "OK" if good else "FLAT")))
+            if good:
+                return {"source": "generated", "generator": name,
+                        "motion": motion, "contrast": contrast, "attempts": attempts}
+    else:
+        attempts.append(("none", "ffmpeg or animated filters unavailable"))
+
+    if allow_pexels:
+        got = pexels_visual(query or style, out, dur, size, seed, category)
+        if got:
+            ok, motion, contrast = motion_score(out)
+            if ok:
+                got.update({"motion": motion, "contrast": contrast, "attempts": attempts})
+                return got
+
+    raise RuntimeError(
+        "no real motion could be produced for %s (style=%s, %.1fs).\n"
+        "attempts:\n  %s\n"
+        "Refusing to write a flat colour frame." % (
+            out.name, style, dur,
+            "\n  ".join("%s: %s" % a for a in attempts) or "none")
+    )
+
+
+# ---------------------------------------------------------------- pipeline
+
+def _shot_list(script):
+    """Flatten the script into renderable shots."""
+    shots = script.get("shots") or []
+    if shots:
+        out = []
+        for i, s in enumerate(shots):
+            out.append({
+                "shot_index": i,
+                "segment_index": s.get("segment_index", 0),
+                "type": s.get("type", "main"),
+                "duration_sec": float(s.get("duration_sec") or 6.0),
+                "text": s.get("text", ""),
+                "start": s.get("start"),
+            })
+        return out
+
+    out = []
+    i = 0
+    for si, seg in enumerate(script.get("segments", [])):
+        dur = float(seg.get("duration_sec") or 20)
+        pieces = max(1, int(round(dur / 8.0)))
+        each = dur / pieces
+        for _ in range(pieces):
+            out.append({
+                "shot_index": i,
+                "segment_index": si,
+                "type": seg.get("type", "main"),
+                "duration_sec": round(each, 3),
+                "text": (seg.get("voiceover") or "")[:120],
+                "start": None,
+            })
+            i += 1
+    return out
+
+
+def fetch_visuals_for_script(script, limit=None, allow_pexels=True, strict=True):
+    topic = script.get("topic", "doc")
+    category = script.get("category", "general")
+    orientation = paths.orientation_of(script)
+    size = script.get("size") or paths.size_for(orientation)
+
+    vdir = paths.visual_dir(topic)
+    shots = _shot_list(script)
+    if limit:
+        shots = shots[:limit]
+    if not shots:
+        raise RuntimeError("script has no shots to render")
+
+    print("visuals: %d shot(s) at %s (%s)" % (len(shots), size, category))
+
+    manifest = []
+    failures = []
+    for shot in shots:
+        idx = shot["shot_index"]
+        style = STYLE_FOR_TYPE.get(shot["type"], "plasma")
+        out = vdir / ("shot_%03d.mp4" % idx)
+        seed = 1000 + idx * 37
+        query = " ".join((shot["text"] or shot["type"]).split()[:6])
+        try:
+            info = animate_shot(style, out, shot["duration_sec"], size, seed,
+                                category, query=query, allow_pexels=allow_pexels)
+            entry = {
+                "shot_index": idx,
+                "segment_index": shot["segment_index"],
+                "type": shot["type"],
+                "style": style,
+                "category": category,
+                "path": str(out),
+                "duration_sec": shot["duration_sec"],
+                "size": size,
+                "query": query,
+                "source": info["source"],
+                "generator": info.get("generator"),
+                "motion": info.get("motion"),
+                "contrast": info.get("contrast"),
+                "credit": info.get("credit", ""),
+            }
+            manifest.append(entry)
+            print("  shot %03d  %-9s %-9s motion=%s" % (
+                idx, info["source"], info.get("generator") or "-", info.get("motion")))
+        except Exception as exc:
+            failures.append({"shot_index": idx, "error": str(exc)})
+            print("  shot %03d  FAILED: %s" % (idx, exc))
+
+    paths.save_json(vdir / "visual_manifest.json", manifest)
+    paths.save_json(vdir / "motion_report.json", {
+        "topic": topic,
+        "requested": len(shots),
+        "rendered": len(manifest),
+        "failed": failures,
+        "flat_colour_written": False,
+    })
+
+    if failures and strict:
+        raise RuntimeError(
+            "%d of %d shots produced no real motion. Run aborted so a flat "
+            "colour video is never published." % (len(failures), len(shots)))
+
+    return manifest
+
+
+def main(argv):
+    if not argv:
+        print("usage: visual_fetch.py <script.json|topic> [--limit N] [--preview] [--no-pexels] [--lenient]")
+        return 2
+
+    target = argv[0]
+    limit = None
+    allow_pexels = True
+    strict = True
+    for i, a in enumerate(argv):
+        if a == "--limit" and i + 1 < len(argv):
+            limit = int(argv[i + 1])
+        if a == "--preview":
+            limit = 3
+        if a == "--no-pexels":
+            allow_pexels = False
+        if a == "--lenient":
+            strict = False
+
+    script = paths.resolve_script(target)
+    got = fetch_visuals_for_script(script, limit=limit,
+                                   allow_pexels=allow_pexels, strict=strict)
+    print("visuals ready: %d shot(s)" % len(got))
+    return 0
+
 
 if __name__ == "__main__":
-    import sys
-    
-    script_file = sys.argv[1] if len(sys.argv) > 1 else "../outputs/script_the_rise_of_ai_in_filmmaking.json"
-    
-    with open(script_file) as f:
-        script = json.load(f)
-    
-    visuals = fetch_visuals_for_script(script)
-    print(f"Fetched {len(visuals)} visual assets")
+    sys.exit(main(sys.argv[1:]))

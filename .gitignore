@@ -1,0 +1,17 @@
+# nothing generated or rendered is ever committed
+outputs/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.m4a
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.srt
+__pycache__/
+*.pyc
+.venv/
+venv/

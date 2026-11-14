@@ -1,0 +1,130 @@
+name: render
+
+# Public render worker.
+# It renders ONE job: a plan file (jobs/<slug>.json) that carries shot types,
+# durations and seeds only. No narration, no audio, no private data, no secrets
+# beyond the Pexels key. Audio is muxed later, in the private repo.
+
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'Job slug - reads jobs/<job>.json'
+        required: true
+        type: string
+      source_run:
+        description: 'Originating private run id (traceability only)'
+        required: false
+        default: ''
+        type: string
+      crf:
+        description: 'x264 CRF'
+        required: false
+        default: '23'
+        type: string
+
+concurrency:
+  group: render-${{ github.event.inputs.job }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+  JOB: ${{ github.event.inputs.job }}
+  CRF: ${{ github.event.inputs.crf }}
+  PYTHONUNBUFFERED: '1'
+
+jobs:
+  # --------------------------------------------------------------------- plan
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      indices: ${{ steps.plan.outputs.indices }}
+      n_chunks: ${{ steps.plan.outputs.n_chunks }}
+      slug: ${{ steps.plan.outputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Read plan
+        id: plan
+        run: |
+          python - <<'PY'
+          import json, os
+          path = "jobs/%s.json" % os.environ["JOB"]
+          with open(path, encoding="utf-8") as f:
+              plan = json.load(f)
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write("indices=%s\n" % json.dumps(plan["indices"]))
+              f.write("n_chunks=%s\n" % plan["n_chunks"])
+              f.write("slug=%s\n" % plan["slug"])
+          print("plan: %s -> %d chunk(s), %.2fs, %s"
+                % (path, plan["n_chunks"], plan["total_duration_sec"], plan.get("size")))
+          PY
+
+  # ------------------------------------------------------------------- render
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        index: ${{ fromJSON(needs.plan.outputs.indices) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Install python deps
+        run: pip install -q requests pillow
+      - name: Render chunk ${{ matrix.index }}
+        run: python render_job.py "jobs/$JOB.json" "${{ matrix.index }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.index }}
+          path: outputs/*/chunks/chunk-*.mp4
+          if-no-files-found: error
+          retention-days: 1
+
+  # ----------------------------------------------------------------- assemble
+  assemble:
+    needs: render
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chunk-*
+          merge-multiple: true
+          path: chunks_in
+      - name: Assemble silent draft
+        run: python assemble_chunks.py "jobs/$JOB.json" chunks_in
+      - uses: actions/upload-artifact@v4
+        with:
+          name: draft
+          path: outputs/*/final/draft_silent.mp4
+          if-no-files-found: error
+          retention-days: 3
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "### render $JOB"
+            echo ""
+            echo "- chunks: ${{ needs.plan.outputs.n_chunks }}"
+            echo "- source run: ${{ github.event.inputs.source_run }}"
+          } >> "$GITHUB_STEP_SUMMARY"

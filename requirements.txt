@@ -1,17 +1,2 @@
-# Documentary Engine Dependencies
-# Install with: pip install -r requirements.txt
-
-# Core
-soundfile>=0.12.0
-Pillow>=10.0.0
-
-# TTS - Kitten TTS (install from wheel)
-# https://github.com/KittenML/KittenTTS
-# pip install https://github.com/KittenML/KittenTTS/releases/download/0.8.1/kittentts-0.8.1-py3-none-any.whl
-
-# Optional: For web scraping in competitor_watch
-beautifulsoup4>=4.12.0
-
-# Optional: For YouTube upload (when enabled)
-# youtube-upload>=0.4.1
-# yt-dlp>=2024.0.0
+requests
+pillow
