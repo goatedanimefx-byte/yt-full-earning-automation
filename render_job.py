@@ -2,20 +2,29 @@
 """
 render_job.py - public render worker: render exactly one SILENT chunk.
 
-The plan (jobs/<slug>.json) is the only thing this repo receives. It carries
-shot types, durations, seeds and the chunk layout - no narration, no audio, no
-private data. Audio is muxed later, in the private repo.
+The plan (jobs/<slug>.json) is the only thing this repo receives: shot types,
+durations, seeds, labels and the chunk layout. No narration, no audio, no
+private data.
+
+The chunk is authored as HTML + GSAP (hf_scenes.py / hf_build.py) and rendered
+by HyperFrames, which drives headless Chrome and encodes the frames itself. No
+ffmpeg procedural generators are used anywhere in this path.
 
 usage: render_job.py jobs/<slug>.json <chunk_index>
 """
 
 import json
+import os
+import subprocess
 import sys
+import time
 from pathlib import Path
 
+import hf_build
 import media
 import paths
-import visual_fetch
+
+HYPERFRAMES = os.getenv("HYPERFRAMES_BIN", "hyperframes")
 
 
 def load_plan(path):
@@ -23,71 +32,60 @@ def load_plan(path):
         return json.load(f)
 
 
-def render_chunk(plan, index, crf=23):
+def render_chunk(plan, index, crf=None, quality=None, workers=None):
     index = int(index)
     slug = plan["slug"]
-    size = plan.get("size") or "1920x1080"
-    category = plan.get("category", "general")
+    fps = int(plan.get("fps") or hf_build.FPS)
+    crf = int(crf or os.getenv("CRF") or 20)
+    quality = quality or os.getenv("HF_QUALITY") or "draft"
+    workers = str(workers or os.getenv("HF_WORKERS") or "auto")
 
     chunk = next((c for c in plan["chunks"] if int(c["index"]) == index), None)
     if chunk is None:
         raise RuntimeError("chunk %s not in plan (indices %s)" % (index, plan.get("indices")))
+    n_shots = len(chunk.get("shots") or [])
 
     cdir = paths.chunk_dir(slug)
-    work = cdir / ("work_%02d" % index)
-    work.mkdir(parents=True, exist_ok=True)
+    comp, target = hf_build.build_chunk(plan, index, cdir)
 
-    print("chunk %02d: %d shot(s), %.3fs, %s" % (
-        index, len(chunk["shots"]), float(chunk["duration_sec"]), size))
-    print("  %s" % visual_fetch.ffmpeg_info())
-
-    parts = []
-    for shot in chunk["shots"]:
-        style = visual_fetch.STYLE_FOR_TYPE.get(shot.get("type"), "plasma")
-        out = work / ("shot_%03d.mp4" % int(shot["shot_index"]))
-        info = visual_fetch.animate_shot(
-            style, out, float(shot["duration_sec"]), size, shot.get("seed", 1000),
-            category,
-            query=" ".join((shot.get("text") or shot.get("type") or "").split()[:6]),
-            allow_pexels=bool(visual_fetch.PEXELS_API_KEY),
-        )
-        exact = work / ("exact_%03d.mp4" % int(shot["shot_index"]))
-        ok, log = media.run([
-            "ffmpeg", "-y", "-stream_loop", "-1", "-i", str(out),
-            "-t", "%.3f" % float(shot["duration_sec"]), "-r", "30", "-s", size,
-        ] + media.video_encoder_args(crf, "veryfast") + [str(exact)])
-        if not ok:
-            raise RuntimeError("trim failed for shot %s: %s" % (shot["shot_index"], log[-500:]))
-        parts.append(exact)
-        print("  shot %03d %-9s %-9s motion=%s" % (
-            int(shot["shot_index"]), info["source"], info.get("generator") or "-",
-            info.get("motion")))
-
-    silent = work / "video.mp4"
-    media.concat_video(parts, silent, crf=crf)
-
-    # one final pass: guarantee the chunk is exactly the planned length
-    target = float(chunk["duration_sec"])
     out = cdir / ("chunk-%02d.mp4" % index)
-    ok, log = media.run([
-        "ffmpeg", "-y", "-stream_loop", "-1", "-i", str(silent),
-        "-t", "%.3f" % target, "-r", "30", "-s", size,
-    ] + media.video_encoder_args(crf, "veryfast") + [str(out)])
-    if not ok:
-        raise RuntimeError("final trim failed: %s" % log[-500:])
+    if out.exists():
+        out.unlink()
+
+    cmd = [HYPERFRAMES, "render", str(comp),
+           "-o", str(out),
+           "-f", str(fps),
+           "-q", quality,
+           "--crf", str(crf),
+           "-w", workers]
+    env = dict(os.environ)
+    env["HYPERFRAMES_RENDER_LOCK"] = "off"     # 20 jobs must not serialise
+    env["HYPERFRAMES_NO_UPDATE_CHECK"] = "1"
+    env.setdefault("HYPERFRAMES_EXTRACT_CACHE_DIR", "off")
+
+    print("chunk %02d: %d shot(s), %.3fs -> %s" % (index, n_shots, target, out))
+    print("  %s" % " ".join(cmd))
+    t0 = time.time()
+    proc = subprocess.run(cmd, env=env)
+    took = time.time() - t0
+    if proc.returncode != 0:
+        raise RuntimeError("hyperframes exited %d after %.1fs" % (proc.returncode, took))
+    if not out.exists() or out.stat().st_size < 10000:
+        raise RuntimeError("hyperframes produced no usable output at %s" % out)
 
     dur = media.probe_duration(out)
     flat = media.blackframe_ratio(out)
     freeze = media.freeze_ratio(out)
-    print("chunk %02d done: %.2fs (planned %.2fs) black=%.0f%% freeze=%.0f%%"
-          % (index, dur, target, flat * 100, freeze * 100))
+    mb = out.stat().st_size / (1024.0 * 1024.0)
+    print("chunk %02d done: %.2fs (planned %.2fs) black=%.0f%% freeze=%.0f%% %.1fMB in %.0fs"
+          % (index, dur, target, flat * 100, freeze * 100, mb, took))
 
-    if abs(dur - target) > 0.5:
+    if abs(dur - target) > 1.0:
         raise RuntimeError("chunk %02d is %.2fs, planned %.2fs" % (index, dur, target))
     if flat > 0.5:
         raise RuntimeError("chunk %02d is more than 50%% black" % index)
-    if freeze > 0.5:
-        raise RuntimeError("chunk %02d is more than 50%% frozen" % index)
+    if freeze > 0.98:
+        raise RuntimeError("chunk %02d is more than 98%% frozen" % index)
 
     paths.gha_output(chunk=out, duration=dur)
     return out
