@@ -1,0 +1,5745 @@
+{
+  "slug": "the_rise_and_fall_of_the_roman_empire",
+  "category": "history",
+  "form": "long",
+  "size": "1920x1080",
+  "orientation": "horizontal",
+  "n_chunks": 20,
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "total_duration_sec": 3533.053,
+  "preview": false,
+  "chapters": [
+    {
+      "index": 0,
+      "title": "Introduction",
+      "start_sec": 0.0,
+      "marks": [
+        "753 BC",
+        "476 AD"
+      ]
+    },
+    {
+      "index": 1,
+      "title": "Before Rome",
+      "start_sec": 73.7,
+      "marks": [
+        "753 BC",
+        "616 BC",
+        "509 BC",
+        "474 BC"
+      ]
+    },
+    {
+      "index": 2,
+      "title": "The Republic of Nobles",
+      "start_sec": 330.6,
+      "marks": [
+        "509 BC",
+        "451 BC",
+        "287 BC",
+        "264 BC"
+      ]
+    },
+    {
+      "index": 3,
+      "title": "Carthage and the Price of Victory",
+      "start_sec": 580.1,
+      "marks": [
+        "264 BC",
+        "218 BC",
+        "216 BC",
+        "202 BC",
+        "146 BC"
+      ]
+    },
+    {
+      "index": 4,
+      "title": "The Republic Breaks",
+      "start_sec": 822.6,
+      "marks": [
+        "133 BC",
+        "107 BC",
+        "88 BC",
+        "49 BC",
+        "44 BC"
+      ]
+    },
+    {
+      "index": 5,
+      "title": "Augustus and the Invention of Empire",
+      "start_sec": 1067.2,
+      "marks": [
+        "31 BC",
+        "27 BC",
+        "23 BC",
+        "9 AD"
+      ]
+    },
+    {
+      "index": 6,
+      "title": "The Julio-Claudians",
+      "start_sec": 1279.5,
+      "marks": [
+        "14 AD",
+        "37 AD",
+        "41 AD",
+        "54 AD",
+        "69 AD"
+      ]
+    },
+    {
+      "index": 7,
+      "title": "The Flavians and the Best Emperor",
+      "start_sec": 1505.8,
+      "marks": [
+        "69 AD",
+        "79 AD",
+        "96 AD",
+        "117 AD",
+        "180 AD"
+      ]
+    },
+    {
+      "index": 8,
+      "title": "The Machinery of Empire",
+      "start_sec": 1727.2,
+      "marks": [
+        "27 BC",
+        "80 AD",
+        "212 AD",
+        "301 AD"
+      ]
+    },
+    {
+      "index": 9,
+      "title": "The Army's Empire",
+      "start_sec": 1971.7,
+      "marks": [
+        "180 AD",
+        "193 AD",
+        "212 AD",
+        "235 AD"
+      ]
+    },
+    {
+      "index": 10,
+      "title": "The Crisis of the Third Century",
+      "start_sec": 2127.7,
+      "marks": [
+        "235 AD",
+        "251 AD",
+        "260 AD",
+        "271 AD",
+        "284 AD"
+      ]
+    },
+    {
+      "index": 11,
+      "title": "Diocletian's Machine",
+      "start_sec": 2314.8,
+      "marks": [
+        "284 AD",
+        "293 AD",
+        "301 AD",
+        "303 AD",
+        "305 AD"
+      ]
+    },
+    {
+      "index": 12,
+      "title": "Constantine and the New Rome",
+      "start_sec": 2513.4,
+      "marks": [
+        "312 AD",
+        "313 AD",
+        "325 AD",
+        "330 AD",
+        "378 AD"
+      ]
+    },
+    {
+      "index": 13,
+      "title": "The Two Empires",
+      "start_sec": 2731.4,
+      "marks": [
+        "378 AD",
+        "395 AD",
+        "410 AD",
+        "451 AD",
+        "455 AD"
+      ]
+    },
+    {
+      "index": 14,
+      "title": "The End of the West",
+      "start_sec": 2937.5,
+      "marks": [
+        "476 AD",
+        "533 AD",
+        "541 AD",
+        "568 AD",
+        "1453 AD"
+      ]
+    },
+    {
+      "index": 15,
+      "title": "A Day in the Empire",
+      "start_sec": 3111.3,
+      "marks": [
+        "100 AD",
+        "150 AD",
+        "250 AD"
+      ]
+    },
+    {
+      "index": 16,
+      "title": "What Rome Left",
+      "start_sec": 3359.6,
+      "marks": [
+        "476 AD",
+        "800 AD",
+        "1453 AD",
+        "1789 AD"
+      ]
+    },
+    {
+      "index": 17,
+      "title": "What It All Meant",
+      "start_sec": 3528.8,
+      "marks": [
+        "476 AD",
+        "1453 AD"
+      ]
+    }
+  ],
+  "chunks": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 186.212,
+      "duration_sec": 186.212,
+      "shots": [
+        {
+          "shot_index": 0,
+          "type": "title",
+          "duration_sec": 10.06,
+          "seed": 1000,
+          "chapter": 0,
+          "eyebrow": "Introduction",
+          "label": "This is the story of how a",
+          "marks": [
+            "753 BC",
+            "476 AD"
+          ],
+          "text": "This is the story of how"
+        },
+        {
+          "shot_index": 1,
+          "type": "map",
+          "duration_sec": 11.555,
+          "seed": 1037,
+          "chapter": 0,
+          "eyebrow": "Introduction",
+          "label": "It is not a story about marble",
+          "marks": [
+            "753 BC",
+            "476 AD"
+          ],
+          "text": "It is not a story about"
+        },
+        {
+          "shot_index": 2,
+          "type": "columns",
+          "duration_sec": 11.925,
+          "seed": 1074,
+          "chapter": 0,
+          "eyebrow": "Introduction",
+          "label": "It is a story about institutions: a",
+          "marks": [
+            "753 BC",
+            "476 AD"
+          ],
+          "text": "It is a story about institutions:"
+        },
+        {
+          "shot_index": 3,
+          "type": "timeline",
+          "duration_sec": 11.177,
+          "seed": 1111,
+          "chapter": 0,
+          "eyebrow": "Introduction",
+          "label": "Every part of it is documented",
+          "marks": [
+            "753 BC",
+            "476 AD"
+          ],
+          "text": "Every part of it is documented"
+        },
+        {
+          "shot_index": 4,
+          "type": "portrait",
+          "duration_sec": 11.555,
+          "seed": 1148,
+          "chapter": 0,
+          "eyebrow": "Introduction",
+          "label": "We will follow it in order",
+          "marks": [
+            "753 BC",
+            "476 AD"
+          ],
+          "text": "We will follow it in order"
+        },
+        {
+          "shot_index": 5,
+          "type": "quote",
+          "duration_sec": 10.061,
+          "seed": 1185,
+          "chapter": 0,
+          "eyebrow": "Introduction",
+          "label": "Because that is what makes it worth",
+          "marks": [
+            "753 BC",
+            "476 AD"
+          ],
+          "text": "Because that is what makes it"
+        },
+        {
+          "shot_index": 6,
+          "type": "title",
+          "duration_sec": 11.618,
+          "seed": 1222,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "Before there was an empire there was",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "Before there was an empire there"
+        },
+        {
+          "shot_index": 7,
+          "type": "map",
+          "duration_sec": 13.272,
+          "seed": 1259,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "The hill above that crossing was the",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "The hill above that crossing was"
+        },
+        {
+          "shot_index": 8,
+          "type": "city",
+          "duration_sec": 12.44,
+          "seed": 1296,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "Roman tradition dated the founding to 753",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "Roman tradition dated the founding to"
+        },
+        {
+          "shot_index": 9,
+          "type": "columns",
+          "duration_sec": 14.104,
+          "seed": 1333,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "The name of the place is older",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "The name of the place is"
+        },
+        {
+          "shot_index": 10,
+          "type": "timeline",
+          "duration_sec": 10.365,
+          "seed": 1370,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "To the north sat the Etruscans",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "To the north sat the Etruscans"
+        },
+        {
+          "shot_index": 11,
+          "type": "artifact",
+          "duration_sec": 11.197,
+          "seed": 1407,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "For roughly a century Etruscan kings ruled",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "For roughly a century Etruscan kings"
+        },
+        {
+          "shot_index": 12,
+          "type": "portrait",
+          "duration_sec": 10.786,
+          "seed": 1444,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "That engineering made the city possible. Rome",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "That engineering made the city possible."
+        },
+        {
+          "shot_index": 13,
+          "type": "map",
+          "duration_sec": 11.618,
+          "seed": 1481,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "The last king",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "The last king"
+        },
+        {
+          "shot_index": 14,
+          "type": "city",
+          "duration_sec": 12.861,
+          "seed": 1518,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "The oath mattered more than the man",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "The oath mattered more than the"
+        },
+        {
+          "shot_index": 15,
+          "type": "columns",
+          "duration_sec": 11.618,
+          "seed": 1555,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "The Republic was not a democracy. Power",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "The Republic was not a democracy."
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "start": 186.212,
+      "end": 358.355,
+      "duration_sec": 172.143,
+      "shots": [
+        {
+          "shot_index": 16,
+          "type": "timeline",
+          "duration_sec": 12.029,
+          "seed": 1592,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "Yet the people had real leverage. They",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "Yet the people had real leverage."
+        },
+        {
+          "shot_index": 17,
+          "type": "artifact",
+          "duration_sec": 13.272,
+          "seed": 1629,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "In 494 BC the ordinary citizens walked",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "In 494 BC the ordinary citizens"
+        },
+        {
+          "shot_index": 18,
+          "type": "portrait",
+          "duration_sec": 10.786,
+          "seed": 1666,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "That walkout is the beginning of Roman",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "That walkout is the beginning of"
+        },
+        {
+          "shot_index": 19,
+          "type": "map",
+          "duration_sec": 12.861,
+          "seed": 1703,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "In 451 BC the law was written",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "In 451 BC the law was"
+        },
+        {
+          "shot_index": 20,
+          "type": "city",
+          "duration_sec": 12.44,
+          "seed": 1740,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "Rome's neighbours were not impressed. In 390",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "Rome's neighbours were not impressed. In"
+        },
+        {
+          "shot_index": 21,
+          "type": "columns",
+          "duration_sec": 8.711,
+          "seed": 1777,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "The remedy was permanent war. Each generation",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "The remedy was permanent war. Each"
+        },
+        {
+          "shot_index": 22,
+          "type": "timeline",
+          "duration_sec": 12.029,
+          "seed": 1814,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "They did not usually annex. They made",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "They did not usually annex. They"
+        },
+        {
+          "shot_index": 23,
+          "type": "artifact",
+          "duration_sec": 11.618,
+          "seed": 1851,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "By 280 BC Rome could field an",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "By 280 BC Rome could field"
+        },
+        {
+          "shot_index": 24,
+          "type": "portrait",
+          "duration_sec": 10.786,
+          "seed": 1888,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "That habit, more than any weapon",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "That habit, more than any weapon"
+        },
+        {
+          "shot_index": 25,
+          "type": "map",
+          "duration_sec": 11.618,
+          "seed": 1925,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "So when the Romans looked back",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "So when the Romans looked back"
+        },
+        {
+          "shot_index": 26,
+          "type": "city",
+          "duration_sec": 11.197,
+          "seed": 1962,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "The third century is the best evidence",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "The third century is the best"
+        },
+        {
+          "shot_index": 27,
+          "type": "columns",
+          "duration_sec": 10.357,
+          "seed": 1999,
+          "chapter": 1,
+          "eyebrow": "Chapter 01  ·  Before Rome",
+          "label": "The famous men are the ones who",
+          "marks": [
+            "753 BC",
+            "616 BC",
+            "509 BC",
+            "474 BC"
+          ],
+          "text": "The famous men are the ones"
+        },
+        {
+          "shot_index": 28,
+          "type": "title",
+          "duration_sec": 10.125,
+          "seed": 2036,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "The Republic had no constitution in the",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "The Republic had no constitution in"
+        },
+        {
+          "shot_index": 29,
+          "type": "map",
+          "duration_sec": 11.751,
+          "seed": 2073,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "Two consuls held the highest power",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "Two consuls held the highest power"
+        },
+        {
+          "shot_index": 30,
+          "type": "columns",
+          "duration_sec": 12.563,
+          "seed": 2110,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "Below them sat the praetors",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "Below them sat the praetors"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 358.355,
+      "end": 533.39,
+      "duration_sec": 175.035,
+      "shots": [
+        {
+          "shot_index": 31,
+          "type": "timeline",
+          "duration_sec": 11.751,
+          "seed": 2147,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "A man climbed this ladder",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "A man climbed this ladder"
+        },
+        {
+          "shot_index": 32,
+          "type": "portrait",
+          "duration_sec": 12.152,
+          "seed": 2184,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "The Senate was not elected. It was",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "The Senate was not elected. It"
+        },
+        {
+          "shot_index": 33,
+          "type": "quote",
+          "duration_sec": 10.125,
+          "seed": 2221,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "Its real power was continuity. Consuls came",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "Its real power was continuity. Consuls"
+        },
+        {
+          "shot_index": 34,
+          "type": "stat",
+          "duration_sec": 9.322,
+          "seed": 2258,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "The nobility were the descendants of consuls",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "The nobility were the descendants of"
+        },
+        {
+          "shot_index": 35,
+          "type": "artifact",
+          "duration_sec": 10.125,
+          "seed": 2295,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "The plebeians were everyone else: small farmers",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "The plebeians were everyone else: small"
+        },
+        {
+          "shot_index": 36,
+          "type": "city",
+          "duration_sec": 10.938,
+          "seed": 2332,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "Two centuries of conflict between these orders",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "Two centuries of conflict between these"
+        },
+        {
+          "shot_index": 37,
+          "type": "map",
+          "duration_sec": 11.349,
+          "seed": 2369,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "It was a real victory and a",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "It was a real victory and"
+        },
+        {
+          "shot_index": 38,
+          "type": "columns",
+          "duration_sec": 11.751,
+          "seed": 2406,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "Rome's army was the other half of",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "Rome's army was the other half"
+        },
+        {
+          "shot_index": 39,
+          "type": "timeline",
+          "duration_sec": 10.536,
+          "seed": 2443,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "The legions fought in flexible maniples",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "The legions fought in flexible maniples"
+        },
+        {
+          "shot_index": 40,
+          "type": "portrait",
+          "duration_sec": 10.125,
+          "seed": 2480,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "Behind the legions stood the allies of",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "Behind the legions stood the allies"
+        },
+        {
+          "shot_index": 41,
+          "type": "quote",
+          "duration_sec": 11.751,
+          "seed": 2517,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "In 264 BC the Romans crossed to",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "In 264 BC the Romans crossed"
+        },
+        {
+          "shot_index": 42,
+          "type": "stat",
+          "duration_sec": 11.751,
+          "seed": 2554,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "That war was not planned. It was",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "That war was not planned. It"
+        },
+        {
+          "shot_index": 43,
+          "type": "artifact",
+          "duration_sec": 12.152,
+          "seed": 2591,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "Rome had no fleet. It built one",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "Rome had no fleet. It built"
+        },
+        {
+          "shot_index": 44,
+          "type": "city",
+          "duration_sec": 9.322,
+          "seed": 2628,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "Twenty-three years later Carthage surrendered",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "Twenty-three years later Carthage surrendered"
+        },
+        {
+          "shot_index": 45,
+          "type": "map",
+          "duration_sec": 10.536,
+          "seed": 2665,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "Cato the Elder ended every speech in",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "Cato the Elder ended every speech"
+        },
+        {
+          "shot_index": 46,
+          "type": "columns",
+          "duration_sec": 11.349,
+          "seed": 2702,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "That is the Republic at its height:",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "That is the Republic at its"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 533.39,
+      "end": 715.357,
+      "duration_sec": 181.967,
+      "shots": [
+        {
+          "shot_index": 47,
+          "type": "timeline",
+          "duration_sec": 13.376,
+          "seed": 2739,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "It worked because it was cheap. The",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "It worked because it was cheap."
+        },
+        {
+          "shot_index": 48,
+          "type": "portrait",
+          "duration_sec": 10.536,
+          "seed": 2776,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "By the end",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "By the end"
+        },
+        {
+          "shot_index": 49,
+          "type": "quote",
+          "duration_sec": 10.939,
+          "seed": 2813,
+          "chapter": 2,
+          "eyebrow": "Chapter 02  ·  The Republic of Nobles",
+          "label": "Rome is useful precisely because it is",
+          "marks": [
+            "509 BC",
+            "451 BC",
+            "287 BC",
+            "264 BC"
+          ],
+          "text": "Rome is useful precisely because it"
+        },
+        {
+          "shot_index": 50,
+          "type": "title",
+          "duration_sec": 12.395,
+          "seed": 2850,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "The Second Punic War began with a",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "The Second Punic War began with"
+        },
+        {
+          "shot_index": 51,
+          "type": "battle",
+          "duration_sec": 12.395,
+          "seed": 2887,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "In 218 BC Hannibal crossed that line",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "In 218 BC Hannibal crossed that"
+        },
+        {
+          "shot_index": 52,
+          "type": "map",
+          "duration_sec": 10.328,
+          "seed": 2924,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "Rome's plan had been to fight in",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "Rome's plan had been to fight"
+        },
+        {
+          "shot_index": 53,
+          "type": "columns",
+          "duration_sec": 11.576,
+          "seed": 2961,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "At Cannae, in 216 BC",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "At Cannae, in 216 BC"
+        },
+        {
+          "shot_index": 54,
+          "type": "timeline",
+          "duration_sec": 10.328,
+          "seed": 2998,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "It should have ended the war. It",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "It should have ended the war."
+        },
+        {
+          "shot_index": 55,
+          "type": "portrait",
+          "duration_sec": 11.986,
+          "seed": 3035,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "That refusal is the most Roman thing",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "That refusal is the most Roman"
+        },
+        {
+          "shot_index": 56,
+          "type": "stat",
+          "duration_sec": 10.328,
+          "seed": 3072,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "The war moved to Spain",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "The war moved to Spain"
+        },
+        {
+          "shot_index": 57,
+          "type": "battle",
+          "duration_sec": 10.328,
+          "seed": 3109,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "In 202 BC Scipio landed in Africa",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "In 202 BC Scipio landed in"
+        },
+        {
+          "shot_index": 58,
+          "type": "map",
+          "duration_sec": 11.986,
+          "seed": 3146,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "Fifty years later Rome went back. In",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "Fifty years later Rome went back."
+        },
+        {
+          "shot_index": 59,
+          "type": "columns",
+          "duration_sec": 11.986,
+          "seed": 3183,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "In the same year",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "In the same year"
+        },
+        {
+          "shot_index": 60,
+          "type": "timeline",
+          "duration_sec": 9.918,
+          "seed": 3220,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "The wealth that came back was enormous:",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "The wealth that came back was"
+        },
+        {
+          "shot_index": 61,
+          "type": "portrait",
+          "duration_sec": 11.986,
+          "seed": 3257,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "It landed in the hands of a",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "It landed in the hands of"
+        },
+        {
+          "shot_index": 62,
+          "type": "stat",
+          "duration_sec": 11.576,
+          "seed": 3294,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "The small farmer",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "The small farmer"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 715.357,
+      "end": 886.504,
+      "duration_sec": 171.147,
+      "shots": [
+        {
+          "shot_index": 63,
+          "type": "battle",
+          "duration_sec": 11.986,
+          "seed": 3331,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "The army began to change too. In",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "The army began to change too."
+        },
+        {
+          "shot_index": 64,
+          "type": "map",
+          "duration_sec": 10.747,
+          "seed": 3368,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "That reform solved a manpower problem and",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "That reform solved a manpower problem"
+        },
+        {
+          "shot_index": 65,
+          "type": "columns",
+          "duration_sec": 11.576,
+          "seed": 3405,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "So the Republic entered the first century",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "So the Republic entered the first"
+        },
+        {
+          "shot_index": 66,
+          "type": "timeline",
+          "duration_sec": 11.576,
+          "seed": 3442,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "Sulla marched on Rome in 88 BC",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "Sulla marched on Rome in 88"
+        },
+        {
+          "shot_index": 67,
+          "type": "portrait",
+          "duration_sec": 11.576,
+          "seed": 3479,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "Sulla made himself dictator",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "Sulla made himself dictator"
+        },
+        {
+          "shot_index": 68,
+          "type": "stat",
+          "duration_sec": 11.157,
+          "seed": 3516,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "What followed was not decline but acceleration",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "What followed was not decline but"
+        },
+        {
+          "shot_index": 69,
+          "type": "battle",
+          "duration_sec": 9.918,
+          "seed": 3553,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "The Romans kept using the language of",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "The Romans kept using the language"
+        },
+        {
+          "shot_index": 70,
+          "type": "map",
+          "duration_sec": 7.851,
+          "seed": 3590,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "Christianity spread fastest in the cities",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "Christianity spread fastest in the cities"
+        },
+        {
+          "shot_index": 71,
+          "type": "columns",
+          "duration_sec": 8.68,
+          "seed": 3627,
+          "chapter": 3,
+          "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
+          "label": "A message from Rome to Britain took",
+          "marks": [
+            "264 BC",
+            "218 BC",
+            "216 BC",
+            "202 BC",
+            "146 BC"
+          ],
+          "text": "A message from Rome to Britain"
+        },
+        {
+          "shot_index": 72,
+          "type": "title",
+          "duration_sec": 10.641,
+          "seed": 3664,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "In 133 BC a tribune named Tiberius",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "In 133 BC a tribune named"
+        },
+        {
+          "shot_index": 73,
+          "type": "battle",
+          "duration_sec": 11.041,
+          "seed": 3701,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "It was the first political murder inside",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "It was the first political murder"
+        },
+        {
+          "shot_index": 74,
+          "type": "map",
+          "duration_sec": 10.251,
+          "seed": 3738,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "The message was clear and it was",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "The message was clear and it"
+        },
+        {
+          "shot_index": 75,
+          "type": "columns",
+          "duration_sec": 9.851,
+          "seed": 3775,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "Caesar was a patrician with no money",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "Caesar was a patrician with no"
+        },
+        {
+          "shot_index": 76,
+          "type": "timeline",
+          "duration_sec": 11.823,
+          "seed": 3812,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "His command in Gaul gave him what",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "His command in Gaul gave him"
+        },
+        {
+          "shot_index": 77,
+          "type": "portrait",
+          "duration_sec": 11.432,
+          "seed": 3849,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "In 49 BC the Senate ordered him",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "In 49 BC the Senate ordered"
+        },
+        {
+          "shot_index": 78,
+          "type": "stat",
+          "duration_sec": 11.041,
+          "seed": 3886,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "The civil war that followed was fought",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "The civil war that followed was"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 886.504,
+      "end": 1064.647,
+      "duration_sec": 178.143,
+      "shots": [
+        {
+          "shot_index": 79,
+          "type": "battle",
+          "duration_sec": 11.432,
+          "seed": 3923,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "Caesar was made dictator for life. He",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "Caesar was made dictator for life."
+        },
+        {
+          "shot_index": 80,
+          "type": "map",
+          "duration_sec": 12.223,
+          "seed": 3960,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "On the Ides of March",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "On the Ides of March"
+        },
+        {
+          "shot_index": 81,
+          "type": "columns",
+          "duration_sec": 13.013,
+          "seed": 3997,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "It lasted a little over a year",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "It lasted a little over a"
+        },
+        {
+          "shot_index": 82,
+          "type": "timeline",
+          "duration_sec": 7.097,
+          "seed": 4034,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "Caesar's will named his eighteen-year-old great-nephew as",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "Caesar's will named his eighteen-year-old great-nephew"
+        },
+        {
+          "shot_index": 83,
+          "type": "portrait",
+          "duration_sec": 10.641,
+          "seed": 4071,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "He mattered because he was patient. He",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "He mattered because he was patient."
+        },
+        {
+          "shot_index": 84,
+          "type": "stat",
+          "duration_sec": 9.069,
+          "seed": 4108,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "The triumvirate of Octavian",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "The triumvirate of Octavian"
+        },
+        {
+          "shot_index": 85,
+          "type": "battle",
+          "duration_sec": 10.641,
+          "seed": 4145,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "Antony went east",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "Antony went east"
+        },
+        {
+          "shot_index": 86,
+          "type": "map",
+          "duration_sec": 11.823,
+          "seed": 4182,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "The propaganda war was the real war",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "The propaganda war was the real"
+        },
+        {
+          "shot_index": 87,
+          "type": "columns",
+          "duration_sec": 9.851,
+          "seed": 4219,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "At Actium in 31 BC the fleets",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "At Actium in 31 BC the"
+        },
+        {
+          "shot_index": 88,
+          "type": "timeline",
+          "duration_sec": 11.041,
+          "seed": 4256,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "Octavian was now thirty-two years old and",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "Octavian was now thirty-two years old"
+        },
+        {
+          "shot_index": 89,
+          "type": "portrait",
+          "duration_sec": 11.041,
+          "seed": 4293,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "So he did not take the crown",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "So he did not take the"
+        },
+        {
+          "shot_index": 90,
+          "type": "stat",
+          "duration_sec": 11.041,
+          "seed": 4330,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "In 27 BC he was given the",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "In 27 BC he was given"
+        },
+        {
+          "shot_index": 91,
+          "type": "battle",
+          "duration_sec": 10.251,
+          "seed": 4367,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "That is the hinge of Roman history",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "That is the hinge of Roman"
+        },
+        {
+          "shot_index": 92,
+          "type": "map",
+          "duration_sec": 8.279,
+          "seed": 4404,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "The emperors who lasted were the ones",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "The emperors who lasted were the"
+        },
+        {
+          "shot_index": 93,
+          "type": "columns",
+          "duration_sec": 9.46,
+          "seed": 4441,
+          "chapter": 4,
+          "eyebrow": "Chapter 04  ·  The Republic Breaks",
+          "label": "Each crisis in this story was survivable",
+          "marks": [
+            "133 BC",
+            "107 BC",
+            "88 BC",
+            "49 BC",
+            "44 BC"
+          ],
+          "text": "Each crisis in this story was"
+        },
+        {
+          "shot_index": 94,
+          "type": "title",
+          "duration_sec": 9.831,
+          "seed": 4478,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "Augustus ruled for forty-one years",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "Augustus ruled for forty-one years"
+        },
+        {
+          "shot_index": 95,
+          "type": "portrait",
+          "duration_sec": 11.409,
+          "seed": 4515,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "He kept the Senate",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "He kept the Senate"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1064.647,
+      "end": 1238.152,
+      "duration_sec": 173.505,
+      "shots": [
+        {
+          "shot_index": 96,
+          "type": "columns",
+          "duration_sec": 10.62,
+          "seed": 4552,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "The legions were reduced to twenty-eight and",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "The legions were reduced to twenty-eight"
+        },
+        {
+          "shot_index": 97,
+          "type": "map",
+          "duration_sec": 9.051,
+          "seed": 4589,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "That was the real revolution. An army",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "That was the real revolution. An"
+        },
+        {
+          "shot_index": 98,
+          "type": "timeline",
+          "duration_sec": 10.62,
+          "seed": 4626,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "The provinces were surveyed",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "The provinces were surveyed"
+        },
+        {
+          "shot_index": 99,
+          "type": "stat",
+          "duration_sec": 11.409,
+          "seed": 4663,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "Rome itself he rebuilt in marble",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "Rome itself he rebuilt in marble"
+        },
+        {
+          "shot_index": 100,
+          "type": "quote",
+          "duration_sec": 7.473,
+          "seed": 4700,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "He restored temples",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "He restored temples"
+        },
+        {
+          "shot_index": 101,
+          "type": "artifact",
+          "duration_sec": 9.051,
+          "seed": 4737,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "The message was that the old Rome",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "The message was that the old"
+        },
+        {
+          "shot_index": 102,
+          "type": "portrait",
+          "duration_sec": 10.23,
+          "seed": 4774,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "In 23 BC he gave up the",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "In 23 BC he gave up"
+        },
+        {
+          "shot_index": 103,
+          "type": "columns",
+          "duration_sec": 10.23,
+          "seed": 4811,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "It was a clever trade. He looked",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "It was a clever trade. He"
+        },
+        {
+          "shot_index": 104,
+          "type": "map",
+          "duration_sec": 11.02,
+          "seed": 4848,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "The empire he left was not a",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "The empire he left was not"
+        },
+        {
+          "shot_index": 105,
+          "type": "timeline",
+          "duration_sec": 12.199,
+          "seed": 4885,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "The story was called the Pax Augusta",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "The story was called the Pax"
+        },
+        {
+          "shot_index": 106,
+          "type": "stat",
+          "duration_sec": 11.02,
+          "seed": 4922,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "In 9 AD three legions were destroyed",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "In 9 AD three legions were"
+        },
+        {
+          "shot_index": 107,
+          "type": "quote",
+          "duration_sec": 9.831,
+          "seed": 4959,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "Augustus took the news badly. He walked",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "Augustus took the news badly. He"
+        },
+        {
+          "shot_index": 108,
+          "type": "artifact",
+          "duration_sec": 11.409,
+          "seed": 4996,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "He did not try to reconquer Germany",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "He did not try to reconquer"
+        },
+        {
+          "shot_index": 109,
+          "type": "portrait",
+          "duration_sec": 9.831,
+          "seed": 5033,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "He died in 14 AD",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "He died in 14 AD"
+        },
+        {
+          "shot_index": 110,
+          "type": "columns",
+          "duration_sec": 11.409,
+          "seed": 5070,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "His successor inherited a machine that had",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "His successor inherited a machine that"
+        },
+        {
+          "shot_index": 111,
+          "type": "map",
+          "duration_sec": 9.051,
+          "seed": 5107,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "Everything that goes wrong in the next",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "Everything that goes wrong in the"
+        },
+        {
+          "shot_index": 112,
+          "type": "timeline",
+          "duration_sec": 9.051,
+          "seed": 5144,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "The Romans built for permanence because they",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "The Romans built for permanence because"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1238.152,
+      "end": 1416.444,
+      "duration_sec": 178.292,
+      "shots": [
+        {
+          "shot_index": 113,
+          "type": "stat",
+          "duration_sec": 7.088,
+          "seed": 5181,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "The western empire died because its core",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "The western empire died because its"
+        },
+        {
+          "shot_index": 114,
+          "type": "title",
+          "duration_sec": 7.564,
+          "seed": 5218,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "Tiberius was fifty-five when he became emperor",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "Tiberius was fifty-five when he became"
+        },
+        {
+          "shot_index": 115,
+          "type": "portrait",
+          "duration_sec": 10.749,
+          "seed": 5255,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "He kept the frontiers steady",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "He kept the frontiers steady"
+        },
+        {
+          "shot_index": 116,
+          "type": "columns",
+          "duration_sec": 8.362,
+          "seed": 5292,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "Sejanus eliminated rivals by prosecution",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "Sejanus eliminated rivals by prosecution"
+        },
+        {
+          "shot_index": 117,
+          "type": "map",
+          "duration_sec": 11.548,
+          "seed": 5329,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "That is the pattern of the next",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "That is the pattern of the"
+        },
+        {
+          "shot_index": 118,
+          "type": "timeline",
+          "duration_sec": 10.749,
+          "seed": 5366,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "Caligula succeeded in 37 AD and was",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "Caligula succeeded in 37 AD and"
+        },
+        {
+          "shot_index": 119,
+          "type": "stat",
+          "duration_sec": 13.54,
+          "seed": 5403,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "He was killed by his own guard",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "He was killed by his own"
+        },
+        {
+          "shot_index": 120,
+          "type": "quote",
+          "duration_sec": 10.354,
+          "seed": 5440,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "Claudius was a scholar with a limp",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "Claudius was a scholar with a"
+        },
+        {
+          "shot_index": 121,
+          "type": "artifact",
+          "duration_sec": 9.95,
+          "seed": 5477,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "He reformed the courts",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "He reformed the courts"
+        },
+        {
+          "shot_index": 122,
+          "type": "portrait",
+          "duration_sec": 9.556,
+          "seed": 5514,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "His freedmen ran much of the government",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "His freedmen ran much of the"
+        },
+        {
+          "shot_index": 123,
+          "type": "columns",
+          "duration_sec": 8.757,
+          "seed": 5551,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "That son was Nero",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "That son was Nero"
+        },
+        {
+          "shot_index": 124,
+          "type": "map",
+          "duration_sec": 8.362,
+          "seed": 5588,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "Then he had his mother killed",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "Then he had his mother killed"
+        },
+        {
+          "shot_index": 125,
+          "type": "timeline",
+          "duration_sec": 11.548,
+          "seed": 5625,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "In 64 AD a fire burned for",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "In 64 AD a fire burned"
+        },
+        {
+          "shot_index": 126,
+          "type": "stat",
+          "duration_sec": 11.153,
+          "seed": 5662,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "He blamed a small religious group called",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "He blamed a small religious group"
+        },
+        {
+          "shot_index": 127,
+          "type": "quote",
+          "duration_sec": 11.548,
+          "seed": 5699,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "He rebuilt the city with wide streets",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "He rebuilt the city with wide"
+        },
+        {
+          "shot_index": 128,
+          "type": "artifact",
+          "duration_sec": 9.95,
+          "seed": 5736,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "In 68 AD the armies revolted",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "In 68 AD the armies revolted"
+        },
+        {
+          "shot_index": 129,
+          "type": "portrait",
+          "duration_sec": 8.757,
+          "seed": 5773,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "The next year is called the Year",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "The next year is called the"
+        },
+        {
+          "shot_index": 130,
+          "type": "columns",
+          "duration_sec": 8.757,
+          "seed": 5810,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "Galba, Otho and Vitellius each held Rome",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "Galba, Otho and Vitellius each held"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 1416.444,
+      "end": 1595.747,
+      "duration_sec": 179.303,
+      "shots": [
+        {
+          "shot_index": 131,
+          "type": "map",
+          "duration_sec": 10.749,
+          "seed": 5847,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "Vespasian, commanding in Judaea",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "Vespasian, commanding in Judaea"
+        },
+        {
+          "shot_index": 132,
+          "type": "timeline",
+          "duration_sec": 10.354,
+          "seed": 5884,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "The lesson was not lost. From 69",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "The lesson was not lost. From"
+        },
+        {
+          "shot_index": 133,
+          "type": "stat",
+          "duration_sec": 7.169,
+          "seed": 5921,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "The Republic had been killed by its",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "The Republic had been killed by"
+        },
+        {
+          "shot_index": 134,
+          "type": "quote",
+          "duration_sec": 7.968,
+          "seed": 5958,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "The men who wrote the histories were",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "The men who wrote the histories"
+        },
+        {
+          "shot_index": 135,
+          "type": "artifact",
+          "duration_sec": 10.356,
+          "seed": 5995,
+          "chapter": 6,
+          "eyebrow": "Chapter 06  ·  The Julio-Claudians",
+          "label": "Historians argue about the numbers because the",
+          "marks": [
+            "14 AD",
+            "37 AD",
+            "41 AD",
+            "54 AD",
+            "69 AD"
+          ],
+          "text": "Historians argue about the numbers because"
+        },
+        {
+          "shot_index": 136,
+          "type": "title",
+          "duration_sec": 10.52,
+          "seed": 6032,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "Vespasian was sixty when he took the",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "Vespasian was sixty when he took"
+        },
+        {
+          "shot_index": 137,
+          "type": "portrait",
+          "duration_sec": 11.733,
+          "seed": 6069,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "He raised taxes",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "He raised taxes"
+        },
+        {
+          "shot_index": 138,
+          "type": "columns",
+          "duration_sec": 10.52,
+          "seed": 6106,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "In 79 AD Vesuvius buried Pompeii and",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "In 79 AD Vesuvius buried Pompeii"
+        },
+        {
+          "shot_index": 139,
+          "type": "map",
+          "duration_sec": 10.52,
+          "seed": 6143,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "Titus opened the Colosseum in 80 AD",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "Titus opened the Colosseum in 80"
+        },
+        {
+          "shot_index": 140,
+          "type": "timeline",
+          "duration_sec": 9.709,
+          "seed": 6180,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "Domitian, his brother",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "Domitian, his brother"
+        },
+        {
+          "shot_index": 141,
+          "type": "stat",
+          "duration_sec": 10.52,
+          "seed": 6217,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "In 96 AD he was stabbed in",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "In 96 AD he was stabbed"
+        },
+        {
+          "shot_index": 142,
+          "type": "quote",
+          "duration_sec": 10.11,
+          "seed": 6254,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "Nerva, an elderly senator",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "Nerva, an elderly senator"
+        },
+        {
+          "shot_index": 143,
+          "type": "artifact",
+          "duration_sec": 9.308,
+          "seed": 6291,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "That general was Trajan",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "That general was Trajan"
+        },
+        {
+          "shot_index": 144,
+          "type": "portrait",
+          "duration_sec": 8.897,
+          "seed": 6328,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "He built roads",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "He built roads"
+        },
+        {
+          "shot_index": 145,
+          "type": "columns",
+          "duration_sec": 13.757,
+          "seed": 6365,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "In 106 AD he conquered Dacia",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "In 106 AD he conquered Dacia"
+        },
+        {
+          "shot_index": 146,
+          "type": "map",
+          "duration_sec": 9.308,
+          "seed": 6402,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "Then he went east and took Armenia",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "Then he went east and took"
+        },
+        {
+          "shot_index": 147,
+          "type": "timeline",
+          "duration_sec": 8.096,
+          "seed": 6439,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "The empire was never larger. It was",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "The empire was never larger. It"
+        },
+        {
+          "shot_index": 148,
+          "type": "stat",
+          "duration_sec": 9.709,
+          "seed": 6476,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "Hadrian spent his reign defining limits. He",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "Hadrian spent his reign defining limits."
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 1595.747,
+      "end": 1773.343,
+      "duration_sec": 177.596,
+      "shots": [
+        {
+          "shot_index": 149,
+          "type": "quote",
+          "duration_sec": 9.709,
+          "seed": 6513,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "He was the emperor who behaved like",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "He was the emperor who behaved"
+        },
+        {
+          "shot_index": 150,
+          "type": "artifact",
+          "duration_sec": 8.496,
+          "seed": 6550,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "Antoninus Pius followed",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "Antoninus Pius followed"
+        },
+        {
+          "shot_index": 151,
+          "type": "portrait",
+          "duration_sec": 11.332,
+          "seed": 6587,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "Then Marcus Aurelius",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "Then Marcus Aurelius"
+        },
+        {
+          "shot_index": 152,
+          "type": "columns",
+          "duration_sec": 12.544,
+          "seed": 6624,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "In 166 AD a plague came back",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "In 166 AD a plague came"
+        },
+        {
+          "shot_index": 153,
+          "type": "map",
+          "duration_sec": 11.733,
+          "seed": 6661,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "He died in 180 AD in a",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "He died in 180 AD in"
+        },
+        {
+          "shot_index": 154,
+          "type": "timeline",
+          "duration_sec": 13.356,
+          "seed": 6698,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "The Five Good Emperors were not chosen",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "The Five Good Emperors were not"
+        },
+        {
+          "shot_index": 155,
+          "type": "stat",
+          "duration_sec": 7.685,
+          "seed": 6735,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "The Romans were not original thinkers. They",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "The Romans were not original thinkers."
+        },
+        {
+          "shot_index": 156,
+          "type": "quote",
+          "duration_sec": 8.896,
+          "seed": 6772,
+          "chapter": 7,
+          "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
+          "label": "Administration is the invisible part of history",
+          "marks": [
+            "69 AD",
+            "79 AD",
+            "96 AD",
+            "117 AD",
+            "180 AD"
+          ],
+          "text": "Administration is the invisible part of"
+        },
+        {
+          "shot_index": 157,
+          "type": "title",
+          "duration_sec": 11.68,
+          "seed": 6809,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "An empire of this size could not",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "An empire of this size could"
+        },
+        {
+          "shot_index": 158,
+          "type": "columns",
+          "duration_sec": 11.294,
+          "seed": 6846,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "Every province had a governor with military",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "Every province had a governor with"
+        },
+        {
+          "shot_index": 159,
+          "type": "city",
+          "duration_sec": 10.513,
+          "seed": 6883,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "The two men were deliberately not friends",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "The two men were deliberately not"
+        },
+        {
+          "shot_index": 160,
+          "type": "artifact",
+          "duration_sec": 9.346,
+          "seed": 6920,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "Taxes were assessed by a census that",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "Taxes were assessed by a census"
+        },
+        {
+          "shot_index": 161,
+          "type": "stat",
+          "duration_sec": 9.346,
+          "seed": 6957,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "The main direct tax was on land",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "The main direct tax was on"
+        },
+        {
+          "shot_index": 162,
+          "type": "map",
+          "duration_sec": 10.513,
+          "seed": 6994,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "Collection was farmed out in the Republic",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "Collection was farmed out in the"
+        },
+        {
+          "shot_index": 163,
+          "type": "quote",
+          "duration_sec": 10.513,
+          "seed": 7031,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "Under the emperors that changed",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "Under the emperors that changed"
+        },
+        {
+          "shot_index": 164,
+          "type": "columns",
+          "duration_sec": 10.513,
+          "seed": 7068,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "The roads were built by soldiers and",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "The roads were built by soldiers"
+        },
+        {
+          "shot_index": 165,
+          "type": "city",
+          "duration_sec": 10.127,
+          "seed": 7105,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "A courier on the imperial post could",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "A courier on the imperial post"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 1773.343,
+      "end": 1947.153,
+      "duration_sec": 173.81,
+      "shots": [
+        {
+          "shot_index": 166,
+          "type": "artifact",
+          "duration_sec": 10.908,
+          "seed": 7142,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "The legions were the engineering corps as",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "The legions were the engineering corps"
+        },
+        {
+          "shot_index": 167,
+          "type": "stat",
+          "duration_sec": 9.732,
+          "seed": 7179,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "Twenty-eight legions under Augustus",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "Twenty-eight legions under Augustus"
+        },
+        {
+          "shot_index": 168,
+          "type": "map",
+          "duration_sec": 8.179,
+          "seed": 7216,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "Auxiliaries were recruited from the peoples Rome",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "Auxiliaries were recruited from the peoples"
+        },
+        {
+          "shot_index": 169,
+          "type": "quote",
+          "duration_sec": 9.346,
+          "seed": 7253,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "That was the empire's greatest invention: a",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "That was the empire's greatest invention:"
+        },
+        {
+          "shot_index": 170,
+          "type": "columns",
+          "duration_sec": 12.461,
+          "seed": 7290,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "The law ran on procedure. A case",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "The law ran on procedure. A"
+        },
+        {
+          "shot_index": 171,
+          "type": "city",
+          "duration_sec": 11.294,
+          "seed": 7327,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "Roman law was not fair by modern",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "Roman law was not fair by"
+        },
+        {
+          "shot_index": 172,
+          "type": "artifact",
+          "duration_sec": 10.127,
+          "seed": 7364,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "Trade moved on water because water was",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "Trade moved on water because water"
+        },
+        {
+          "shot_index": 173,
+          "type": "stat",
+          "duration_sec": 11.68,
+          "seed": 7401,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "From the Red Sea ports",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "From the Red Sea ports"
+        },
+        {
+          "shot_index": 174,
+          "type": "map",
+          "duration_sec": 10.127,
+          "seed": 7438,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "The mines were state property leased to",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "The mines were state property leased"
+        },
+        {
+          "shot_index": 175,
+          "type": "quote",
+          "duration_sec": 13.243,
+          "seed": 7475,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "Public building was a political act. An",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "Public building was a political act."
+        },
+        {
+          "shot_index": 176,
+          "type": "columns",
+          "duration_sec": 12.076,
+          "seed": 7512,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "None of this was planned as a",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "None of this was planned as"
+        },
+        {
+          "shot_index": 177,
+          "type": "city",
+          "duration_sec": 7.398,
+          "seed": 7549,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "The lessons people draw from Rome say",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "The lessons people draw from Rome"
+        },
+        {
+          "shot_index": 178,
+          "type": "artifact",
+          "duration_sec": 9.734,
+          "seed": 7586,
+          "chapter": 8,
+          "eyebrow": "Chapter 08  ·  The Machinery of Empire",
+          "label": "Every frontier was also a market",
+          "marks": [
+            "27 BC",
+            "80 AD",
+            "212 AD",
+            "301 AD"
+          ],
+          "text": "Every frontier was also a market"
+        },
+        {
+          "shot_index": 179,
+          "type": "title",
+          "duration_sec": 14.424,
+          "seed": 7623,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "Commodus was the first emperor born in",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "Commodus was the first emperor born"
+        },
+        {
+          "shot_index": 180,
+          "type": "battle",
+          "duration_sec": 11.954,
+          "seed": 7660,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "The next year five men were proclaimed",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "The next year five men were"
+        },
+        {
+          "shot_index": 181,
+          "type": "map",
+          "duration_sec": 11.127,
+          "seed": 7697,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "His advice to his sons was to",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "His advice to his sons was"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 1947.153,
+      "end": 2128.993,
+      "duration_sec": 181.84,
+      "shots": [
+        {
+          "shot_index": 182,
+          "type": "columns",
+          "duration_sec": 9.483,
+          "seed": 7734,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "He doubled the army's pay",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "He doubled the army's pay"
+        },
+        {
+          "shot_index": 183,
+          "type": "timeline",
+          "duration_sec": 12.362,
+          "seed": 7771,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "He also made the empire a military",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "He also made the empire a"
+        },
+        {
+          "shot_index": 184,
+          "type": "portrait",
+          "duration_sec": 9.892,
+          "seed": 7808,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "In 212 AD his son Caracalla did",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "In 212 AD his son Caracalla"
+        },
+        {
+          "shot_index": 185,
+          "type": "stat",
+          "duration_sec": 9.483,
+          "seed": 7845,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "He granted citizenship to nearly every free",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "He granted citizenship to nearly every"
+        },
+        {
+          "shot_index": 186,
+          "type": "battle",
+          "duration_sec": 9.892,
+          "seed": 7882,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "Whatever the motive",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "Whatever the motive"
+        },
+        {
+          "shot_index": 187,
+          "type": "map",
+          "duration_sec": 11.954,
+          "seed": 7919,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "Caracalla was killed by his own guard",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "Caracalla was killed by his own"
+        },
+        {
+          "shot_index": 188,
+          "type": "columns",
+          "duration_sec": 12.362,
+          "seed": 7956,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "Elagabalus brought a Syrian sun god to",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "Elagabalus brought a Syrian sun god"
+        },
+        {
+          "shot_index": 189,
+          "type": "timeline",
+          "duration_sec": 10.719,
+          "seed": 7993,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "That murder is the end of something",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "That murder is the end of"
+        },
+        {
+          "shot_index": 190,
+          "type": "portrait",
+          "duration_sec": 11.545,
+          "seed": 8030,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "The army had discovered that it could",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "The army had discovered that it"
+        },
+        {
+          "shot_index": 191,
+          "type": "stat",
+          "duration_sec": 10.3,
+          "seed": 8067,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "The provinces were not colonies in the",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "The provinces were not colonies in"
+        },
+        {
+          "shot_index": 192,
+          "type": "battle",
+          "duration_sec": 9.894,
+          "seed": 8104,
+          "chapter": 9,
+          "eyebrow": "Chapter 09  ·  The Army's Empire",
+          "label": "What survives is what was copied",
+          "marks": [
+            "180 AD",
+            "193 AD",
+            "212 AD",
+            "235 AD"
+          ],
+          "text": "What survives is what was copied"
+        },
+        {
+          "shot_index": 193,
+          "type": "title",
+          "duration_sec": 11.591,
+          "seed": 8141,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "The crisis was not one thing. It",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "The crisis was not one thing."
+        },
+        {
+          "shot_index": 194,
+          "type": "battle",
+          "duration_sec": 9.196,
+          "seed": 8178,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "In the east",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "In the east"
+        },
+        {
+          "shot_index": 195,
+          "type": "map",
+          "duration_sec": 9.592,
+          "seed": 8215,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "Valerian died in captivity",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "Valerian died in captivity"
+        },
+        {
+          "shot_index": 196,
+          "type": "columns",
+          "duration_sec": 11.591,
+          "seed": 8252,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "In the north",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "In the north"
+        },
+        {
+          "shot_index": 197,
+          "type": "timeline",
+          "duration_sec": 10.393,
+          "seed": 8289,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "In the west",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "In the west"
+        },
+        {
+          "shot_index": 198,
+          "type": "portrait",
+          "duration_sec": 11.591,
+          "seed": 8326,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "In the east",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "In the east"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 2128.993,
+      "end": 2299.292,
+      "duration_sec": 170.299,
+      "shots": [
+        {
+          "shot_index": 199,
+          "type": "stat",
+          "duration_sec": 11.591,
+          "seed": 8363,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "The plague that arrived in 249 AD",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "The plague that arrived in 249"
+        },
+        {
+          "shot_index": 200,
+          "type": "battle",
+          "duration_sec": 11.195,
+          "seed": 8400,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "The currency did the rest. The silver",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "The currency did the rest. The"
+        },
+        {
+          "shot_index": 201,
+          "type": "map",
+          "duration_sec": 10.789,
+          "seed": 8437,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "People stopped being paid in coin and",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "People stopped being paid in coin"
+        },
+        {
+          "shot_index": 202,
+          "type": "columns",
+          "duration_sec": 11.591,
+          "seed": 8474,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "Cities shrank behind new walls. Rome itself",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "Cities shrank behind new walls. Rome"
+        },
+        {
+          "shot_index": 203,
+          "type": "timeline",
+          "duration_sec": 9.988,
+          "seed": 8511,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "This is the part of Roman history",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "This is the part of Roman"
+        },
+        {
+          "shot_index": 204,
+          "type": "portrait",
+          "duration_sec": 11.591,
+          "seed": 8548,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "In 270 AD Aurelian took the throne",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "In 270 AD Aurelian took the"
+        },
+        {
+          "shot_index": 205,
+          "type": "stat",
+          "duration_sec": 9.196,
+          "seed": 8585,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "He was murdered by his own officers",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "He was murdered by his own"
+        },
+        {
+          "shot_index": 206,
+          "type": "battle",
+          "duration_sec": 11.195,
+          "seed": 8622,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "Then, in 284 AD",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "Then, in 284 AD"
+        },
+        {
+          "shot_index": 207,
+          "type": "map",
+          "duration_sec": 9.988,
+          "seed": 8659,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "Diocletian did not restore the old empire",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "Diocletian did not restore the old"
+        },
+        {
+          "shot_index": 208,
+          "type": "columns",
+          "duration_sec": 8.79,
+          "seed": 8696,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "The constitution was never written down",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "The constitution was never written down"
+        },
+        {
+          "shot_index": 209,
+          "type": "timeline",
+          "duration_sec": 10.79,
+          "seed": 8733,
+          "chapter": 10,
+          "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
+          "label": "There was no plan for the empire",
+          "marks": [
+            "235 AD",
+            "251 AD",
+            "260 AD",
+            "271 AD",
+            "284 AD"
+          ],
+          "text": "There was no plan for the"
+        },
+        {
+          "shot_index": 210,
+          "type": "title",
+          "duration_sec": 12.657,
+          "seed": 8770,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "Diocletian's first insight was that the empire",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "Diocletian's first insight was that the"
+        },
+        {
+          "shot_index": 211,
+          "type": "portrait",
+          "duration_sec": 11.392,
+          "seed": 8807,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "In 293 AD he split the job",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "In 293 AD he split the"
+        },
+        {
+          "shot_index": 212,
+          "type": "columns",
+          "duration_sec": 9.709,
+          "seed": 8844,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "The empire now had capitals at Nicomedia",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "The empire now had capitals at"
+        },
+        {
+          "shot_index": 213,
+          "type": "map",
+          "duration_sec": 8.863,
+          "seed": 8881,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "The provinces were cut into smaller pieces",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "The provinces were cut into smaller"
+        },
+        {
+          "shot_index": 214,
+          "type": "timeline",
+          "duration_sec": 10.974,
+          "seed": 8918,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "The army was split too: frontier troops",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "The army was split too: frontier"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 2299.292,
+      "end": 2481.945,
+      "duration_sec": 182.653,
+      "shots": [
+        {
+          "shot_index": 215,
+          "type": "stat",
+          "duration_sec": 10.546,
+          "seed": 8955,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "Taxation was put on a rational footing",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "Taxation was put on a rational"
+        },
+        {
+          "shot_index": 216,
+          "type": "quote",
+          "duration_sec": 10.127,
+          "seed": 8992,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "In 301 AD he issued a price",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "In 301 AD he issued a"
+        },
+        {
+          "shot_index": 217,
+          "type": "artifact",
+          "duration_sec": 10.974,
+          "seed": 9029,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "It did not work. Goods disappeared from",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "It did not work. Goods disappeared"
+        },
+        {
+          "shot_index": 218,
+          "type": "portrait",
+          "duration_sec": 11.392,
+          "seed": 9066,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "He also reorganised the coinage and tried",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "He also reorganised the coinage and"
+        },
+        {
+          "shot_index": 219,
+          "type": "columns",
+          "duration_sec": 10.546,
+          "seed": 9103,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "Colonists were tied to the land",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "Colonists were tied to the land"
+        },
+        {
+          "shot_index": 220,
+          "type": "map",
+          "duration_sec": 11.392,
+          "seed": 9140,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "It was a machine for surviving",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "It was a machine for surviving"
+        },
+        {
+          "shot_index": 221,
+          "type": "timeline",
+          "duration_sec": 12.239,
+          "seed": 9177,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "It also cost something that is hard",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "It also cost something that is"
+        },
+        {
+          "shot_index": 222,
+          "type": "stat",
+          "duration_sec": 10.546,
+          "seed": 9214,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "In 303 AD Diocletian launched the last",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "In 303 AD Diocletian launched the"
+        },
+        {
+          "shot_index": 223,
+          "type": "quote",
+          "duration_sec": 8.863,
+          "seed": 9251,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "The persecution failed",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "The persecution failed"
+        },
+        {
+          "shot_index": 224,
+          "type": "artifact",
+          "duration_sec": 10.974,
+          "seed": 9288,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "In 305 AD Diocletian did something no",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "In 305 AD Diocletian did something"
+        },
+        {
+          "shot_index": 225,
+          "type": "portrait",
+          "duration_sec": 11.82,
+          "seed": 9325,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "The system he built had no answer",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "The system he built had no"
+        },
+        {
+          "shot_index": 226,
+          "type": "columns",
+          "duration_sec": 10.974,
+          "seed": 9362,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "His tetrarchy was designed to prevent civil",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "His tetrarchy was designed to prevent"
+        },
+        {
+          "shot_index": 227,
+          "type": "map",
+          "duration_sec": 10.127,
+          "seed": 9399,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "Its borders were not lines on a",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "Its borders were not lines on"
+        },
+        {
+          "shot_index": 228,
+          "type": "timeline",
+          "duration_sec": 8.443,
+          "seed": 9436,
+          "chapter": 11,
+          "eyebrow": "Chapter 11  ·  Diocletian's Machine",
+          "label": "Every figure in this story was operating",
+          "marks": [
+            "284 AD",
+            "293 AD",
+            "301 AD",
+            "303 AD",
+            "305 AD"
+          ],
+          "text": "Every figure in this story was"
+        },
+        {
+          "shot_index": 229,
+          "type": "title",
+          "duration_sec": 10.574,
+          "seed": 9473,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "Constantine was the son of one of",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "Constantine was the son of one"
+        },
+        {
+          "shot_index": 230,
+          "type": "portrait",
+          "duration_sec": 10.185,
+          "seed": 9510,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "In 312 AD he marched on Italy",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "In 312 AD he marched on"
+        },
+        {
+          "shot_index": 231,
+          "type": "columns",
+          "duration_sec": 12.931,
+          "seed": 9547,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "Before the battle he had a vision",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "Before the battle he had a"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 2481.945,
+      "end": 2654.68,
+      "duration_sec": 172.735,
+      "shots": [
+        {
+          "shot_index": 232,
+          "type": "map",
+          "duration_sec": 10.574,
+          "seed": 9584,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "Maxentius fought with his back to the",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "Maxentius fought with his back to"
+        },
+        {
+          "shot_index": 233,
+          "type": "timeline",
+          "duration_sec": 10.971,
+          "seed": 9621,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "The Senate gave him the arch that",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "The Senate gave him the arch"
+        },
+        {
+          "shot_index": 234,
+          "type": "stat",
+          "duration_sec": 9.788,
+          "seed": 9658,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "In 313 AD",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "In 313 AD"
+        },
+        {
+          "shot_index": 235,
+          "type": "quote",
+          "duration_sec": 10.185,
+          "seed": 9695,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "That agreement is usually called an edict",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "That agreement is usually called an"
+        },
+        {
+          "shot_index": 236,
+          "type": "artifact",
+          "duration_sec": 10.574,
+          "seed": 9732,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "Constantine gave money to churches",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "Constantine gave money to churches"
+        },
+        {
+          "shot_index": 237,
+          "type": "portrait",
+          "duration_sec": 12.533,
+          "seed": 9769,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "In 325 AD he summoned a council",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "In 325 AD he summoned a"
+        },
+        {
+          "shot_index": 238,
+          "type": "columns",
+          "duration_sec": 11.359,
+          "seed": 9806,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "The creed that came out of that",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "The creed that came out of"
+        },
+        {
+          "shot_index": 239,
+          "type": "map",
+          "duration_sec": 11.747,
+          "seed": 9843,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "In 330 AD he founded a new",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "In 330 AD he founded a"
+        },
+        {
+          "shot_index": 240,
+          "type": "timeline",
+          "duration_sec": 10.574,
+          "seed": 9880,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "It had a senate",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "It had a senate"
+        },
+        {
+          "shot_index": 241,
+          "type": "stat",
+          "duration_sec": 10.574,
+          "seed": 9917,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "He died in 337 AD",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "He died in 337 AD"
+        },
+        {
+          "shot_index": 242,
+          "type": "quote",
+          "duration_sec": 12.145,
+          "seed": 9954,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "The fourth century is the story of",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "The fourth century is the story"
+        },
+        {
+          "shot_index": 243,
+          "type": "artifact",
+          "duration_sec": 10.971,
+          "seed": 9991,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "Julian, the last pagan emperor",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "Julian, the last pagan emperor"
+        },
+        {
+          "shot_index": 244,
+          "type": "portrait",
+          "duration_sec": 10.971,
+          "seed": 10028,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "In 378 AD",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "In 378 AD"
+        },
+        {
+          "shot_index": 245,
+          "type": "columns",
+          "duration_sec": 10.574,
+          "seed": 10065,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "The empire had fought Germans for centuries",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "The empire had fought Germans for"
+        },
+        {
+          "shot_index": 246,
+          "type": "map",
+          "duration_sec": 9.012,
+          "seed": 10102,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "The empire never solved the problem of",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "The empire never solved the problem"
+        },
+        {
+          "shot_index": 247,
+          "type": "timeline",
+          "duration_sec": 10.183,
+          "seed": 10139,
+          "chapter": 12,
+          "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
+          "label": "The eastern empire survived because it had",
+          "marks": [
+            "312 AD",
+            "313 AD",
+            "325 AD",
+            "330 AD",
+            "378 AD"
+          ],
+          "text": "The eastern empire survived because it"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 2654.68,
+      "end": 2834.229,
+      "duration_sec": 179.549,
+      "shots": [
+        {
+          "shot_index": 248,
+          "type": "title",
+          "duration_sec": 9.597,
+          "seed": 10176,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "After Adrianople, the eastern government did what",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "After Adrianople, the eastern government did"
+        },
+        {
+          "shot_index": 249,
+          "type": "battle",
+          "duration_sec": 11.598,
+          "seed": 10213,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "Theodosius, the last man to rule both",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "Theodosius, the last man to rule"
+        },
+        {
+          "shot_index": 250,
+          "type": "map",
+          "duration_sec": 9.597,
+          "seed": 10250,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "He also made Christianity the state religion",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "He also made Christianity the state"
+        },
+        {
+          "shot_index": 251,
+          "type": "columns",
+          "duration_sec": 9.201,
+          "seed": 10287,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "When he died in 395 AD the",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "When he died in 395 AD"
+        },
+        {
+          "shot_index": 252,
+          "type": "timeline",
+          "duration_sec": 8.795,
+          "seed": 10324,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "That division is not the fall of",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "That division is not the fall"
+        },
+        {
+          "shot_index": 253,
+          "type": "portrait",
+          "duration_sec": 11.201,
+          "seed": 10361,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "The west was neither. Its tax base",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "The west was neither. Its tax"
+        },
+        {
+          "shot_index": 254,
+          "type": "stat",
+          "duration_sec": 9.201,
+          "seed": 10398,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "Those soldiers were not invaders. They were",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "Those soldiers were not invaders. They"
+        },
+        {
+          "shot_index": 255,
+          "type": "battle",
+          "duration_sec": 10.795,
+          "seed": 10435,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "The problem was that the west could",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "The problem was that the west"
+        },
+        {
+          "shot_index": 256,
+          "type": "map",
+          "duration_sec": 9.597,
+          "seed": 10472,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "In 406 AD groups crossed the Rhine",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "In 406 AD groups crossed the"
+        },
+        {
+          "shot_index": 257,
+          "type": "columns",
+          "duration_sec": 11.201,
+          "seed": 10509,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "In 410 AD Alaric took Rome. He",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "In 410 AD Alaric took Rome."
+        },
+        {
+          "shot_index": 258,
+          "type": "timeline",
+          "duration_sec": 13.994,
+          "seed": 10546,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "It was not a massacre and it",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "It was not a massacre and"
+        },
+        {
+          "shot_index": 259,
+          "type": "portrait",
+          "duration_sec": 9.597,
+          "seed": 10583,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "Augustine, in North Africa",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "Augustine, in North Africa"
+        },
+        {
+          "shot_index": 260,
+          "type": "stat",
+          "duration_sec": 10.399,
+          "seed": 10620,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "The answer he gave shaped the next",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "The answer he gave shaped the"
+        },
+        {
+          "shot_index": 261,
+          "type": "battle",
+          "duration_sec": 11.994,
+          "seed": 10657,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "The west kept an emperor for another",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "The west kept an emperor for"
+        },
+        {
+          "shot_index": 262,
+          "type": "map",
+          "duration_sec": 11.994,
+          "seed": 10694,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "In 451 AD Attila's Huns invaded Gaul",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "In 451 AD Attila's Huns invaded"
+        },
+        {
+          "shot_index": 263,
+          "type": "columns",
+          "duration_sec": 10.795,
+          "seed": 10731,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "In 455 AD the Vandals took Rome",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "In 455 AD the Vandals took"
+        },
+        {
+          "shot_index": 264,
+          "type": "timeline",
+          "duration_sec": 9.993,
+          "seed": 10768,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "By then the west was a set",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "By then the west was a"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 2834.229,
+      "end": 3003.578,
+      "duration_sec": 169.349,
+      "shots": [
+        {
+          "shot_index": 265,
+          "type": "portrait",
+          "duration_sec": 9.597,
+          "seed": 10805,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "The population of the empire was perhaps",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "The population of the empire was"
+        },
+        {
+          "shot_index": 266,
+          "type": "stat",
+          "duration_sec": 9.995,
+          "seed": 10842,
+          "chapter": 13,
+          "eyebrow": "Chapter 13  ·  The Two Empires",
+          "label": "Roman religion was a set of contracts",
+          "marks": [
+            "378 AD",
+            "395 AD",
+            "410 AD",
+            "451 AD",
+            "455 AD"
+          ],
+          "text": "Roman religion was a set of"
+        },
+        {
+          "shot_index": 267,
+          "type": "title",
+          "duration_sec": 10.944,
+          "seed": 10879,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "In 476 AD a general named Odoacer",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "In 476 AD a general named"
+        },
+        {
+          "shot_index": 268,
+          "type": "battle",
+          "duration_sec": 13.135,
+          "seed": 10916,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "He did not call himself emperor. He",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "He did not call himself emperor."
+        },
+        {
+          "shot_index": 269,
+          "type": "map",
+          "duration_sec": 12.701,
+          "seed": 10953,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "The date matters because of what came",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "The date matters because of what"
+        },
+        {
+          "shot_index": 270,
+          "type": "columns",
+          "duration_sec": 11.823,
+          "seed": 10990,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "The east, meanwhile",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "The east, meanwhile"
+        },
+        {
+          "shot_index": 271,
+          "type": "timeline",
+          "duration_sec": 10.944,
+          "seed": 11027,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "His general Belisarius took Carthage",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "His general Belisarius took Carthage"
+        },
+        {
+          "shot_index": 272,
+          "type": "portrait",
+          "duration_sec": 10.944,
+          "seed": 11064,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "Justinian also ordered the laws collected into",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "Justinian also ordered the laws collected"
+        },
+        {
+          "shot_index": 273,
+          "type": "stat",
+          "duration_sec": 10.944,
+          "seed": 11101,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "In 541 AD a plague arrived from",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "In 541 AD a plague arrived"
+        },
+        {
+          "shot_index": 274,
+          "type": "battle",
+          "duration_sec": 11.389,
+          "seed": 11138,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "The empire that survived was smaller",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "The empire that survived was smaller"
+        },
+        {
+          "shot_index": 275,
+          "type": "map",
+          "duration_sec": 10.076,
+          "seed": 11175,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "In 568 AD the Lombards entered Italy",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "In 568 AD the Lombards entered"
+        },
+        {
+          "shot_index": 276,
+          "type": "columns",
+          "duration_sec": 13.58,
+          "seed": 11212,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "So the west did not fall in",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "So the west did not fall"
+        },
+        {
+          "shot_index": 277,
+          "type": "timeline",
+          "duration_sec": 10.51,
+          "seed": 11249,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "What disappeared was not civilisation. It was",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "What disappeared was not civilisation. It"
+        },
+        {
+          "shot_index": 278,
+          "type": "portrait",
+          "duration_sec": 10.944,
+          "seed": 11286,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "What replaced it was a set of",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "What replaced it was a set"
+        },
+        {
+          "shot_index": 279,
+          "type": "stat",
+          "duration_sec": 11.823,
+          "seed": 11323,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "The eastern empire lasted until 1453",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "The eastern empire lasted until 1453"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 3003.578,
+      "end": 3184.742,
+      "duration_sec": 181.164,
+      "shots": [
+        {
+          "shot_index": 280,
+          "type": "battle",
+          "duration_sec": 12.701,
+          "seed": 11360,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "That is nine hundred and seventy-seven years",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "That is nine hundred and seventy-seven"
+        },
+        {
+          "shot_index": 281,
+          "type": "map",
+          "duration_sec": 9.632,
+          "seed": 11397,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "The words are still doing work: senate",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "The words are still doing work:"
+        },
+        {
+          "shot_index": 282,
+          "type": "columns",
+          "duration_sec": 11.826,
+          "seed": 11434,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "Romanisation was rarely a policy. It was",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "Romanisation was rarely a policy. It"
+        },
+        {
+          "shot_index": 283,
+          "type": "title",
+          "duration_sec": 9.141,
+          "seed": 11471,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "Most people in the empire never saw",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "Most people in the empire never"
+        },
+        {
+          "shot_index": 284,
+          "type": "city",
+          "duration_sec": 11.129,
+          "seed": 11508,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "They lived in towns of a few",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "They lived in towns of a"
+        },
+        {
+          "shot_index": 285,
+          "type": "columns",
+          "duration_sec": 11.522,
+          "seed": 11545,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "In the great cities",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "In the great cities"
+        },
+        {
+          "shot_index": 286,
+          "type": "artifact",
+          "duration_sec": 9.535,
+          "seed": 11582,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "The ground floor held shops and workshops",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "The ground floor held shops and"
+        },
+        {
+          "shot_index": 287,
+          "type": "stat",
+          "duration_sec": 10.332,
+          "seed": 11619,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "Water came from public fountains",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "Water came from public fountains"
+        },
+        {
+          "shot_index": 288,
+          "type": "quote",
+          "duration_sec": 10.332,
+          "seed": 11656,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "The baths were the social centre: cold",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "The baths were the social centre:"
+        },
+        {
+          "shot_index": 289,
+          "type": "map",
+          "duration_sec": 9.928,
+          "seed": 11693,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "Entry was cheap or free",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "Entry was cheap or free"
+        },
+        {
+          "shot_index": 290,
+          "type": "city",
+          "duration_sec": 9.928,
+          "seed": 11730,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "Bread was the political currency. The grain",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "Bread was the political currency. The"
+        },
+        {
+          "shot_index": 291,
+          "type": "columns",
+          "duration_sec": 11.522,
+          "seed": 11767,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "The games were the other half of",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "The games were the other half"
+        },
+        {
+          "shot_index": 292,
+          "type": "artifact",
+          "duration_sec": 10.332,
+          "seed": 11804,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "The famous thumbs-down is a modern invention",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "The famous thumbs-down is a modern"
+        },
+        {
+          "shot_index": 293,
+          "type": "stat",
+          "duration_sec": 11.522,
+          "seed": 11841,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "Women could own property",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "Women could own property"
+        },
+        {
+          "shot_index": 294,
+          "type": "quote",
+          "duration_sec": 9.928,
+          "seed": 11878,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "A marriage was a private arrangement between",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "A marriage was a private arrangement"
+        },
+        {
+          "shot_index": 295,
+          "type": "map",
+          "duration_sec": 12.319,
+          "seed": 11915,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "Children were acknowledged by the father",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "Children were acknowledged by the father"
+        },
+        {
+          "shot_index": 296,
+          "type": "city",
+          "duration_sec": 9.535,
+          "seed": 11952,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "Slavery was everywhere: in the fields",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "Slavery was everywhere: in the fields"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 3184.742,
+      "end": 3367.928,
+      "duration_sec": 183.186,
+      "shots": [
+        {
+          "shot_index": 297,
+          "type": "columns",
+          "duration_sec": 10.725,
+          "seed": 11989,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "Manumission was frequent",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "Manumission was frequent"
+        },
+        {
+          "shot_index": 298,
+          "type": "artifact",
+          "duration_sec": 11.916,
+          "seed": 12026,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "Religion was a set of household rituals",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "Religion was a set of household"
+        },
+        {
+          "shot_index": 299,
+          "type": "stat",
+          "duration_sec": 10.725,
+          "seed": 12063,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "Mystery cults offered something the state cult",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "Mystery cults offered something the state"
+        },
+        {
+          "shot_index": 300,
+          "type": "quote",
+          "duration_sec": 11.916,
+          "seed": 12100,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "Burial clubs pooled money for a funeral",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "Burial clubs pooled money for a"
+        },
+        {
+          "shot_index": 301,
+          "type": "map",
+          "duration_sec": 11.522,
+          "seed": 12137,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "Literacy was never universal and was never",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "Literacy was never universal and was"
+        },
+        {
+          "shot_index": 302,
+          "type": "city",
+          "duration_sec": 11.522,
+          "seed": 12174,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "The graffiti of Pompeii is the closest",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "The graffiti of Pompeii is the"
+        },
+        {
+          "shot_index": 303,
+          "type": "columns",
+          "duration_sec": 11.129,
+          "seed": 12211,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "That is the empire the emperors never",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "That is the empire the emperors"
+        },
+        {
+          "shot_index": 304,
+          "type": "artifact",
+          "duration_sec": 11.915,
+          "seed": 12248,
+          "chapter": 15,
+          "eyebrow": "Chapter 15  ·  A Day in the Empire",
+          "label": "There is a temptation to read every",
+          "marks": [
+            "100 AD",
+            "150 AD",
+            "250 AD"
+          ],
+          "text": "There is a temptation to read"
+        },
+        {
+          "shot_index": 305,
+          "type": "title",
+          "duration_sec": 11.747,
+          "seed": 12285,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "Rome left roads",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "Rome left roads"
+        },
+        {
+          "shot_index": 306,
+          "type": "city",
+          "duration_sec": 11.315,
+          "seed": 12322,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "Rome left languages. French",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "Rome left languages. French"
+        },
+        {
+          "shot_index": 307,
+          "type": "columns",
+          "duration_sec": 13.051,
+          "seed": 12359,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "Rome left law. The idea that a",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "Rome left law. The idea that"
+        },
+        {
+          "shot_index": 308,
+          "type": "artifact",
+          "duration_sec": 11.315,
+          "seed": 12396,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "Rome left the word republic",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "Rome left the word republic"
+        },
+        {
+          "shot_index": 309,
+          "type": "quote",
+          "duration_sec": 10.011,
+          "seed": 12433,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "Rome left a church. The organisation of",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "Rome left a church. The organisation"
+        },
+        {
+          "shot_index": 310,
+          "type": "stat",
+          "duration_sec": 13.051,
+          "seed": 12470,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "Rome left the image of the emperor",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "Rome left the image of the"
+        },
+        {
+          "shot_index": 311,
+          "type": "map",
+          "duration_sec": 8.707,
+          "seed": 12507,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "Rome left ruins",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "Rome left ruins"
+        },
+        {
+          "shot_index": 312,
+          "type": "city",
+          "duration_sec": 12.619,
+          "seed": 12544,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "Gibbon, in the eighteenth century",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "Gibbon, in the eighteenth century"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 3367.928,
+      "end": 3533.053,
+      "duration_sec": 165.125,
+      "shots": [
+        {
+          "shot_index": 313,
+          "type": "columns",
+          "duration_sec": 11.747,
+          "seed": 12581,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "That answer is still popular and still",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "That answer is still popular and"
+        },
+        {
+          "shot_index": 314,
+          "type": "artifact",
+          "duration_sec": 13.923,
+          "seed": 12618,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "The deeper answer is structural. An empire",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "The deeper answer is structural. An"
+        },
+        {
+          "shot_index": 315,
+          "type": "quote",
+          "duration_sec": 13.051,
+          "seed": 12655,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "Rome also left a warning that is",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "Rome also left a warning that"
+        },
+        {
+          "shot_index": 316,
+          "type": "stat",
+          "duration_sec": 11.747,
+          "seed": 12692,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "Inflation, plague, migration",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "Inflation, plague, migration"
+        },
+        {
+          "shot_index": 317,
+          "type": "map",
+          "duration_sec": 11.315,
+          "seed": 12729,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "And yet the empire that ended in",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "And yet the empire that ended"
+        },
+        {
+          "shot_index": 318,
+          "type": "city",
+          "duration_sec": 14.365,
+          "seed": 12766,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "The Romans themselves would not have understood",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "The Romans themselves would not have"
+        },
+        {
+          "shot_index": 319,
+          "type": "columns",
+          "duration_sec": 10.011,
+          "seed": 12803,
+          "chapter": 16,
+          "eyebrow": "Chapter 16  ·  What Rome Left",
+          "label": "There is no single cause of the",
+          "marks": [
+            "476 AD",
+            "800 AD",
+            "1453 AD",
+            "1789 AD"
+          ],
+          "text": "There is no single cause of"
+        },
+        {
+          "shot_index": 320,
+          "type": "title",
+          "duration_sec": 11.954,
+          "seed": 12840,
+          "chapter": 17,
+          "eyebrow": "What It All Meant",
+          "label": "If you take one thing from this",
+          "marks": [
+            "476 AD",
+            "1453 AD"
+          ],
+          "text": "If you take one thing from"
+        },
+        {
+          "shot_index": 321,
+          "type": "map",
+          "duration_sec": 14.089,
+          "seed": 12877,
+          "chapter": 17,
+          "eyebrow": "What It All Meant",
+          "label": "The Senate checked the consuls. The tribunes",
+          "marks": [
+            "476 AD",
+            "1453 AD"
+          ],
+          "text": "The Senate checked the consuls. The"
+        },
+        {
+          "shot_index": 322,
+          "type": "columns",
+          "duration_sec": 16.214,
+          "seed": 12914,
+          "chapter": 17,
+          "eyebrow": "What It All Meant",
+          "label": "What killed it was not one failure",
+          "marks": [
+            "476 AD",
+            "1453 AD"
+          ],
+          "text": "What killed it was not one"
+        },
+        {
+          "shot_index": 323,
+          "type": "timeline",
+          "duration_sec": 13.656,
+          "seed": 12951,
+          "chapter": 17,
+          "eyebrow": "What It All Meant",
+          "label": "The empire that replaced the Republic lasted",
+          "marks": [
+            "476 AD",
+            "1453 AD"
+          ],
+          "text": "The empire that replaced the Republic"
+        },
+        {
+          "shot_index": 324,
+          "type": "portrait",
+          "duration_sec": 11.954,
+          "seed": 12988,
+          "chapter": 17,
+          "eyebrow": "What It All Meant",
+          "label": "The next chapter is the one everyone",
+          "marks": [
+            "476 AD",
+            "1453 AD"
+          ],
+          "text": "The next chapter is the one"
+        },
+        {
+          "shot_index": 325,
+          "type": "quote",
+          "duration_sec": 11.099,
+          "seed": 13025,
+          "chapter": 17,
+          "eyebrow": "What It All Meant",
+          "label": "That is the story for the next",
+          "marks": [
+            "476 AD",
+            "1453 AD"
+          ],
+          "text": "That is the story for the"
+        }
+      ]
+    }
+  ]
+}
