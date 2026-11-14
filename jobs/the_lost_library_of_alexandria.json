@@ -1,0 +1,578 @@
+{
+  "slug": "the_lost_library_of_alexandria",
+  "category": "general",
+  "size": "1920x1080",
+  "orientation": "horizontal",
+  "n_chunks": 20,
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "total_duration_sec": 608.254,
+  "preview": false,
+  "chunks": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 35.966,
+      "duration_sec": 35.966,
+      "shots": [
+        {
+          "shot_index": 0,
+          "type": "intro",
+          "duration_sec": 11.989,
+          "seed": 1000,
+          "text": "This is the story of The"
+        },
+        {
+          "shot_index": 1,
+          "type": "intro",
+          "duration_sec": 11.989,
+          "seed": 1037,
+          "text": "without announcement. What the insiders understood"
+        },
+        {
+          "shot_index": 2,
+          "type": "intro",
+          "duration_sec": 11.988,
+          "seed": 1074,
+          "text": "and it was distributed unevenly. This"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "start": 35.966,
+      "end": 68.714,
+      "duration_sec": 32.748,
+      "shots": [
+        {
+          "shot_index": 3,
+          "type": "context",
+          "duration_sec": 10.916,
+          "seed": 1111,
+          "text": "The cost was real, and it"
+        },
+        {
+          "shot_index": 4,
+          "type": "context",
+          "duration_sec": 10.916,
+          "seed": 1148,
+          "text": "set something in motion. The story"
+        },
+        {
+          "shot_index": 5,
+          "type": "context",
+          "duration_sec": 10.916,
+          "seed": 1185,
+          "text": "lesson of The Lost Library of"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 68.714,
+      "end": 101.462,
+      "duration_sec": 32.748,
+      "shots": [
+        {
+          "shot_index": 6,
+          "type": "context",
+          "duration_sec": 10.916,
+          "seed": 1222,
+          "text": "ambiguous enough to argue about. And"
+        },
+        {
+          "shot_index": 7,
+          "type": "context",
+          "duration_sec": 10.916,
+          "seed": 1259,
+          "text": "the people who opposed it understood"
+        },
+        {
+          "shot_index": 8,
+          "type": "context",
+          "duration_sec": 10.916,
+          "seed": 1296,
+          "text": "hard to stop once it starts."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 101.462,
+      "end": 123.294,
+      "duration_sec": 21.832,
+      "shots": [
+        {
+          "shot_index": 9,
+          "type": "context",
+          "duration_sec": 10.916,
+          "seed": 1333,
+          "text": "detail and the larger pattern becomes"
+        },
+        {
+          "shot_index": 10,
+          "type": "context",
+          "duration_sec": 10.916,
+          "seed": 1370,
+          "text": "later. Every retelling adds a detail"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 123.294,
+      "end": 157.377,
+      "duration_sec": 34.083,
+      "shots": [
+        {
+          "shot_index": 11,
+          "type": "context",
+          "duration_sec": 10.913,
+          "seed": 1407,
+          "text": "and it arrived without announcement. None"
+        },
+        {
+          "shot_index": 12,
+          "type": "main",
+          "duration_sec": 11.585,
+          "seed": 1444,
+          "text": "The lesson of The Lost Library"
+        },
+        {
+          "shot_index": 13,
+          "type": "main",
+          "duration_sec": 11.585,
+          "seed": 1481,
+          "text": "arrived without announcement. Every retelling adds"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 157.377,
+      "end": 192.132,
+      "duration_sec": 34.755,
+      "shots": [
+        {
+          "shot_index": 14,
+          "type": "main",
+          "duration_sec": 11.585,
+          "seed": 1518,
+          "text": "of Alexandria is usually told backwards,"
+        },
+        {
+          "shot_index": 15,
+          "type": "main",
+          "duration_sec": 11.585,
+          "seed": 1555,
+          "text": "The obvious explanation is not wrong,"
+        },
+        {
+          "shot_index": 16,
+          "type": "main",
+          "duration_sec": 11.585,
+          "seed": 1592,
+          "text": "reconstruct, and ambiguous enough to argue"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 192.132,
+      "end": 215.302,
+      "duration_sec": 23.17,
+      "shots": [
+        {
+          "shot_index": 17,
+          "type": "main",
+          "duration_sec": 11.585,
+          "seed": 1629,
+          "text": "at every stage, and each one"
+        },
+        {
+          "shot_index": 18,
+          "type": "main",
+          "duration_sec": 11.585,
+          "seed": 1666,
+          "text": "the next generation understood at the"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 215.302,
+      "end": 250.13,
+      "duration_sec": 34.828,
+      "shots": [
+        {
+          "shot_index": 19,
+          "type": "main",
+          "duration_sec": 11.588,
+          "seed": 1703,
+          "text": "the moment and set something in"
+        },
+        {
+          "shot_index": 20,
+          "type": "main",
+          "duration_sec": 11.62,
+          "seed": 1740,
+          "text": "What makes this worth examining is"
+        },
+        {
+          "shot_index": 21,
+          "type": "main",
+          "duration_sec": 11.62,
+          "seed": 1777,
+          "text": "The Lost Library of Alexandria is"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 250.13,
+      "end": 284.99,
+      "duration_sec": 34.86,
+      "shots": [
+        {
+          "shot_index": 22,
+          "type": "main",
+          "duration_sec": 11.62,
+          "seed": 1814,
+          "text": "unavoidable. In a generation ago, the"
+        },
+        {
+          "shot_index": 23,
+          "type": "main",
+          "duration_sec": 11.62,
+          "seed": 1851,
+          "text": "point in another. The obvious explanation"
+        },
+        {
+          "shot_index": 24,
+          "type": "main",
+          "duration_sec": 11.62,
+          "seed": 1888,
+          "text": "solving a problem. What the people"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 284.99,
+      "end": 308.23,
+      "duration_sec": 23.24,
+      "shots": [
+        {
+          "shot_index": 25,
+          "type": "main",
+          "duration_sec": 11.62,
+          "seed": 1925,
+          "text": "and momentum is hard to stop"
+        },
+        {
+          "shot_index": 26,
+          "type": "main",
+          "duration_sec": 11.62,
+          "seed": 1962,
+          "text": "The Lost Library of Alexandria is"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 308.23,
+      "end": 341.734,
+      "duration_sec": 33.504,
+      "shots": [
+        {
+          "shot_index": 27,
+          "type": "main",
+          "duration_sec": 11.618,
+          "seed": 1999,
+          "text": "was a lasting change, and it"
+        },
+        {
+          "shot_index": 28,
+          "type": "main",
+          "duration_sec": 10.943,
+          "seed": 2036,
+          "text": "This is a story about momentum,"
+        },
+        {
+          "shot_index": 29,
+          "type": "main",
+          "duration_sec": 10.943,
+          "seed": 2073,
+          "text": "little later. The people involved did"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 341.734,
+      "end": 374.563,
+      "duration_sec": 32.829,
+      "shots": [
+        {
+          "shot_index": 30,
+          "type": "main",
+          "duration_sec": 10.943,
+          "seed": 2110,
+          "text": "opposed it in the small towns"
+        },
+        {
+          "shot_index": 31,
+          "type": "main",
+          "duration_sec": 10.943,
+          "seed": 2147,
+          "text": "ending than about the choices before"
+        },
+        {
+          "shot_index": 32,
+          "type": "main",
+          "duration_sec": 10.943,
+          "seed": 2184,
+          "text": "announcement. What makes this worth examining"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 374.563,
+      "end": 396.449,
+      "duration_sec": 21.886,
+      "shots": [
+        {
+          "shot_index": 33,
+          "type": "main",
+          "duration_sec": 10.943,
+          "seed": 2221,
+          "text": "and the larger pattern becomes unavoidable."
+        },
+        {
+          "shot_index": 34,
+          "type": "main",
+          "duration_sec": 10.943,
+          "seed": 2258,
+          "text": "What the people who built it"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 396.449,
+      "end": 429.505,
+      "duration_sec": 33.056,
+      "shots": [
+        {
+          "shot_index": 35,
+          "type": "main",
+          "duration_sec": 10.94,
+          "seed": 2295,
+          "text": "unevenly. Every retelling adds a detail"
+        },
+        {
+          "shot_index": 36,
+          "type": "main",
+          "duration_sec": 11.058,
+          "seed": 2332,
+          "text": "In the present day, the next"
+        },
+        {
+          "shot_index": 37,
+          "type": "main",
+          "duration_sec": 11.058,
+          "seed": 2369,
+          "text": "just incomplete. The lesson of The"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 429.505,
+      "end": 462.679,
+      "duration_sec": 33.174,
+      "shots": [
+        {
+          "shot_index": 38,
+          "type": "main",
+          "duration_sec": 11.058,
+          "seed": 2406,
+          "text": "Library of Alexandria is usually told"
+        },
+        {
+          "shot_index": 39,
+          "type": "main",
+          "duration_sec": 11.058,
+          "seed": 2443,
+          "text": "numbers only make sense in context."
+        },
+        {
+          "shot_index": 40,
+          "type": "main",
+          "duration_sec": 11.058,
+          "seed": 2480,
+          "text": "it arrived without announcement. What the"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 462.679,
+      "end": 495.855,
+      "duration_sec": 33.176,
+      "shots": [
+        {
+          "shot_index": 41,
+          "type": "main",
+          "duration_sec": 11.058,
+          "seed": 2517,
+          "text": "about momentum, and momentum is hard"
+        },
+        {
+          "shot_index": 42,
+          "type": "main",
+          "duration_sec": 11.058,
+          "seed": 2554,
+          "text": "a problem. And this is where"
+        },
+        {
+          "shot_index": 43,
+          "type": "main",
+          "duration_sec": 11.06,
+          "seed": 2591,
+          "text": "makes this worth examining is how"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 495.855,
+      "end": 522.345,
+      "duration_sec": 26.49,
+      "shots": [
+        {
+          "shot_index": 44,
+          "type": "conclusion",
+          "duration_sec": 13.245,
+          "seed": 2628,
+          "text": "This is a story about momentum,"
+        },
+        {
+          "shot_index": 45,
+          "type": "conclusion",
+          "duration_sec": 13.245,
+          "seed": 2665,
+          "text": "alternatives at every stage, and each"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 522.345,
+      "end": 548.835,
+      "duration_sec": 26.49,
+      "shots": [
+        {
+          "shot_index": 46,
+          "type": "conclusion",
+          "duration_sec": 13.245,
+          "seed": 2702,
+          "text": "day, the next generation in the"
+        },
+        {
+          "shot_index": 47,
+          "type": "conclusion",
+          "duration_sec": 13.245,
+          "seed": 2739,
+          "text": "story of The Lost Library of"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 548.835,
+      "end": 588.57,
+      "duration_sec": 39.735,
+      "shots": [
+        {
+          "shot_index": 48,
+          "type": "conclusion",
+          "duration_sec": 13.245,
+          "seed": 2776,
+          "text": "was only a fraction of what"
+        },
+        {
+          "shot_index": 49,
+          "type": "conclusion",
+          "duration_sec": 13.245,
+          "seed": 2813,
+          "text": "history; they thought they were solving"
+        },
+        {
+          "shot_index": 50,
+          "type": "conclusion",
+          "duration_sec": 13.245,
+          "seed": 2850,
+          "text": "this worth examining is how ordinary"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 588.57,
+      "end": 608.254,
+      "duration_sec": 19.684,
+      "shots": [
+        {
+          "shot_index": 51,
+          "type": "conclusion",
+          "duration_sec": 13.243,
+          "seed": 2887,
+          "text": "less about the ending than about"
+        },
+        {
+          "shot_index": 52,
+          "type": "cta",
+          "duration_sec": 2.147,
+          "seed": 2924,
+          "text": "There is a longer breakdown"
+        },
+        {
+          "shot_index": 53,
+          "type": "cta",
+          "duration_sec": 2.147,
+          "seed": 2961,
+          "text": "linked below, including the sources"
+        },
+        {
+          "shot_index": 54,
+          "type": "cta",
+          "duration_sec": 2.147,
+          "seed": 2998,
+          "text": "for everything in this video."
+        }
+      ]
+    }
+  ]
+}
