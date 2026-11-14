@@ -27,7 +27,7 @@
     18,
     19
   ],
-  "total_duration_sec": 3515.911,
+  "total_duration_sec": 3521.945,
   "preview": false,
   "chapters": [
     {
@@ -53,7 +53,7 @@
     {
       "index": 2,
       "title": "The Republic of Nobles",
-      "start_sec": 329.4,
+      "start_sec": 329.8,
       "marks": [
         "509 BC",
         "451 BC",
@@ -64,7 +64,7 @@
     {
       "index": 3,
       "title": "Carthage and the Price of Victory",
-      "start_sec": 576.4,
+      "start_sec": 578.9,
       "marks": [
         "264 BC",
         "218 BC",
@@ -76,7 +76,7 @@
     {
       "index": 4,
       "title": "The Republic Breaks",
-      "start_sec": 820.5,
+      "start_sec": 823.0,
       "marks": [
         "133 BC",
         "107 BC",
@@ -88,7 +88,7 @@
     {
       "index": 5,
       "title": "Augustus and the Invention of Empire",
-      "start_sec": 1067.2,
+      "start_sec": 1073.0,
       "marks": [
         "31 BC",
         "27 BC",
@@ -99,7 +99,7 @@
     {
       "index": 6,
       "title": "The Julio-Claudians",
-      "start_sec": 1284.4,
+      "start_sec": 1287.3,
       "marks": [
         "14 AD",
         "37 AD",
@@ -123,7 +123,7 @@
     {
       "index": 8,
       "title": "The Machinery of Empire",
-      "start_sec": 1742.5,
+      "start_sec": 1737.5,
       "marks": [
         "27 BC",
         "80 AD",
@@ -134,7 +134,7 @@
     {
       "index": 9,
       "title": "The Army's Empire",
-      "start_sec": 1988.3,
+      "start_sec": 1981.2,
       "marks": [
         "180 AD",
         "193 AD",
@@ -145,7 +145,7 @@
     {
       "index": 10,
       "title": "The Crisis of the Third Century",
-      "start_sec": 2140.6,
+      "start_sec": 2135.2,
       "marks": [
         "235 AD",
         "251 AD",
@@ -157,7 +157,7 @@
     {
       "index": 11,
       "title": "Diocletian's Machine",
-      "start_sec": 2327.2,
+      "start_sec": 2323.0,
       "marks": [
         "284 AD",
         "293 AD",
@@ -169,7 +169,7 @@
     {
       "index": 12,
       "title": "Constantine and the New Rome",
-      "start_sec": 2527.5,
+      "start_sec": 2522.5,
       "marks": [
         "312 AD",
         "313 AD",
@@ -181,7 +181,7 @@
     {
       "index": 13,
       "title": "The Two Empires",
-      "start_sec": 2743.5,
+      "start_sec": 2738.5,
       "marks": [
         "378 AD",
         "395 AD",
@@ -193,7 +193,7 @@
     {
       "index": 14,
       "title": "The End of the West",
-      "start_sec": 2949.9,
+      "start_sec": 2942.9,
       "marks": [
         "476 AD",
         "533 AD",
@@ -205,7 +205,7 @@
     {
       "index": 15,
       "title": "A Day in the Empire",
-      "start_sec": 3113.0,
+      "start_sec": 3115.4,
       "marks": [
         "100 AD",
         "150 AD",
@@ -215,7 +215,7 @@
     {
       "index": 16,
       "title": "What Rome Left",
-      "start_sec": 3356.7,
+      "start_sec": 3361.2,
       "marks": [
         "476 AD",
         "800 AD",
@@ -226,7 +226,7 @@
     {
       "index": 17,
       "title": "What It All Meant",
-      "start_sec": 3523.9,
+      "start_sec": 3528.4,
       "marks": [
         "476 AD",
         "1453 AD"
@@ -237,8 +237,8 @@
     {
       "index": 0,
       "start": 0.0,
-      "end": 187.338,
-      "duration_sec": 187.338,
+      "end": 187.568,
+      "duration_sec": 187.568,
       "shots": [
         {
           "shot_index": 0,
@@ -327,7 +327,7 @@
         {
           "shot_index": 6,
           "type": "title",
-          "duration_sec": 11.727,
+          "duration_sec": 11.749,
           "seed": 1222,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -343,7 +343,7 @@
         {
           "shot_index": 7,
           "type": "map",
-          "duration_sec": 13.397,
+          "duration_sec": 13.422,
           "seed": 1259,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -359,7 +359,7 @@
         {
           "shot_index": 8,
           "type": "city",
-          "duration_sec": 12.557,
+          "duration_sec": 12.581,
           "seed": 1296,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -375,7 +375,7 @@
         {
           "shot_index": 9,
           "type": "columns",
-          "duration_sec": 14.237,
+          "duration_sec": 14.264,
           "seed": 1333,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -391,7 +391,7 @@
         {
           "shot_index": 10,
           "type": "timeline",
-          "duration_sec": 10.462,
+          "duration_sec": 10.482,
           "seed": 1370,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -407,7 +407,7 @@
         {
           "shot_index": 11,
           "type": "artifact",
-          "duration_sec": 11.302,
+          "duration_sec": 11.324,
           "seed": 1407,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -423,7 +423,7 @@
         {
           "shot_index": 12,
           "type": "portrait",
-          "duration_sec": 10.887,
+          "duration_sec": 10.908,
           "seed": 1444,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -439,7 +439,7 @@
         {
           "shot_index": 13,
           "type": "map",
-          "duration_sec": 11.727,
+          "duration_sec": 11.749,
           "seed": 1481,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -455,7 +455,7 @@
         {
           "shot_index": 14,
           "type": "city",
-          "duration_sec": 12.982,
+          "duration_sec": 13.007,
           "seed": 1518,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -471,7 +471,7 @@
         {
           "shot_index": 15,
           "type": "columns",
-          "duration_sec": 11.727,
+          "duration_sec": 11.749,
           "seed": 1555,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -488,14 +488,14 @@
     },
     {
       "index": 1,
-      "start": 187.338,
-      "end": 359.329,
-      "duration_sec": 171.991,
+      "start": 187.568,
+      "end": 360.539,
+      "duration_sec": 172.971,
       "shots": [
         {
           "shot_index": 16,
           "type": "timeline",
-          "duration_sec": 12.142,
+          "duration_sec": 12.165,
           "seed": 1592,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -511,7 +511,7 @@
         {
           "shot_index": 17,
           "type": "artifact",
-          "duration_sec": 13.397,
+          "duration_sec": 13.422,
           "seed": 1629,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -527,7 +527,7 @@
         {
           "shot_index": 18,
           "type": "portrait",
-          "duration_sec": 10.887,
+          "duration_sec": 10.908,
           "seed": 1666,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -543,7 +543,7 @@
         {
           "shot_index": 19,
           "type": "map",
-          "duration_sec": 12.982,
+          "duration_sec": 13.007,
           "seed": 1703,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -559,7 +559,7 @@
         {
           "shot_index": 20,
           "type": "city",
-          "duration_sec": 12.557,
+          "duration_sec": 12.581,
           "seed": 1740,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -575,7 +575,7 @@
         {
           "shot_index": 21,
           "type": "columns",
-          "duration_sec": 8.793,
+          "duration_sec": 8.81,
           "seed": 1777,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -591,7 +591,7 @@
         {
           "shot_index": 22,
           "type": "timeline",
-          "duration_sec": 12.142,
+          "duration_sec": 12.165,
           "seed": 1814,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -607,7 +607,7 @@
         {
           "shot_index": 23,
           "type": "artifact",
-          "duration_sec": 11.727,
+          "duration_sec": 11.749,
           "seed": 1851,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -623,7 +623,7 @@
         {
           "shot_index": 24,
           "type": "portrait",
-          "duration_sec": 10.887,
+          "duration_sec": 10.908,
           "seed": 1888,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -639,7 +639,7 @@
         {
           "shot_index": 25,
           "type": "map",
-          "duration_sec": 11.727,
+          "duration_sec": 11.749,
           "seed": 1925,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
@@ -655,39 +655,39 @@
         {
           "shot_index": 26,
           "type": "city",
-          "duration_sec": 11.302,
+          "duration_sec": 10.908,
           "seed": 1962,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
-          "label": "What looks inevitable in a history book",
+          "label": "By the end",
           "marks": [
             "753 BC",
             "616 BC",
             "509 BC",
             "474 BC"
           ],
-          "text": "What looks inevitable in a history"
+          "text": "By the end"
         },
         {
           "shot_index": 27,
           "type": "columns",
-          "duration_sec": 9.21,
+          "duration_sec": 10.068,
           "seed": 1999,
           "chapter": 1,
           "eyebrow": "Chapter 01  ·  Before Rome",
-          "label": "The constitution was never written down",
+          "label": "What survives is what was copied",
           "marks": [
             "753 BC",
             "616 BC",
             "509 BC",
             "474 BC"
           ],
-          "text": "The constitution was never written down"
+          "text": "What survives is what was copied"
         },
         {
           "shot_index": 28,
           "type": "title",
-          "duration_sec": 10.066,
+          "duration_sec": 10.152,
           "seed": 2036,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -703,7 +703,7 @@
         {
           "shot_index": 29,
           "type": "map",
-          "duration_sec": 11.682,
+          "duration_sec": 11.782,
           "seed": 2073,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -719,7 +719,7 @@
         {
           "shot_index": 30,
           "type": "columns",
-          "duration_sec": 12.49,
+          "duration_sec": 12.597,
           "seed": 2110,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -736,14 +736,14 @@
     },
     {
       "index": 2,
-      "start": 359.329,
-      "end": 533.337,
-      "duration_sec": 174.008,
+      "start": 360.539,
+      "end": 536.044,
+      "duration_sec": 175.505,
       "shots": [
         {
           "shot_index": 31,
           "type": "timeline",
-          "duration_sec": 11.682,
+          "duration_sec": 11.782,
           "seed": 2147,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -759,7 +759,7 @@
         {
           "shot_index": 32,
           "type": "portrait",
-          "duration_sec": 12.081,
+          "duration_sec": 12.185,
           "seed": 2184,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -775,7 +775,7 @@
         {
           "shot_index": 33,
           "type": "quote",
-          "duration_sec": 10.066,
+          "duration_sec": 10.152,
           "seed": 2221,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -791,7 +791,7 @@
         {
           "shot_index": 34,
           "type": "stat",
-          "duration_sec": 9.267,
+          "duration_sec": 9.347,
           "seed": 2258,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -807,7 +807,7 @@
         {
           "shot_index": 35,
           "type": "artifact",
-          "duration_sec": 10.066,
+          "duration_sec": 10.152,
           "seed": 2295,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -823,7 +823,7 @@
         {
           "shot_index": 36,
           "type": "city",
-          "duration_sec": 10.874,
+          "duration_sec": 10.967,
           "seed": 2332,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -839,7 +839,7 @@
         {
           "shot_index": 37,
           "type": "map",
-          "duration_sec": 11.282,
+          "duration_sec": 11.38,
           "seed": 2369,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -855,7 +855,7 @@
         {
           "shot_index": 38,
           "type": "columns",
-          "duration_sec": 11.682,
+          "duration_sec": 11.782,
           "seed": 2406,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -871,7 +871,7 @@
         {
           "shot_index": 39,
           "type": "timeline",
-          "duration_sec": 10.474,
+          "duration_sec": 10.565,
           "seed": 2443,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -887,7 +887,7 @@
         {
           "shot_index": 40,
           "type": "portrait",
-          "duration_sec": 10.066,
+          "duration_sec": 10.152,
           "seed": 2480,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -903,7 +903,7 @@
         {
           "shot_index": 41,
           "type": "quote",
-          "duration_sec": 11.682,
+          "duration_sec": 11.782,
           "seed": 2517,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -919,7 +919,7 @@
         {
           "shot_index": 42,
           "type": "stat",
-          "duration_sec": 11.682,
+          "duration_sec": 11.782,
           "seed": 2554,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -935,7 +935,7 @@
         {
           "shot_index": 43,
           "type": "artifact",
-          "duration_sec": 12.081,
+          "duration_sec": 12.185,
           "seed": 2591,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -951,7 +951,7 @@
         {
           "shot_index": 44,
           "type": "city",
-          "duration_sec": 9.267,
+          "duration_sec": 9.347,
           "seed": 2628,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -967,7 +967,7 @@
         {
           "shot_index": 45,
           "type": "map",
-          "duration_sec": 10.474,
+          "duration_sec": 10.565,
           "seed": 2665,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -983,7 +983,7 @@
         {
           "shot_index": 46,
           "type": "columns",
-          "duration_sec": 11.282,
+          "duration_sec": 11.38,
           "seed": 2702,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -1000,14 +1000,14 @@
     },
     {
       "index": 3,
-      "start": 533.337,
-      "end": 712.421,
-      "duration_sec": 179.084,
+      "start": 536.044,
+      "end": 705.513,
+      "duration_sec": 169.469,
       "shots": [
         {
           "shot_index": 47,
           "type": "timeline",
-          "duration_sec": 13.298,
+          "duration_sec": 13.412,
           "seed": 2739,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
@@ -1023,39 +1023,39 @@
         {
           "shot_index": 48,
           "type": "portrait",
-          "duration_sec": 10.874,
+          "duration_sec": 10.967,
           "seed": 2776,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
-          "label": "Slaves did the work that made the",
+          "label": "Romanisation was rarely a policy. It was",
           "marks": [
             "509 BC",
             "451 BC",
             "287 BC",
             "264 BC"
           ],
-          "text": "Slaves did the work that made"
+          "text": "Romanisation was rarely a policy. It"
         },
         {
           "shot_index": 49,
           "type": "quote",
-          "duration_sec": 8.057,
+          "duration_sec": 10.151,
           "seed": 2813,
           "chapter": 2,
           "eyebrow": "Chapter 02  ·  The Republic of Nobles",
-          "label": "The men who wrote the histories were",
+          "label": "The law was the empire's greatest export",
           "marks": [
             "509 BC",
             "451 BC",
             "287 BC",
             "264 BC"
           ],
-          "text": "The men who wrote the histories"
+          "text": "The law was the empire's greatest"
         },
         {
           "shot_index": 50,
           "type": "title",
-          "duration_sec": 12.373,
+          "duration_sec": 12.34,
           "seed": 2850,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1072,7 +1072,7 @@
         {
           "shot_index": 51,
           "type": "battle",
-          "duration_sec": 12.373,
+          "duration_sec": 12.34,
           "seed": 2887,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1089,7 +1089,7 @@
         {
           "shot_index": 52,
           "type": "map",
-          "duration_sec": 10.309,
+          "duration_sec": 10.282,
           "seed": 2924,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1106,7 +1106,7 @@
         {
           "shot_index": 53,
           "type": "columns",
-          "duration_sec": 11.556,
+          "duration_sec": 11.525,
           "seed": 2961,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1123,7 +1123,7 @@
         {
           "shot_index": 54,
           "type": "timeline",
-          "duration_sec": 10.309,
+          "duration_sec": 10.282,
           "seed": 2998,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1140,7 +1140,7 @@
         {
           "shot_index": 55,
           "type": "portrait",
-          "duration_sec": 11.965,
+          "duration_sec": 11.933,
           "seed": 3035,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1157,7 +1157,7 @@
         {
           "shot_index": 56,
           "type": "stat",
-          "duration_sec": 10.309,
+          "duration_sec": 10.282,
           "seed": 3072,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1174,7 +1174,7 @@
         {
           "shot_index": 57,
           "type": "battle",
-          "duration_sec": 10.309,
+          "duration_sec": 10.282,
           "seed": 3109,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1191,7 +1191,7 @@
         {
           "shot_index": 58,
           "type": "map",
-          "duration_sec": 11.965,
+          "duration_sec": 11.933,
           "seed": 3146,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1208,7 +1208,7 @@
         {
           "shot_index": 59,
           "type": "columns",
-          "duration_sec": 11.965,
+          "duration_sec": 11.933,
           "seed": 3183,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1225,7 +1225,7 @@
         {
           "shot_index": 60,
           "type": "timeline",
-          "duration_sec": 9.901,
+          "duration_sec": 9.874,
           "seed": 3220,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1242,7 +1242,7 @@
         {
           "shot_index": 61,
           "type": "portrait",
-          "duration_sec": 11.965,
+          "duration_sec": 11.933,
           "seed": 3257,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1255,11 +1255,19 @@
             "146 BC"
           ],
           "text": "It landed in the hands of"
-        },
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 705.513,
+      "end": 888.444,
+      "duration_sec": 182.931,
+      "shots": [
         {
           "shot_index": 62,
           "type": "stat",
-          "duration_sec": 11.556,
+          "duration_sec": 11.525,
           "seed": 3294,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1272,19 +1280,11 @@
             "146 BC"
           ],
           "text": "The small farmer"
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "start": 712.421,
-      "end": 884.625,
-      "duration_sec": 172.204,
-      "shots": [
+        },
         {
           "shot_index": 63,
           "type": "battle",
-          "duration_sec": 11.965,
+          "duration_sec": 11.933,
           "seed": 3331,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1301,7 +1301,7 @@
         {
           "shot_index": 64,
           "type": "map",
-          "duration_sec": 10.728,
+          "duration_sec": 10.7,
           "seed": 3368,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1318,7 +1318,7 @@
         {
           "shot_index": 65,
           "type": "columns",
-          "duration_sec": 11.556,
+          "duration_sec": 11.525,
           "seed": 3405,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1335,7 +1335,7 @@
         {
           "shot_index": 66,
           "type": "timeline",
-          "duration_sec": 11.556,
+          "duration_sec": 11.525,
           "seed": 3442,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1352,7 +1352,7 @@
         {
           "shot_index": 67,
           "type": "portrait",
-          "duration_sec": 11.556,
+          "duration_sec": 11.525,
           "seed": 3479,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1369,7 +1369,7 @@
         {
           "shot_index": 68,
           "type": "stat",
-          "duration_sec": 11.137,
+          "duration_sec": 11.107,
           "seed": 3516,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1386,7 +1386,7 @@
         {
           "shot_index": 69,
           "type": "battle",
-          "duration_sec": 9.901,
+          "duration_sec": 9.874,
           "seed": 3553,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
@@ -1403,11 +1403,11 @@
         {
           "shot_index": 70,
           "type": "map",
-          "duration_sec": 9.492,
+          "duration_sec": 10.282,
           "seed": 3590,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
-          "label": "Power in Rome was always personal before",
+          "label": "The sources for all of this were",
           "marks": [
             "264 BC",
             "218 BC",
@@ -1415,16 +1415,16 @@
             "202 BC",
             "146 BC"
           ],
-          "text": "Power in Rome was always personal"
+          "text": "The sources for all of this"
         },
         {
           "shot_index": 71,
           "type": "columns",
-          "duration_sec": 8.662,
+          "duration_sec": 7.815,
           "seed": 3627,
           "chapter": 3,
           "eyebrow": "Chapter 03  ·  Carthage and the Price of Victory",
-          "label": "The emperors who lasted were the ones",
+          "label": "The Romans were not original thinkers. They",
           "marks": [
             "264 BC",
             "218 BC",
@@ -1432,12 +1432,12 @@
             "202 BC",
             "146 BC"
           ],
-          "text": "The emperors who lasted were the"
+          "text": "The Romans were not original thinkers."
         },
         {
           "shot_index": 72,
           "type": "title",
-          "duration_sec": 10.581,
+          "duration_sec": 10.507,
           "seed": 3664,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1454,7 +1454,7 @@
         {
           "shot_index": 73,
           "type": "battle",
-          "duration_sec": 10.979,
+          "duration_sec": 10.902,
           "seed": 3701,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1471,7 +1471,7 @@
         {
           "shot_index": 74,
           "type": "map",
-          "duration_sec": 10.193,
+          "duration_sec": 10.121,
           "seed": 3738,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1488,7 +1488,7 @@
         {
           "shot_index": 75,
           "type": "columns",
-          "duration_sec": 9.795,
+          "duration_sec": 9.726,
           "seed": 3775,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1505,7 +1505,7 @@
         {
           "shot_index": 76,
           "type": "timeline",
-          "duration_sec": 11.756,
+          "duration_sec": 11.674,
           "seed": 3812,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1522,7 +1522,7 @@
         {
           "shot_index": 77,
           "type": "portrait",
-          "duration_sec": 11.368,
+          "duration_sec": 11.288,
           "seed": 3849,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1539,7 +1539,7 @@
         {
           "shot_index": 78,
           "type": "stat",
-          "duration_sec": 10.979,
+          "duration_sec": 10.902,
           "seed": 3886,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1557,14 +1557,14 @@
     },
     {
       "index": 5,
-      "start": 884.625,
-      "end": 1063.741,
-      "duration_sec": 179.116,
+      "start": 888.444,
+      "end": 1058.251,
+      "duration_sec": 169.807,
       "shots": [
         {
           "shot_index": 79,
           "type": "battle",
-          "duration_sec": 11.368,
+          "duration_sec": 11.288,
           "seed": 3923,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1581,7 +1581,7 @@
         {
           "shot_index": 80,
           "type": "map",
-          "duration_sec": 12.154,
+          "duration_sec": 12.069,
           "seed": 3960,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1598,7 +1598,7 @@
         {
           "shot_index": 81,
           "type": "columns",
-          "duration_sec": 12.94,
+          "duration_sec": 12.849,
           "seed": 3997,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1615,7 +1615,7 @@
         {
           "shot_index": 82,
           "type": "timeline",
-          "duration_sec": 7.057,
+          "duration_sec": 7.008,
           "seed": 4034,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1632,7 +1632,7 @@
         {
           "shot_index": 83,
           "type": "portrait",
-          "duration_sec": 10.581,
+          "duration_sec": 10.507,
           "seed": 4071,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1649,7 +1649,7 @@
         {
           "shot_index": 84,
           "type": "stat",
-          "duration_sec": 9.018,
+          "duration_sec": 8.955,
           "seed": 4108,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1666,7 +1666,7 @@
         {
           "shot_index": 85,
           "type": "battle",
-          "duration_sec": 10.581,
+          "duration_sec": 10.507,
           "seed": 4145,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1683,7 +1683,7 @@
         {
           "shot_index": 86,
           "type": "map",
-          "duration_sec": 11.756,
+          "duration_sec": 11.674,
           "seed": 4182,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1700,7 +1700,7 @@
         {
           "shot_index": 87,
           "type": "columns",
-          "duration_sec": 9.795,
+          "duration_sec": 9.726,
           "seed": 4219,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1717,7 +1717,7 @@
         {
           "shot_index": 88,
           "type": "timeline",
-          "duration_sec": 10.979,
+          "duration_sec": 10.902,
           "seed": 4256,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1734,7 +1734,7 @@
         {
           "shot_index": 89,
           "type": "portrait",
-          "duration_sec": 10.979,
+          "duration_sec": 10.902,
           "seed": 4293,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1751,7 +1751,7 @@
         {
           "shot_index": 90,
           "type": "stat",
-          "duration_sec": 10.979,
+          "duration_sec": 10.902,
           "seed": 4330,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1768,7 +1768,7 @@
         {
           "shot_index": 91,
           "type": "battle",
-          "duration_sec": 10.193,
+          "duration_sec": 10.121,
           "seed": 4367,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
@@ -1785,11 +1785,11 @@
         {
           "shot_index": 92,
           "type": "map",
-          "duration_sec": 10.581,
+          "duration_sec": 10.121,
           "seed": 4404,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
-          "label": "There was no plan for the empire",
+          "label": "The eastern empire survived because it had",
           "marks": [
             "133 BC",
             "107 BC",
@@ -1797,16 +1797,16 @@
             "49 BC",
             "44 BC"
           ],
-          "text": "There was no plan for the"
+          "text": "The eastern empire survived because it"
         },
         {
           "shot_index": 93,
           "type": "columns",
-          "duration_sec": 9.021,
+          "duration_sec": 12.457,
           "seed": 4441,
           "chapter": 4,
           "eyebrow": "Chapter 04  ·  The Republic Breaks",
-          "label": "There is no single cause of the",
+          "label": "The people who made these choices did",
           "marks": [
             "133 BC",
             "107 BC",
@@ -1814,12 +1814,12 @@
             "49 BC",
             "44 BC"
           ],
-          "text": "There is no single cause of"
+          "text": "The people who made these choices"
         },
         {
           "shot_index": 94,
           "type": "title",
-          "duration_sec": 9.782,
+          "duration_sec": 9.819,
           "seed": 4478,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -1831,11 +1831,19 @@
             "9 AD"
           ],
           "text": "Augustus ruled for forty-one years"
-        },
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1058.251,
+      "end": 1233.896,
+      "duration_sec": 175.645,
+      "shots": [
         {
           "shot_index": 95,
           "type": "portrait",
-          "duration_sec": 11.352,
+          "duration_sec": 11.395,
           "seed": 4515,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -1847,19 +1855,11 @@
             "9 AD"
           ],
           "text": "He kept the Senate"
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "start": 1063.741,
-      "end": 1237.551,
-      "duration_sec": 173.81,
-      "shots": [
+        },
         {
           "shot_index": 96,
           "type": "columns",
-          "duration_sec": 10.567,
+          "duration_sec": 10.607,
           "seed": 4552,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -1875,7 +1875,7 @@
         {
           "shot_index": 97,
           "type": "map",
-          "duration_sec": 9.006,
+          "duration_sec": 9.04,
           "seed": 4589,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -1891,7 +1891,7 @@
         {
           "shot_index": 98,
           "type": "timeline",
-          "duration_sec": 10.567,
+          "duration_sec": 10.607,
           "seed": 4626,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -1907,7 +1907,7 @@
         {
           "shot_index": 99,
           "type": "stat",
-          "duration_sec": 11.352,
+          "duration_sec": 11.395,
           "seed": 4663,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -1923,7 +1923,7 @@
         {
           "shot_index": 100,
           "type": "quote",
-          "duration_sec": 7.436,
+          "duration_sec": 7.464,
           "seed": 4700,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -1939,7 +1939,7 @@
         {
           "shot_index": 101,
           "type": "artifact",
-          "duration_sec": 9.006,
+          "duration_sec": 9.04,
           "seed": 4737,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -1955,7 +1955,7 @@
         {
           "shot_index": 102,
           "type": "portrait",
-          "duration_sec": 10.179,
+          "duration_sec": 10.217,
           "seed": 4774,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -1971,7 +1971,7 @@
         {
           "shot_index": 103,
           "type": "columns",
-          "duration_sec": 10.179,
+          "duration_sec": 10.217,
           "seed": 4811,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -1987,7 +1987,7 @@
         {
           "shot_index": 104,
           "type": "map",
-          "duration_sec": 10.964,
+          "duration_sec": 11.006,
           "seed": 4848,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -2003,7 +2003,7 @@
         {
           "shot_index": 105,
           "type": "timeline",
-          "duration_sec": 12.137,
+          "duration_sec": 12.183,
           "seed": 4885,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -2019,7 +2019,7 @@
         {
           "shot_index": 106,
           "type": "stat",
-          "duration_sec": 10.964,
+          "duration_sec": 11.006,
           "seed": 4922,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -2035,7 +2035,7 @@
         {
           "shot_index": 107,
           "type": "quote",
-          "duration_sec": 9.782,
+          "duration_sec": 9.819,
           "seed": 4959,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -2051,7 +2051,7 @@
         {
           "shot_index": 108,
           "type": "artifact",
-          "duration_sec": 11.352,
+          "duration_sec": 11.395,
           "seed": 4996,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -2067,7 +2067,7 @@
         {
           "shot_index": 109,
           "type": "portrait",
-          "duration_sec": 9.782,
+          "duration_sec": 9.819,
           "seed": 5033,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -2083,7 +2083,7 @@
         {
           "shot_index": 110,
           "type": "columns",
-          "duration_sec": 11.352,
+          "duration_sec": 11.395,
           "seed": 5070,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -2099,7 +2099,7 @@
         {
           "shot_index": 111,
           "type": "map",
-          "duration_sec": 9.006,
+          "duration_sec": 9.04,
           "seed": 5107,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
@@ -2111,51 +2111,51 @@
             "9 AD"
           ],
           "text": "Everything that goes wrong in the"
-        },
-        {
-          "shot_index": 112,
-          "type": "timeline",
-          "duration_sec": 10.179,
-          "seed": 5144,
-          "chapter": 5,
-          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
-          "label": "Veterans settled in colonies that became towns",
-          "marks": [
-            "31 BC",
-            "27 BC",
-            "23 BC",
-            "9 AD"
-          ],
-          "text": "Veterans settled in colonies that became"
         }
       ]
     },
     {
       "index": 7,
-      "start": 1237.551,
-      "end": 1409.085,
-      "duration_sec": 171.534,
+      "start": 1233.896,
+      "end": 1414.247,
+      "duration_sec": 180.351,
       "shots": [
         {
-          "shot_index": 113,
-          "type": "stat",
-          "duration_sec": 10.564,
-          "seed": 5181,
+          "shot_index": 112,
+          "type": "timeline",
+          "duration_sec": 7.464,
+          "seed": 5144,
           "chapter": 5,
           "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
-          "label": "The third century is the best evidence",
+          "label": "The lessons people draw from Rome say",
           "marks": [
             "31 BC",
             "27 BC",
             "23 BC",
             "9 AD"
           ],
-          "text": "The third century is the best"
+          "text": "The lessons people draw from Rome"
+        },
+        {
+          "shot_index": 113,
+          "type": "stat",
+          "duration_sec": 10.605,
+          "seed": 5181,
+          "chapter": 5,
+          "eyebrow": "Chapter 05  ·  Augustus and the Invention of Empire",
+          "label": "Slaves did the work that made the",
+          "marks": [
+            "31 BC",
+            "27 BC",
+            "23 BC",
+            "9 AD"
+          ],
+          "text": "Slaves did the work that made"
         },
         {
           "shot_index": 114,
           "type": "title",
-          "duration_sec": 7.495,
+          "duration_sec": 7.556,
           "seed": 5218,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2172,7 +2172,7 @@
         {
           "shot_index": 115,
           "type": "portrait",
-          "duration_sec": 10.651,
+          "duration_sec": 10.738,
           "seed": 5255,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2189,7 +2189,7 @@
         {
           "shot_index": 116,
           "type": "columns",
-          "duration_sec": 8.286,
+          "duration_sec": 8.354,
           "seed": 5292,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2206,7 +2206,7 @@
         {
           "shot_index": 117,
           "type": "map",
-          "duration_sec": 11.443,
+          "duration_sec": 11.536,
           "seed": 5329,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2223,7 +2223,7 @@
         {
           "shot_index": 118,
           "type": "timeline",
-          "duration_sec": 10.651,
+          "duration_sec": 10.738,
           "seed": 5366,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2240,7 +2240,7 @@
         {
           "shot_index": 119,
           "type": "stat",
-          "duration_sec": 13.417,
+          "duration_sec": 13.526,
           "seed": 5403,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2257,7 +2257,7 @@
         {
           "shot_index": 120,
           "type": "quote",
-          "duration_sec": 10.26,
+          "duration_sec": 10.344,
           "seed": 5440,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2274,7 +2274,7 @@
         {
           "shot_index": 121,
           "type": "artifact",
-          "duration_sec": 9.86,
+          "duration_sec": 9.94,
           "seed": 5477,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2291,7 +2291,7 @@
         {
           "shot_index": 122,
           "type": "portrait",
-          "duration_sec": 9.469,
+          "duration_sec": 9.546,
           "seed": 5514,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2308,7 +2308,7 @@
         {
           "shot_index": 123,
           "type": "columns",
-          "duration_sec": 8.677,
+          "duration_sec": 8.748,
           "seed": 5551,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2325,7 +2325,7 @@
         {
           "shot_index": 124,
           "type": "map",
-          "duration_sec": 8.286,
+          "duration_sec": 8.354,
           "seed": 5588,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2342,7 +2342,7 @@
         {
           "shot_index": 125,
           "type": "timeline",
-          "duration_sec": 11.443,
+          "duration_sec": 11.536,
           "seed": 5625,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2359,7 +2359,7 @@
         {
           "shot_index": 126,
           "type": "stat",
-          "duration_sec": 11.052,
+          "duration_sec": 11.142,
           "seed": 5662,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2376,7 +2376,7 @@
         {
           "shot_index": 127,
           "type": "quote",
-          "duration_sec": 11.443,
+          "duration_sec": 11.536,
           "seed": 5699,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2393,7 +2393,7 @@
         {
           "shot_index": 128,
           "type": "artifact",
-          "duration_sec": 9.86,
+          "duration_sec": 9.94,
           "seed": 5736,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2410,7 +2410,7 @@
         {
           "shot_index": 129,
           "type": "portrait",
-          "duration_sec": 8.677,
+          "duration_sec": 8.748,
           "seed": 5773,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2428,14 +2428,14 @@
     },
     {
       "index": 8,
-      "start": 1409.085,
-      "end": 1585.519,
-      "duration_sec": 176.434,
+      "start": 1414.247,
+      "end": 1589.514,
+      "duration_sec": 175.267,
       "shots": [
         {
           "shot_index": 130,
           "type": "columns",
-          "duration_sec": 8.677,
+          "duration_sec": 8.748,
           "seed": 5810,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2452,7 +2452,7 @@
         {
           "shot_index": 131,
           "type": "map",
-          "duration_sec": 10.651,
+          "duration_sec": 10.738,
           "seed": 5847,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2469,7 +2469,7 @@
         {
           "shot_index": 132,
           "type": "timeline",
-          "duration_sec": 10.26,
+          "duration_sec": 10.344,
           "seed": 5884,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2486,7 +2486,7 @@
         {
           "shot_index": 133,
           "type": "stat",
-          "duration_sec": 7.104,
+          "duration_sec": 7.162,
           "seed": 5921,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
@@ -2503,11 +2503,11 @@
         {
           "shot_index": 134,
           "type": "quote",
-          "duration_sec": 11.834,
+          "duration_sec": 7.96,
           "seed": 5958,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
-          "label": "The scale is hard to hold in",
+          "label": "Every figure in this story was operating",
           "marks": [
             "14 AD",
             "37 AD",
@@ -2515,16 +2515,16 @@
             "54 AD",
             "69 AD"
           ],
-          "text": "The scale is hard to hold"
+          "text": "Every figure in this story was"
         },
         {
           "shot_index": 135,
           "type": "artifact",
-          "duration_sec": 8.679,
+          "duration_sec": 9.941,
           "seed": 5995,
           "chapter": 6,
           "eyebrow": "Chapter 06  ·  The Julio-Claudians",
-          "label": "The empire's economy was agrarian",
+          "label": "The frontier was less a wall than",
           "marks": [
             "14 AD",
             "37 AD",
@@ -2532,12 +2532,12 @@
             "54 AD",
             "69 AD"
           ],
-          "text": "The empire's economy was agrarian"
+          "text": "The frontier was less a wall"
         },
         {
           "shot_index": 136,
           "type": "title",
-          "duration_sec": 10.198,
+          "duration_sec": 10.296,
           "seed": 6032,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2554,7 +2554,7 @@
         {
           "shot_index": 137,
           "type": "portrait",
-          "duration_sec": 11.373,
+          "duration_sec": 11.482,
           "seed": 6069,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2571,7 +2571,7 @@
         {
           "shot_index": 138,
           "type": "columns",
-          "duration_sec": 10.198,
+          "duration_sec": 10.296,
           "seed": 6106,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2588,7 +2588,7 @@
         {
           "shot_index": 139,
           "type": "map",
-          "duration_sec": 10.198,
+          "duration_sec": 10.296,
           "seed": 6143,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2605,7 +2605,7 @@
         {
           "shot_index": 140,
           "type": "timeline",
-          "duration_sec": 9.411,
+          "duration_sec": 9.502,
           "seed": 6180,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2622,7 +2622,7 @@
         {
           "shot_index": 141,
           "type": "stat",
-          "duration_sec": 10.198,
+          "duration_sec": 10.296,
           "seed": 6217,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2639,7 +2639,7 @@
         {
           "shot_index": 142,
           "type": "quote",
-          "duration_sec": 9.8,
+          "duration_sec": 9.894,
           "seed": 6254,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2656,7 +2656,7 @@
         {
           "shot_index": 143,
           "type": "artifact",
-          "duration_sec": 9.023,
+          "duration_sec": 9.109,
           "seed": 6291,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2673,7 +2673,7 @@
         {
           "shot_index": 144,
           "type": "portrait",
-          "duration_sec": 8.625,
+          "duration_sec": 8.708,
           "seed": 6328,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2690,7 +2690,7 @@
         {
           "shot_index": 145,
           "type": "columns",
-          "duration_sec": 13.335,
+          "duration_sec": 13.463,
           "seed": 6365,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2707,7 +2707,7 @@
         {
           "shot_index": 146,
           "type": "map",
-          "duration_sec": 9.023,
+          "duration_sec": 9.109,
           "seed": 6402,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2724,7 +2724,7 @@
         {
           "shot_index": 147,
           "type": "timeline",
-          "duration_sec": 7.847,
+          "duration_sec": 7.923,
           "seed": 6439,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2742,14 +2742,14 @@
     },
     {
       "index": 9,
-      "start": 1585.519,
-      "end": 1767.46,
-      "duration_sec": 181.941,
+      "start": 1589.514,
+      "end": 1768.175,
+      "duration_sec": 178.661,
       "shots": [
         {
           "shot_index": 148,
           "type": "stat",
-          "duration_sec": 9.411,
+          "duration_sec": 9.502,
           "seed": 6476,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2766,7 +2766,7 @@
         {
           "shot_index": 149,
           "type": "quote",
-          "duration_sec": 9.411,
+          "duration_sec": 9.502,
           "seed": 6513,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2783,7 +2783,7 @@
         {
           "shot_index": 150,
           "type": "artifact",
-          "duration_sec": 8.236,
+          "duration_sec": 8.315,
           "seed": 6550,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2800,7 +2800,7 @@
         {
           "shot_index": 151,
           "type": "portrait",
-          "duration_sec": 10.985,
+          "duration_sec": 11.09,
           "seed": 6587,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2817,7 +2817,7 @@
         {
           "shot_index": 152,
           "type": "columns",
-          "duration_sec": 12.16,
+          "duration_sec": 12.277,
           "seed": 6624,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2834,7 +2834,7 @@
         {
           "shot_index": 153,
           "type": "map",
-          "duration_sec": 11.373,
+          "duration_sec": 11.482,
           "seed": 6661,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2851,7 +2851,7 @@
         {
           "shot_index": 154,
           "type": "timeline",
-          "duration_sec": 12.946,
+          "duration_sec": 13.071,
           "seed": 6698,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
@@ -2868,11 +2868,11 @@
         {
           "shot_index": 155,
           "type": "stat",
-          "duration_sec": 10.985,
+          "duration_sec": 9.894,
           "seed": 6735,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
-          "label": "Archaeology has been correcting that record for",
+          "label": "Taxes were collected by men who kept",
           "marks": [
             "69 AD",
             "79 AD",
@@ -2880,16 +2880,16 @@
             "117 AD",
             "180 AD"
           ],
-          "text": "Archaeology has been correcting that record"
+          "text": "Taxes were collected by men who"
         },
         {
           "shot_index": 156,
           "type": "quote",
-          "duration_sec": 12.547,
+          "duration_sec": 9.109,
           "seed": 6772,
           "chapter": 7,
           "eyebrow": "Chapter 07  ·  The Flavians and the Best Emperor",
-          "label": "The people who made these choices did",
+          "label": "Coinage was a promise",
           "marks": [
             "69 AD",
             "79 AD",
@@ -2897,12 +2897,12 @@
             "117 AD",
             "180 AD"
           ],
-          "text": "The people who made these choices"
+          "text": "Coinage was a promise"
         },
         {
           "shot_index": 157,
           "type": "title",
-          "duration_sec": 11.704,
+          "duration_sec": 11.778,
           "seed": 6809,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -2918,7 +2918,7 @@
         {
           "shot_index": 158,
           "type": "columns",
-          "duration_sec": 11.317,
+          "duration_sec": 11.389,
           "seed": 6846,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -2934,7 +2934,7 @@
         {
           "shot_index": 159,
           "type": "city",
-          "duration_sec": 10.534,
+          "duration_sec": 10.601,
           "seed": 6883,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -2950,7 +2950,7 @@
         {
           "shot_index": 160,
           "type": "artifact",
-          "duration_sec": 9.365,
+          "duration_sec": 9.424,
           "seed": 6920,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -2966,7 +2966,7 @@
         {
           "shot_index": 161,
           "type": "stat",
-          "duration_sec": 9.365,
+          "duration_sec": 9.424,
           "seed": 6957,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -2982,7 +2982,7 @@
         {
           "shot_index": 162,
           "type": "map",
-          "duration_sec": 10.534,
+          "duration_sec": 10.601,
           "seed": 6994,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -2998,7 +2998,7 @@
         {
           "shot_index": 163,
           "type": "quote",
-          "duration_sec": 10.534,
+          "duration_sec": 10.601,
           "seed": 7031,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3014,7 +3014,7 @@
         {
           "shot_index": 164,
           "type": "columns",
-          "duration_sec": 10.534,
+          "duration_sec": 10.601,
           "seed": 7068,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3031,14 +3031,14 @@
     },
     {
       "index": 10,
-      "start": 1767.46,
-      "end": 1941.303,
-      "duration_sec": 173.843,
+      "start": 1768.175,
+      "end": 1940.982,
+      "duration_sec": 172.807,
       "shots": [
         {
           "shot_index": 165,
           "type": "city",
-          "duration_sec": 10.148,
+          "duration_sec": 10.212,
           "seed": 7105,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3054,7 +3054,7 @@
         {
           "shot_index": 166,
           "type": "artifact",
-          "duration_sec": 10.93,
+          "duration_sec": 11.0,
           "seed": 7142,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3070,7 +3070,7 @@
         {
           "shot_index": 167,
           "type": "stat",
-          "duration_sec": 9.751,
+          "duration_sec": 9.813,
           "seed": 7179,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3086,7 +3086,7 @@
         {
           "shot_index": 168,
           "type": "map",
-          "duration_sec": 8.195,
+          "duration_sec": 8.247,
           "seed": 7216,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3102,7 +3102,7 @@
         {
           "shot_index": 169,
           "type": "quote",
-          "duration_sec": 9.365,
+          "duration_sec": 9.424,
           "seed": 7253,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3118,7 +3118,7 @@
         {
           "shot_index": 170,
           "type": "columns",
-          "duration_sec": 12.486,
+          "duration_sec": 12.566,
           "seed": 7290,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3134,7 +3134,7 @@
         {
           "shot_index": 171,
           "type": "city",
-          "duration_sec": 11.317,
+          "duration_sec": 11.389,
           "seed": 7327,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3150,7 +3150,7 @@
         {
           "shot_index": 172,
           "type": "artifact",
-          "duration_sec": 10.148,
+          "duration_sec": 10.212,
           "seed": 7364,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3166,7 +3166,7 @@
         {
           "shot_index": 173,
           "type": "stat",
-          "duration_sec": 11.704,
+          "duration_sec": 11.778,
           "seed": 7401,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3182,7 +3182,7 @@
         {
           "shot_index": 174,
           "type": "map",
-          "duration_sec": 10.148,
+          "duration_sec": 10.212,
           "seed": 7438,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3198,7 +3198,7 @@
         {
           "shot_index": 175,
           "type": "quote",
-          "duration_sec": 13.269,
+          "duration_sec": 13.354,
           "seed": 7475,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3214,7 +3214,7 @@
         {
           "shot_index": 176,
           "type": "columns",
-          "duration_sec": 12.1,
+          "duration_sec": 12.177,
           "seed": 7512,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
@@ -3230,39 +3230,39 @@
         {
           "shot_index": 177,
           "type": "city",
-          "duration_sec": 9.365,
+          "duration_sec": 9.035,
           "seed": 7549,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
-          "label": "Each crisis in this story was survivable",
+          "label": "There is no single cause of the",
           "marks": [
             "27 BC",
             "80 AD",
             "212 AD",
             "301 AD"
           ],
-          "text": "Each crisis in this story was"
+          "text": "There is no single cause of"
         },
         {
           "shot_index": 178,
           "type": "artifact",
-          "duration_sec": 8.978,
+          "duration_sec": 7.462,
           "seed": 7586,
           "chapter": 8,
           "eyebrow": "Chapter 08  ·  The Machinery of Empire",
-          "label": "Coinage was a promise",
+          "label": "Christianity spread fastest in the cities",
           "marks": [
             "27 BC",
             "80 AD",
             "212 AD",
             "301 AD"
           ],
-          "text": "Coinage was a promise"
+          "text": "Christianity spread fastest in the cities"
         },
         {
           "shot_index": 179,
           "type": "title",
-          "duration_sec": 14.184,
+          "duration_sec": 14.177,
           "seed": 7623,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
@@ -3278,7 +3278,7 @@
         {
           "shot_index": 180,
           "type": "battle",
-          "duration_sec": 11.755,
+          "duration_sec": 11.749,
           "seed": 7660,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
@@ -3295,14 +3295,14 @@
     },
     {
       "index": 11,
-      "start": 1941.303,
-      "end": 2117.089,
-      "duration_sec": 175.786,
+      "start": 1940.982,
+      "end": 2117.928,
+      "duration_sec": 176.946,
       "shots": [
         {
           "shot_index": 181,
           "type": "map",
-          "duration_sec": 10.942,
+          "duration_sec": 10.936,
           "seed": 7697,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
@@ -3318,7 +3318,7 @@
         {
           "shot_index": 182,
           "type": "columns",
-          "duration_sec": 9.325,
+          "duration_sec": 9.321,
           "seed": 7734,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
@@ -3334,7 +3334,7 @@
         {
           "shot_index": 183,
           "type": "timeline",
-          "duration_sec": 12.156,
+          "duration_sec": 12.15,
           "seed": 7771,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
@@ -3350,7 +3350,7 @@
         {
           "shot_index": 184,
           "type": "portrait",
-          "duration_sec": 9.727,
+          "duration_sec": 9.722,
           "seed": 7808,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
@@ -3366,7 +3366,7 @@
         {
           "shot_index": 185,
           "type": "stat",
-          "duration_sec": 9.325,
+          "duration_sec": 9.321,
           "seed": 7845,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
@@ -3382,7 +3382,7 @@
         {
           "shot_index": 186,
           "type": "battle",
-          "duration_sec": 9.727,
+          "duration_sec": 9.722,
           "seed": 7882,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
@@ -3398,7 +3398,7 @@
         {
           "shot_index": 187,
           "type": "map",
-          "duration_sec": 11.755,
+          "duration_sec": 11.749,
           "seed": 7919,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
@@ -3414,7 +3414,7 @@
         {
           "shot_index": 188,
           "type": "columns",
-          "duration_sec": 12.156,
+          "duration_sec": 12.15,
           "seed": 7956,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
@@ -3430,7 +3430,7 @@
         {
           "shot_index": 189,
           "type": "timeline",
-          "duration_sec": 10.54,
+          "duration_sec": 10.535,
           "seed": 7993,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
@@ -3446,7 +3446,7 @@
         {
           "shot_index": 190,
           "type": "portrait",
-          "duration_sec": 11.353,
+          "duration_sec": 11.347,
           "seed": 8030,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
@@ -3462,39 +3462,39 @@
         {
           "shot_index": 191,
           "type": "stat",
-          "duration_sec": 8.512,
+          "duration_sec": 9.321,
           "seed": 8067,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
-          "label": "A message from Rome to Britain took",
+          "label": "The city of Rome was a consumer",
           "marks": [
             "180 AD",
             "193 AD",
             "212 AD",
             "235 AD"
           ],
-          "text": "A message from Rome to Britain"
+          "text": "The city of Rome was a"
         },
         {
           "shot_index": 192,
           "type": "battle",
-          "duration_sec": 7.701,
+          "duration_sec": 8.508,
           "seed": 8104,
           "chapter": 9,
           "eyebrow": "Chapter 09  ·  The Army's Empire",
-          "label": "The empire was tolerant of gods and",
+          "label": "The emperors who lasted were the ones",
           "marks": [
             "180 AD",
             "193 AD",
             "212 AD",
             "235 AD"
           ],
-          "text": "The empire was tolerant of gods"
+          "text": "The emperors who lasted were the"
         },
         {
           "shot_index": 193,
           "type": "title",
-          "duration_sec": 11.636,
+          "duration_sec": 11.547,
           "seed": 8141,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3511,7 +3511,7 @@
         {
           "shot_index": 194,
           "type": "battle",
-          "duration_sec": 9.232,
+          "duration_sec": 9.161,
           "seed": 8178,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3528,7 +3528,7 @@
         {
           "shot_index": 195,
           "type": "map",
-          "duration_sec": 9.629,
+          "duration_sec": 9.555,
           "seed": 8215,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3545,7 +3545,7 @@
         {
           "shot_index": 196,
           "type": "columns",
-          "duration_sec": 11.636,
+          "duration_sec": 11.547,
           "seed": 8252,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3562,7 +3562,7 @@
         {
           "shot_index": 197,
           "type": "timeline",
-          "duration_sec": 10.434,
+          "duration_sec": 10.354,
           "seed": 8289,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3580,14 +3580,14 @@
     },
     {
       "index": 12,
-      "start": 2117.089,
-      "end": 2287.757,
-      "duration_sec": 170.668,
+      "start": 2117.928,
+      "end": 2299.437,
+      "duration_sec": 181.509,
       "shots": [
         {
           "shot_index": 198,
           "type": "portrait",
-          "duration_sec": 11.636,
+          "duration_sec": 11.547,
           "seed": 8326,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3604,7 +3604,7 @@
         {
           "shot_index": 199,
           "type": "stat",
-          "duration_sec": 11.636,
+          "duration_sec": 11.547,
           "seed": 8363,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3621,7 +3621,7 @@
         {
           "shot_index": 200,
           "type": "battle",
-          "duration_sec": 11.239,
+          "duration_sec": 11.152,
           "seed": 8400,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3638,7 +3638,7 @@
         {
           "shot_index": 201,
           "type": "map",
-          "duration_sec": 10.832,
+          "duration_sec": 10.748,
           "seed": 8437,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3655,7 +3655,7 @@
         {
           "shot_index": 202,
           "type": "columns",
-          "duration_sec": 11.636,
+          "duration_sec": 11.547,
           "seed": 8474,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3672,7 +3672,7 @@
         {
           "shot_index": 203,
           "type": "timeline",
-          "duration_sec": 10.027,
+          "duration_sec": 9.95,
           "seed": 8511,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3689,7 +3689,7 @@
         {
           "shot_index": 204,
           "type": "portrait",
-          "duration_sec": 11.636,
+          "duration_sec": 11.547,
           "seed": 8548,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3706,7 +3706,7 @@
         {
           "shot_index": 205,
           "type": "stat",
-          "duration_sec": 9.232,
+          "duration_sec": 9.161,
           "seed": 8585,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3723,7 +3723,7 @@
         {
           "shot_index": 206,
           "type": "battle",
-          "duration_sec": 11.239,
+          "duration_sec": 11.152,
           "seed": 8622,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3740,7 +3740,7 @@
         {
           "shot_index": 207,
           "type": "map",
-          "duration_sec": 10.027,
+          "duration_sec": 9.95,
           "seed": 8659,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
@@ -3757,11 +3757,11 @@
         {
           "shot_index": 208,
           "type": "columns",
-          "duration_sec": 8.824,
+          "duration_sec": 9.555,
           "seed": 8696,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
-          "label": "The words are still doing work: senate",
+          "label": "Reform in Rome always came from the",
           "marks": [
             "235 AD",
             "251 AD",
@@ -3769,16 +3769,16 @@
             "271 AD",
             "284 AD"
           ],
-          "text": "The words are still doing work:"
+          "text": "Reform in Rome always came from"
         },
         {
           "shot_index": 209,
           "type": "timeline",
-          "duration_sec": 10.435,
+          "duration_sec": 10.746,
           "seed": 8733,
           "chapter": 10,
           "eyebrow": "Chapter 10  ·  The Crisis of the Third Century",
-          "label": "The eastern empire survived because it had",
+          "label": "The third century is the best evidence",
           "marks": [
             "235 AD",
             "251 AD",
@@ -3786,12 +3786,12 @@
             "271 AD",
             "284 AD"
           ],
-          "text": "The eastern empire survived because it"
+          "text": "The third century is the best"
         },
         {
           "shot_index": 210,
           "type": "title",
-          "duration_sec": 12.552,
+          "duration_sec": 12.494,
           "seed": 8770,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -3808,7 +3808,7 @@
         {
           "shot_index": 211,
           "type": "portrait",
-          "duration_sec": 11.298,
+          "duration_sec": 11.246,
           "seed": 8807,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -3825,7 +3825,7 @@
         {
           "shot_index": 212,
           "type": "columns",
-          "duration_sec": 9.629,
+          "duration_sec": 9.585,
           "seed": 8844,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -3842,7 +3842,7 @@
         {
           "shot_index": 213,
           "type": "map",
-          "duration_sec": 8.79,
+          "duration_sec": 8.749,
           "seed": 8881,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -3855,19 +3855,11 @@
             "305 AD"
           ],
           "text": "The provinces were cut into smaller"
-        }
-      ]
-    },
-    {
-      "index": 13,
-      "start": 2287.757,
-      "end": 2468.914,
-      "duration_sec": 181.157,
-      "shots": [
+        },
         {
           "shot_index": 214,
           "type": "timeline",
-          "duration_sec": 10.883,
+          "duration_sec": 10.833,
           "seed": 8918,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -3880,11 +3872,19 @@
             "305 AD"
           ],
           "text": "The army was split too: frontier"
-        },
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 2299.437,
+      "end": 2467.936,
+      "duration_sec": 168.499,
+      "shots": [
         {
           "shot_index": 215,
           "type": "stat",
-          "duration_sec": 10.459,
+          "duration_sec": 10.41,
           "seed": 8955,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -3901,7 +3901,7 @@
         {
           "shot_index": 216,
           "type": "quote",
-          "duration_sec": 10.044,
+          "duration_sec": 9.997,
           "seed": 8992,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -3918,7 +3918,7 @@
         {
           "shot_index": 217,
           "type": "artifact",
-          "duration_sec": 10.883,
+          "duration_sec": 10.833,
           "seed": 9029,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -3935,7 +3935,7 @@
         {
           "shot_index": 218,
           "type": "portrait",
-          "duration_sec": 11.298,
+          "duration_sec": 11.246,
           "seed": 9066,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -3952,7 +3952,7 @@
         {
           "shot_index": 219,
           "type": "columns",
-          "duration_sec": 10.459,
+          "duration_sec": 10.41,
           "seed": 9103,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -3969,7 +3969,7 @@
         {
           "shot_index": 220,
           "type": "map",
-          "duration_sec": 11.298,
+          "duration_sec": 11.246,
           "seed": 9140,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -3986,7 +3986,7 @@
         {
           "shot_index": 221,
           "type": "timeline",
-          "duration_sec": 12.138,
+          "duration_sec": 12.081,
           "seed": 9177,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -4003,7 +4003,7 @@
         {
           "shot_index": 222,
           "type": "stat",
-          "duration_sec": 10.459,
+          "duration_sec": 10.41,
           "seed": 9214,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -4020,7 +4020,7 @@
         {
           "shot_index": 223,
           "type": "quote",
-          "duration_sec": 8.79,
+          "duration_sec": 8.749,
           "seed": 9251,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -4037,7 +4037,7 @@
         {
           "shot_index": 224,
           "type": "artifact",
-          "duration_sec": 10.883,
+          "duration_sec": 10.833,
           "seed": 9288,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -4054,7 +4054,7 @@
         {
           "shot_index": 225,
           "type": "portrait",
-          "duration_sec": 11.723,
+          "duration_sec": 11.669,
           "seed": 9325,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -4071,7 +4071,7 @@
         {
           "shot_index": 226,
           "type": "columns",
-          "duration_sec": 10.883,
+          "duration_sec": 10.833,
           "seed": 9362,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
@@ -4088,11 +4088,11 @@
         {
           "shot_index": 227,
           "type": "map",
-          "duration_sec": 10.044,
+          "duration_sec": 11.246,
           "seed": 9399,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
-          "label": "The empire was held together by roads",
+          "label": "There was no plan for the empire",
           "marks": [
             "284 AD",
             "293 AD",
@@ -4100,16 +4100,16 @@
             "303 AD",
             "305 AD"
           ],
-          "text": "The empire was held together by"
+          "text": "There was no plan for the"
         },
         {
           "shot_index": 228,
           "type": "timeline",
-          "duration_sec": 10.045,
+          "duration_sec": 7.913,
           "seed": 9436,
           "chapter": 11,
           "eyebrow": "Chapter 11  ·  Diocletian's Machine",
-          "label": "The most dangerous Roman was never the",
+          "label": "The ones who did not last usually",
           "marks": [
             "284 AD",
             "293 AD",
@@ -4117,12 +4117,12 @@
             "303 AD",
             "305 AD"
           ],
-          "text": "The most dangerous Roman was never"
+          "text": "The ones who did not last"
         },
         {
           "shot_index": 229,
           "type": "title",
-          "duration_sec": 10.629,
+          "duration_sec": 10.504,
           "seed": 9473,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4139,7 +4139,7 @@
         {
           "shot_index": 230,
           "type": "portrait",
-          "duration_sec": 10.239,
+          "duration_sec": 10.119,
           "seed": 9510,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4157,14 +4157,14 @@
     },
     {
       "index": 14,
-      "start": 2468.914,
-      "end": 2643.733,
-      "duration_sec": 174.819,
+      "start": 2467.936,
+      "end": 2642.266,
+      "duration_sec": 174.33,
       "shots": [
         {
           "shot_index": 231,
           "type": "columns",
-          "duration_sec": 12.998,
+          "duration_sec": 12.846,
           "seed": 9547,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4181,7 +4181,7 @@
         {
           "shot_index": 232,
           "type": "map",
-          "duration_sec": 10.629,
+          "duration_sec": 10.504,
           "seed": 9584,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4198,7 +4198,7 @@
         {
           "shot_index": 233,
           "type": "timeline",
-          "duration_sec": 11.028,
+          "duration_sec": 10.899,
           "seed": 9621,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4215,7 +4215,7 @@
         {
           "shot_index": 234,
           "type": "stat",
-          "duration_sec": 9.839,
+          "duration_sec": 9.724,
           "seed": 9658,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4232,7 +4232,7 @@
         {
           "shot_index": 235,
           "type": "quote",
-          "duration_sec": 10.239,
+          "duration_sec": 10.119,
           "seed": 9695,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4249,7 +4249,7 @@
         {
           "shot_index": 236,
           "type": "artifact",
-          "duration_sec": 10.629,
+          "duration_sec": 10.504,
           "seed": 9732,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4266,7 +4266,7 @@
         {
           "shot_index": 237,
           "type": "portrait",
-          "duration_sec": 12.599,
+          "duration_sec": 12.451,
           "seed": 9769,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4283,7 +4283,7 @@
         {
           "shot_index": 238,
           "type": "columns",
-          "duration_sec": 11.419,
+          "duration_sec": 11.285,
           "seed": 9806,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4300,7 +4300,7 @@
         {
           "shot_index": 239,
           "type": "map",
-          "duration_sec": 11.809,
+          "duration_sec": 11.67,
           "seed": 9843,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4317,7 +4317,7 @@
         {
           "shot_index": 240,
           "type": "timeline",
-          "duration_sec": 10.629,
+          "duration_sec": 10.504,
           "seed": 9880,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4334,7 +4334,7 @@
         {
           "shot_index": 241,
           "type": "stat",
-          "duration_sec": 10.629,
+          "duration_sec": 10.504,
           "seed": 9917,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4351,7 +4351,7 @@
         {
           "shot_index": 242,
           "type": "quote",
-          "duration_sec": 12.208,
+          "duration_sec": 12.065,
           "seed": 9954,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4368,7 +4368,7 @@
         {
           "shot_index": 243,
           "type": "artifact",
-          "duration_sec": 11.028,
+          "duration_sec": 10.899,
           "seed": 9991,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4385,7 +4385,7 @@
         {
           "shot_index": 244,
           "type": "portrait",
-          "duration_sec": 11.028,
+          "duration_sec": 10.899,
           "seed": 10028,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4402,7 +4402,7 @@
         {
           "shot_index": 245,
           "type": "columns",
-          "duration_sec": 10.629,
+          "duration_sec": 10.504,
           "seed": 10065,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
@@ -4419,11 +4419,11 @@
         {
           "shot_index": 246,
           "type": "map",
-          "duration_sec": 7.479,
+          "duration_sec": 8.953,
           "seed": 10102,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
-          "label": "The lessons people draw from Rome say",
+          "label": "The Romans built for permanence because they",
           "marks": [
             "312 AD",
             "313 AD",
@@ -4431,24 +4431,24 @@
             "330 AD",
             "378 AD"
           ],
-          "text": "The lessons people draw from Rome"
+          "text": "The Romans built for permanence because"
         }
       ]
     },
     {
       "index": 15,
-      "start": 2643.733,
-      "end": 2814.113,
-      "duration_sec": 170.38,
+      "start": 2642.266,
+      "end": 2819.747,
+      "duration_sec": 177.481,
       "shots": [
         {
           "shot_index": 247,
           "type": "timeline",
-          "duration_sec": 9.838,
+          "duration_sec": 8.172,
           "seed": 10139,
           "chapter": 12,
           "eyebrow": "Chapter 12  ·  Constantine and the New Rome",
-          "label": "A Roman aristocrat measured his life in",
+          "label": "A message from Rome to Britain took",
           "marks": [
             "312 AD",
             "313 AD",
@@ -4456,12 +4456,12 @@
             "330 AD",
             "378 AD"
           ],
-          "text": "A Roman aristocrat measured his life"
+          "text": "A message from Rome to Britain"
         },
         {
           "shot_index": 248,
           "type": "title",
-          "duration_sec": 9.705,
+          "duration_sec": 9.583,
           "seed": 10176,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4478,7 +4478,7 @@
         {
           "shot_index": 249,
           "type": "battle",
-          "duration_sec": 11.728,
+          "duration_sec": 11.581,
           "seed": 10213,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4495,7 +4495,7 @@
         {
           "shot_index": 250,
           "type": "map",
-          "duration_sec": 9.705,
+          "duration_sec": 9.583,
           "seed": 10250,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4512,7 +4512,7 @@
         {
           "shot_index": 251,
           "type": "columns",
-          "duration_sec": 9.304,
+          "duration_sec": 9.187,
           "seed": 10287,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4529,7 +4529,7 @@
         {
           "shot_index": 252,
           "type": "timeline",
-          "duration_sec": 8.893,
+          "duration_sec": 8.782,
           "seed": 10324,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4546,7 +4546,7 @@
         {
           "shot_index": 253,
           "type": "portrait",
-          "duration_sec": 11.327,
+          "duration_sec": 11.185,
           "seed": 10361,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4563,7 +4563,7 @@
         {
           "shot_index": 254,
           "type": "stat",
-          "duration_sec": 9.304,
+          "duration_sec": 9.187,
           "seed": 10398,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4580,7 +4580,7 @@
         {
           "shot_index": 255,
           "type": "battle",
-          "duration_sec": 10.916,
+          "duration_sec": 10.78,
           "seed": 10435,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4597,7 +4597,7 @@
         {
           "shot_index": 256,
           "type": "map",
-          "duration_sec": 9.705,
+          "duration_sec": 9.583,
           "seed": 10472,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4614,7 +4614,7 @@
         {
           "shot_index": 257,
           "type": "columns",
-          "duration_sec": 11.327,
+          "duration_sec": 11.185,
           "seed": 10509,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4631,7 +4631,7 @@
         {
           "shot_index": 258,
           "type": "timeline",
-          "duration_sec": 14.151,
+          "duration_sec": 13.974,
           "seed": 10546,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4648,7 +4648,7 @@
         {
           "shot_index": 259,
           "type": "portrait",
-          "duration_sec": 9.705,
+          "duration_sec": 9.583,
           "seed": 10583,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4665,7 +4665,7 @@
         {
           "shot_index": 260,
           "type": "stat",
-          "duration_sec": 10.516,
+          "duration_sec": 10.384,
           "seed": 10620,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4682,7 +4682,7 @@
         {
           "shot_index": 261,
           "type": "battle",
-          "duration_sec": 12.128,
+          "duration_sec": 11.976,
           "seed": 10657,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4699,7 +4699,7 @@
         {
           "shot_index": 262,
           "type": "map",
-          "duration_sec": 12.128,
+          "duration_sec": 11.976,
           "seed": 10694,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4712,19 +4712,11 @@
             "455 AD"
           ],
           "text": "In 451 AD Attila's Huns invaded"
-        }
-      ]
-    },
-    {
-      "index": 16,
-      "start": 2814.113,
-      "end": 2991.726,
-      "duration_sec": 177.613,
-      "shots": [
+        },
         {
           "shot_index": 263,
           "type": "columns",
-          "duration_sec": 10.916,
+          "duration_sec": 10.78,
           "seed": 10731,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4737,11 +4729,19 @@
             "455 AD"
           ],
           "text": "In 455 AD the Vandals took"
-        },
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 2819.747,
+      "end": 2997.352,
+      "duration_sec": 177.605,
+      "shots": [
         {
           "shot_index": 264,
           "type": "timeline",
-          "duration_sec": 10.105,
+          "duration_sec": 9.979,
           "seed": 10768,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
@@ -4758,11 +4758,11 @@
         {
           "shot_index": 265,
           "type": "portrait",
-          "duration_sec": 10.916,
+          "duration_sec": 8.386,
           "seed": 10805,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
-          "label": "Romanisation was rarely a policy. It was",
+          "label": "The Romans did not think they were",
           "marks": [
             "378 AD",
             "395 AD",
@@ -4770,16 +4770,16 @@
             "451 AD",
             "455 AD"
           ],
-          "text": "Romanisation was rarely a policy. It"
+          "text": "The Romans did not think they"
         },
         {
           "shot_index": 266,
           "type": "stat",
-          "duration_sec": 9.304,
+          "duration_sec": 9.584,
           "seed": 10842,
           "chapter": 13,
           "eyebrow": "Chapter 13  ·  The Two Empires",
-          "label": "The empire never solved the problem of",
+          "label": "Its borders were not lines on a",
           "marks": [
             "378 AD",
             "395 AD",
@@ -4787,12 +4787,12 @@
             "451 AD",
             "455 AD"
           ],
-          "text": "The empire never solved the problem"
+          "text": "Its borders were not lines on"
         },
         {
           "shot_index": 267,
           "type": "title",
-          "duration_sec": 10.82,
+          "duration_sec": 10.937,
           "seed": 10879,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -4809,7 +4809,7 @@
         {
           "shot_index": 268,
           "type": "battle",
-          "duration_sec": 12.987,
+          "duration_sec": 13.126,
           "seed": 10916,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -4826,7 +4826,7 @@
         {
           "shot_index": 269,
           "type": "map",
-          "duration_sec": 12.557,
+          "duration_sec": 12.692,
           "seed": 10953,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -4843,7 +4843,7 @@
         {
           "shot_index": 270,
           "type": "columns",
-          "duration_sec": 11.689,
+          "duration_sec": 11.815,
           "seed": 10990,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -4860,7 +4860,7 @@
         {
           "shot_index": 271,
           "type": "timeline",
-          "duration_sec": 10.82,
+          "duration_sec": 10.937,
           "seed": 11027,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -4877,7 +4877,7 @@
         {
           "shot_index": 272,
           "type": "portrait",
-          "duration_sec": 10.82,
+          "duration_sec": 10.937,
           "seed": 11064,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -4894,7 +4894,7 @@
         {
           "shot_index": 273,
           "type": "stat",
-          "duration_sec": 10.82,
+          "duration_sec": 10.937,
           "seed": 11101,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -4911,7 +4911,7 @@
         {
           "shot_index": 274,
           "type": "battle",
-          "duration_sec": 11.26,
+          "duration_sec": 11.381,
           "seed": 11138,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -4928,7 +4928,7 @@
         {
           "shot_index": 275,
           "type": "map",
-          "duration_sec": 9.962,
+          "duration_sec": 10.069,
           "seed": 11175,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -4945,7 +4945,7 @@
         {
           "shot_index": 276,
           "type": "columns",
-          "duration_sec": 13.426,
+          "duration_sec": 13.57,
           "seed": 11212,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -4962,7 +4962,7 @@
         {
           "shot_index": 277,
           "type": "timeline",
-          "duration_sec": 10.391,
+          "duration_sec": 10.503,
           "seed": 11249,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -4979,7 +4979,7 @@
         {
           "shot_index": 278,
           "type": "portrait",
-          "duration_sec": 10.82,
+          "duration_sec": 10.937,
           "seed": 11286,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -4992,19 +4992,11 @@
             "1453 AD"
           ],
           "text": "What replaced it was a set"
-        }
-      ]
-    },
-    {
-      "index": 17,
-      "start": 2991.726,
-      "end": 3172.942,
-      "duration_sec": 181.216,
-      "shots": [
+        },
         {
           "shot_index": 279,
           "type": "stat",
-          "duration_sec": 11.689,
+          "duration_sec": 11.815,
           "seed": 11323,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -5017,11 +5009,19 @@
             "1453 AD"
           ],
           "text": "The eastern empire lasted until 1453"
-        },
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 2997.352,
+      "end": 3177.056,
+      "duration_sec": 179.704,
+      "shots": [
         {
           "shot_index": 280,
           "type": "battle",
-          "duration_sec": 12.557,
+          "duration_sec": 12.692,
           "seed": 11360,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
@@ -5038,11 +5038,11 @@
         {
           "shot_index": 281,
           "type": "map",
-          "duration_sec": 9.965,
+          "duration_sec": 10.503,
           "seed": 11397,
           "chapter": 14,
           "eyebrow": "Chapter 14  ·  The End of the West",
-          "label": "Every emperor after Augustus understood that the",
+          "label": "The empire was held together by roads",
           "marks": [
             "476 AD",
             "533 AD",
@@ -5050,13 +5050,30 @@
             "568 AD",
             "1453 AD"
           ],
-          "text": "Every emperor after Augustus understood that"
+          "text": "The empire was held together by"
         },
         {
           "shot_index": 282,
-          "type": "title",
-          "duration_sec": 9.141,
+          "type": "columns",
+          "duration_sec": 9.624,
           "seed": 11434,
+          "chapter": 14,
+          "eyebrow": "Chapter 14  ·  The End of the West",
+          "label": "Administration is the invisible part of history",
+          "marks": [
+            "476 AD",
+            "533 AD",
+            "541 AD",
+            "568 AD",
+            "1453 AD"
+          ],
+          "text": "Administration is the invisible part of"
+        },
+        {
+          "shot_index": 283,
+          "type": "title",
+          "duration_sec": 9.134,
+          "seed": 11471,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "Most people in the empire never saw",
@@ -5068,10 +5085,10 @@
           "text": "Most people in the empire never"
         },
         {
-          "shot_index": 283,
+          "shot_index": 284,
           "type": "city",
-          "duration_sec": 11.129,
-          "seed": 11471,
+          "duration_sec": 11.12,
+          "seed": 11508,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "They lived in towns of a few",
@@ -5083,10 +5100,10 @@
           "text": "They lived in towns of a"
         },
         {
-          "shot_index": 284,
+          "shot_index": 285,
           "type": "columns",
-          "duration_sec": 11.522,
-          "seed": 11508,
+          "duration_sec": 11.513,
+          "seed": 11545,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "In the great cities",
@@ -5098,10 +5115,10 @@
           "text": "In the great cities"
         },
         {
-          "shot_index": 285,
+          "shot_index": 286,
           "type": "artifact",
-          "duration_sec": 9.535,
-          "seed": 11545,
+          "duration_sec": 9.527,
+          "seed": 11582,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "The ground floor held shops and workshops",
@@ -5113,10 +5130,10 @@
           "text": "The ground floor held shops and"
         },
         {
-          "shot_index": 286,
+          "shot_index": 287,
           "type": "stat",
-          "duration_sec": 10.332,
-          "seed": 11582,
+          "duration_sec": 10.323,
+          "seed": 11619,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "Water came from public fountains",
@@ -5128,10 +5145,10 @@
           "text": "Water came from public fountains"
         },
         {
-          "shot_index": 287,
+          "shot_index": 288,
           "type": "quote",
-          "duration_sec": 10.332,
-          "seed": 11619,
+          "duration_sec": 10.323,
+          "seed": 11656,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "The baths were the social centre: cold",
@@ -5143,10 +5160,10 @@
           "text": "The baths were the social centre:"
         },
         {
-          "shot_index": 288,
+          "shot_index": 289,
           "type": "map",
-          "duration_sec": 9.928,
-          "seed": 11656,
+          "duration_sec": 9.92,
+          "seed": 11693,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "Entry was cheap or free",
@@ -5158,10 +5175,10 @@
           "text": "Entry was cheap or free"
         },
         {
-          "shot_index": 289,
+          "shot_index": 290,
           "type": "city",
-          "duration_sec": 9.928,
-          "seed": 11693,
+          "duration_sec": 9.92,
+          "seed": 11730,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "Bread was the political currency. The grain",
@@ -5173,10 +5190,10 @@
           "text": "Bread was the political currency. The"
         },
         {
-          "shot_index": 290,
+          "shot_index": 291,
           "type": "columns",
-          "duration_sec": 11.522,
-          "seed": 11730,
+          "duration_sec": 11.513,
+          "seed": 11767,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "The games were the other half of",
@@ -5188,10 +5205,10 @@
           "text": "The games were the other half"
         },
         {
-          "shot_index": 291,
+          "shot_index": 292,
           "type": "artifact",
-          "duration_sec": 10.332,
-          "seed": 11767,
+          "duration_sec": 10.323,
+          "seed": 11804,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "The famous thumbs-down is a modern invention",
@@ -5203,10 +5220,10 @@
           "text": "The famous thumbs-down is a modern"
         },
         {
-          "shot_index": 292,
+          "shot_index": 293,
           "type": "stat",
-          "duration_sec": 11.522,
-          "seed": 11804,
+          "duration_sec": 11.513,
+          "seed": 11841,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "Women could own property",
@@ -5218,10 +5235,10 @@
           "text": "Women could own property"
         },
         {
-          "shot_index": 293,
+          "shot_index": 294,
           "type": "quote",
-          "duration_sec": 9.928,
-          "seed": 11841,
+          "duration_sec": 9.92,
+          "seed": 11878,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "A marriage was a private arrangement between",
@@ -5233,10 +5250,10 @@
           "text": "A marriage was a private arrangement"
         },
         {
-          "shot_index": 294,
+          "shot_index": 295,
           "type": "map",
-          "duration_sec": 12.319,
-          "seed": 11878,
+          "duration_sec": 12.309,
+          "seed": 11915,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "Children were acknowledged by the father",
@@ -5248,10 +5265,10 @@
           "text": "Children were acknowledged by the father"
         },
         {
-          "shot_index": 295,
+          "shot_index": 296,
           "type": "city",
-          "duration_sec": 9.535,
-          "seed": 11915,
+          "duration_sec": 9.527,
+          "seed": 11952,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "Slavery was everywhere: in the fields",
@@ -5266,15 +5283,15 @@
     },
     {
       "index": 18,
-      "start": 3172.942,
-      "end": 3352.391,
-      "duration_sec": 179.449,
+      "start": 3177.056,
+      "end": 3358.425,
+      "duration_sec": 181.369,
       "shots": [
         {
-          "shot_index": 296,
+          "shot_index": 297,
           "type": "columns",
-          "duration_sec": 10.725,
-          "seed": 11952,
+          "duration_sec": 10.717,
+          "seed": 11989,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "Manumission was frequent",
@@ -5286,10 +5303,10 @@
           "text": "Manumission was frequent"
         },
         {
-          "shot_index": 297,
+          "shot_index": 298,
           "type": "artifact",
-          "duration_sec": 11.916,
-          "seed": 11989,
+          "duration_sec": 11.906,
+          "seed": 12026,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "Religion was a set of household rituals",
@@ -5301,10 +5318,10 @@
           "text": "Religion was a set of household"
         },
         {
-          "shot_index": 298,
+          "shot_index": 299,
           "type": "stat",
-          "duration_sec": 10.725,
-          "seed": 12026,
+          "duration_sec": 10.717,
+          "seed": 12063,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "Mystery cults offered something the state cult",
@@ -5316,10 +5333,10 @@
           "text": "Mystery cults offered something the state"
         },
         {
-          "shot_index": 299,
+          "shot_index": 300,
           "type": "quote",
-          "duration_sec": 11.916,
-          "seed": 12063,
+          "duration_sec": 11.906,
+          "seed": 12100,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "Burial clubs pooled money for a funeral",
@@ -5331,10 +5348,10 @@
           "text": "Burial clubs pooled money for a"
         },
         {
-          "shot_index": 300,
+          "shot_index": 301,
           "type": "map",
-          "duration_sec": 11.522,
-          "seed": 12100,
+          "duration_sec": 11.513,
+          "seed": 12137,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "Literacy was never universal and was never",
@@ -5346,10 +5363,10 @@
           "text": "Literacy was never universal and was"
         },
         {
-          "shot_index": 301,
+          "shot_index": 302,
           "type": "city",
-          "duration_sec": 11.522,
-          "seed": 12137,
+          "duration_sec": 11.513,
+          "seed": 12174,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "The graffiti of Pompeii is the closest",
@@ -5361,10 +5378,10 @@
           "text": "The graffiti of Pompeii is the"
         },
         {
-          "shot_index": 302,
+          "shot_index": 303,
           "type": "columns",
-          "duration_sec": 11.129,
-          "seed": 12174,
+          "duration_sec": 11.12,
+          "seed": 12211,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
           "label": "That is the empire the emperors never",
@@ -5376,25 +5393,25 @@
           "text": "That is the empire the emperors"
         },
         {
-          "shot_index": 303,
+          "shot_index": 304,
           "type": "artifact",
-          "duration_sec": 7.548,
-          "seed": 12211,
+          "duration_sec": 9.531,
+          "seed": 12248,
           "chapter": 15,
           "eyebrow": "Chapter 15  ·  A Day in the Empire",
-          "label": "The ones who did not last usually",
+          "label": "Grain, oil and wine moved in enormous",
           "marks": [
             "100 AD",
             "150 AD",
             "250 AD"
           ],
-          "text": "The ones who did not last"
+          "text": "Grain, oil and wine moved in"
         },
         {
-          "shot_index": 304,
+          "shot_index": 305,
           "type": "title",
           "duration_sec": 11.827,
-          "seed": 12248,
+          "seed": 12285,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "Rome left roads",
@@ -5407,10 +5424,10 @@
           "text": "Rome left roads"
         },
         {
-          "shot_index": 305,
+          "shot_index": 306,
           "type": "city",
           "duration_sec": 11.393,
-          "seed": 12285,
+          "seed": 12322,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "Rome left languages. French",
@@ -5423,10 +5440,10 @@
           "text": "Rome left languages. French"
         },
         {
-          "shot_index": 306,
+          "shot_index": 307,
           "type": "columns",
           "duration_sec": 13.14,
-          "seed": 12322,
+          "seed": 12359,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "Rome left law. The idea that a",
@@ -5439,10 +5456,10 @@
           "text": "Rome left law. The idea that"
         },
         {
-          "shot_index": 307,
+          "shot_index": 308,
           "type": "artifact",
           "duration_sec": 11.393,
-          "seed": 12359,
+          "seed": 12396,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "Rome left the word republic",
@@ -5455,10 +5472,10 @@
           "text": "Rome left the word republic"
         },
         {
-          "shot_index": 308,
+          "shot_index": 309,
           "type": "quote",
           "duration_sec": 10.08,
-          "seed": 12396,
+          "seed": 12433,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "Rome left a church. The organisation of",
@@ -5471,10 +5488,10 @@
           "text": "Rome left a church. The organisation"
         },
         {
-          "shot_index": 309,
+          "shot_index": 310,
           "type": "stat",
           "duration_sec": 13.14,
-          "seed": 12433,
+          "seed": 12470,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "Rome left the image of the emperor",
@@ -5487,10 +5504,10 @@
           "text": "Rome left the image of the"
         },
         {
-          "shot_index": 310,
+          "shot_index": 311,
           "type": "map",
           "duration_sec": 8.767,
-          "seed": 12470,
+          "seed": 12507,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "Rome left ruins",
@@ -5503,10 +5520,10 @@
           "text": "Rome left ruins"
         },
         {
-          "shot_index": 311,
+          "shot_index": 312,
           "type": "city",
           "duration_sec": 12.706,
-          "seed": 12507,
+          "seed": 12544,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "Gibbon, in the eighteenth century",
@@ -5522,15 +5539,15 @@
     },
     {
       "index": 19,
-      "start": 3352.391,
-      "end": 3515.911,
+      "start": 3358.425,
+      "end": 3521.945,
       "duration_sec": 163.52,
       "shots": [
         {
-          "shot_index": 312,
+          "shot_index": 313,
           "type": "columns",
           "duration_sec": 11.827,
-          "seed": 12544,
+          "seed": 12581,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "That answer is still popular and still",
@@ -5543,10 +5560,10 @@
           "text": "That answer is still popular and"
         },
         {
-          "shot_index": 313,
+          "shot_index": 314,
           "type": "artifact",
           "duration_sec": 14.019,
-          "seed": 12581,
+          "seed": 12618,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "The deeper answer is structural. An empire",
@@ -5559,10 +5576,10 @@
           "text": "The deeper answer is structural. An"
         },
         {
-          "shot_index": 314,
+          "shot_index": 315,
           "type": "quote",
           "duration_sec": 13.14,
-          "seed": 12618,
+          "seed": 12655,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "Rome also left a warning that is",
@@ -5575,10 +5592,10 @@
           "text": "Rome also left a warning that"
         },
         {
-          "shot_index": 315,
+          "shot_index": 316,
           "type": "stat",
           "duration_sec": 11.827,
-          "seed": 12655,
+          "seed": 12692,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "Inflation, plague, migration",
@@ -5591,10 +5608,10 @@
           "text": "Inflation, plague, migration"
         },
         {
-          "shot_index": 316,
+          "shot_index": 317,
           "type": "map",
           "duration_sec": 11.393,
-          "seed": 12692,
+          "seed": 12729,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "And yet the empire that ended in",
@@ -5607,10 +5624,10 @@
           "text": "And yet the empire that ended"
         },
         {
-          "shot_index": 317,
+          "shot_index": 318,
           "type": "city",
           "duration_sec": 14.463,
-          "seed": 12729,
+          "seed": 12766,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "The Romans themselves would not have understood",
@@ -5623,10 +5640,10 @@
           "text": "The Romans themselves would not have"
         },
         {
-          "shot_index": 318,
+          "shot_index": 319,
           "type": "columns",
           "duration_sec": 7.885,
-          "seed": 12766,
+          "seed": 12803,
           "chapter": 16,
           "eyebrow": "Chapter 16  ·  What Rome Left",
           "label": "The western empire died because its core",
@@ -5639,10 +5656,10 @@
           "text": "The western empire died because its"
         },
         {
-          "shot_index": 319,
+          "shot_index": 320,
           "type": "title",
           "duration_sec": 11.954,
-          "seed": 12803,
+          "seed": 12840,
           "chapter": 17,
           "eyebrow": "What It All Meant",
           "label": "If you take one thing from this",
@@ -5653,10 +5670,10 @@
           "text": "If you take one thing from"
         },
         {
-          "shot_index": 320,
+          "shot_index": 321,
           "type": "map",
           "duration_sec": 14.089,
-          "seed": 12840,
+          "seed": 12877,
           "chapter": 17,
           "eyebrow": "What It All Meant",
           "label": "The Senate checked the consuls. The tribunes",
@@ -5667,10 +5684,10 @@
           "text": "The Senate checked the consuls. The"
         },
         {
-          "shot_index": 321,
+          "shot_index": 322,
           "type": "columns",
           "duration_sec": 16.214,
-          "seed": 12877,
+          "seed": 12914,
           "chapter": 17,
           "eyebrow": "What It All Meant",
           "label": "What killed it was not one failure",
@@ -5681,10 +5698,10 @@
           "text": "What killed it was not one"
         },
         {
-          "shot_index": 322,
+          "shot_index": 323,
           "type": "timeline",
           "duration_sec": 13.656,
-          "seed": 12914,
+          "seed": 12951,
           "chapter": 17,
           "eyebrow": "What It All Meant",
           "label": "The empire that replaced the Republic lasted",
@@ -5695,10 +5712,10 @@
           "text": "The empire that replaced the Republic"
         },
         {
-          "shot_index": 323,
+          "shot_index": 324,
           "type": "portrait",
           "duration_sec": 11.954,
-          "seed": 12951,
+          "seed": 12988,
           "chapter": 17,
           "eyebrow": "What It All Meant",
           "label": "The next chapter is the one everyone",
@@ -5709,10 +5726,10 @@
           "text": "The next chapter is the one"
         },
         {
-          "shot_index": 324,
+          "shot_index": 325,
           "type": "quote",
           "duration_sec": 11.099,
-          "seed": 12988,
+          "seed": 13025,
           "chapter": 17,
           "eyebrow": "What It All Meant",
           "label": "That is the story for the next",
